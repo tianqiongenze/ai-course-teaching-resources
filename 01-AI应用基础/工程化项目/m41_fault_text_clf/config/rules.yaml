@@ -1,0 +1,15 @@
+warn: 80.0
+danger: 95.0
+test_ratio: 0.2
+max_features: 2000
+stop_words:
+  - 的
+  - 了
+  - 在
+  - 已经
+  - 发现
+  - 需要
+demo_text: 3号注塑机液压油温升高报警
+unit: "c"
+seed: 7
+topk: 3

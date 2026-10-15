@@ -1,0 +1,23 @@
+{
+  "before": {
+    "rows": 300,
+    "diag": {
+      "missing": 15,
+      "over_limit": 6,
+      "negative": 5,
+      "out_of_range": 5
+    }
+  },
+  "after": {
+    "rows": 275,
+    "diag": {
+      "missing": 0,
+      "over_limit": 0,
+      "negative": 0,
+      "out_of_range": 0
+    },
+    "quality": 1.0
+  },
+  "removed": 25,
+  "keep_rate": 0.9167
+}

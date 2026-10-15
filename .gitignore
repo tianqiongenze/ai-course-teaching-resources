@@ -1,0 +1,21 @@
+# Python 缓存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# WorkBuddy 本地记忆缓存（项目数据不占资源库，但保留 MEMORY 说明类）
+.workbuddy-ai/__cache__/
+.workbuddy-ai/state/
+
+# 临时/备份内嵌 git 历史（保留在本地，不随主仓推送）
+_docx_work/git_hist.tmp/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+
+# 大型中间产物（若需提交请显式 git add -f）
+*.tmp
+*.bak
+*.bak*

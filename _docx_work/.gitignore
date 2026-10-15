@@ -1,0 +1,17 @@
+# 大型备份（GB 级，不入库）
+_backup_ppt_*/
+_artifacts_quarantine/
+# Python 产物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+# 临时文件
+*.tmp
+*~
+.venv/
+venv/
+# 自动备份副本
+**/*.bak
+**/*.orig
+slim/_shots*.json

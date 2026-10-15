@@ -1,0 +1,962 @@
+[
+ {
+  "file": "normal/normal_000.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_001.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_002.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_003.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_004.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_005.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_006.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_007.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_008.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_009.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_010.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_011.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_012.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_013.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_014.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_015.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_016.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_017.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_018.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_019.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_020.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_021.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_022.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_023.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_024.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_025.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_026.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_027.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_028.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_029.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_030.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_031.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_032.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_033.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_034.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_035.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_036.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_037.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_038.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_039.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_040.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_041.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_042.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_043.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_044.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_045.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_046.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_047.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_048.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_049.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_050.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_051.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_052.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_053.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_054.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_055.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_056.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_057.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_058.npy",
+  "label": "normal"
+ },
+ {
+  "file": "normal/normal_059.npy",
+  "label": "normal"
+ },
+ {
+  "file": "porosity/porosity_000.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_001.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_002.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_003.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_004.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_005.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_006.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_007.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_008.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_009.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_010.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_011.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_012.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_013.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_014.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_015.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_016.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_017.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_018.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_019.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_020.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_021.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_022.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_023.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_024.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_025.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_026.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_027.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_028.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_029.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_030.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_031.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_032.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_033.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_034.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_035.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_036.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_037.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_038.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_039.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_040.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_041.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_042.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_043.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_044.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_045.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_046.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_047.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_048.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_049.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_050.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_051.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_052.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_053.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_054.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_055.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_056.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_057.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_058.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "porosity/porosity_059.npy",
+  "label": "porosity"
+ },
+ {
+  "file": "slag/slag_000.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_001.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_002.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_003.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_004.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_005.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_006.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_007.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_008.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_009.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_010.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_011.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_012.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_013.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_014.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_015.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_016.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_017.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_018.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_019.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_020.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_021.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_022.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_023.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_024.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_025.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_026.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_027.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_028.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_029.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_030.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_031.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_032.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_033.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_034.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_035.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_036.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_037.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_038.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_039.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_040.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_041.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_042.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_043.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_044.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_045.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_046.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_047.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_048.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_049.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_050.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_051.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_052.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_053.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_054.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_055.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_056.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_057.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_058.npy",
+  "label": "slag"
+ },
+ {
+  "file": "slag/slag_059.npy",
+  "label": "slag"
+ },
+ {
+  "file": "crack/crack_000.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_001.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_002.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_003.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_004.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_005.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_006.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_007.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_008.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_009.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_010.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_011.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_012.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_013.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_014.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_015.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_016.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_017.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_018.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_019.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_020.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_021.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_022.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_023.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_024.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_025.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_026.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_027.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_028.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_029.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_030.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_031.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_032.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_033.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_034.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_035.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_036.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_037.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_038.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_039.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_040.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_041.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_042.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_043.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_044.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_045.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_046.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_047.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_048.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_049.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_050.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_051.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_052.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_053.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_054.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_055.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_056.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_057.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_058.npy",
+  "label": "crack"
+ },
+ {
+  "file": "crack/crack_059.npy",
+  "label": "crack"
+ }
+]

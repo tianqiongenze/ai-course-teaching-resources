@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "m31_surface_vision"
+version = "1.0.0"
+description = "表面缺陷传统视觉检测（01-AI应用基础 W08 第5次课）"
+requires-python = ">=3.10"
+dependencies = ["numpy", "Pillow"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "PyYAML>=6.0"]
+
+[project.scripts]
+m31_surface_vision = "surface_vision.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --tb=short"
+pythonpath = ["src"]

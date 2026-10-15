@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "m21_weld_cnn"
+version = "1.0.0"
+description = "焊缝缺陷CNN分类（01-AI应用基础 W06 第3次课）"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scikit-learn"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "PyYAML>=6.0"]
+
+[project.scripts]
+m21_weld_cnn = "weld_cnn.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --tb=short"
+pythonpath = ["src"]

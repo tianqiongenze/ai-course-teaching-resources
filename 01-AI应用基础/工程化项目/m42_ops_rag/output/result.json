@@ -1,0 +1,43 @@
+{
+  "n_queries": 3,
+  "grounded": 3,
+  "hallucination_rate": 0.0,
+  "rows": [
+    {
+      "query": "泵振动超标要看哪个标准",
+      "grounded": true,
+      "citations": [
+        {
+          "id": "R1",
+          "category": "规范",
+          "text": "泵类设备振动速度有效值超过4.5mm/s应列入重点监测",
+          "score": 0.0909
+        }
+      ]
+    },
+    {
+      "query": "电机电流高但转速正常",
+      "grounded": true,
+      "citations": [
+        {
+          "id": "R4",
+          "category": "排查",
+          "text": "电机电流偏高而转速正常：排查轴承磨损",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "query": "车间5S检查表谁来签字",
+      "grounded": true,
+      "citations": [
+        {
+          "id": "R2",
+          "category": "规范",
+          "text": "轴承温度报警阈值设定为75℃，达到85℃应立即停机检查",
+          "score": 0.125
+        }
+      ]
+    }
+  ]
+}

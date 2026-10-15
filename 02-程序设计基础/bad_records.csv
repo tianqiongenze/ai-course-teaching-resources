@@ -1,0 +1,10 @@
+device_id,temp,err
+DEV-01,,缺失
+DEV-03,err,类型
+DEV-02,135.0,范围
+DEV-03,,缺失
+DEV-02,err,类型
+DEV-01,135.0,范围
+DEV-02,,缺失
+DEV-01,err,类型
+DEV-01,,缺失

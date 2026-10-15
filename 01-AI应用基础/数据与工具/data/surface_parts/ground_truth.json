@@ -1,0 +1,202 @@
+[
+ {
+  "file": "part_000.png",
+  "type": "scratch",
+  "length_mm": 11.5
+ },
+ {
+  "file": "part_001.png",
+  "type": "pit",
+  "area_mm2": 4.52
+ },
+ {
+  "file": "part_002.png",
+  "type": "pit",
+  "area_mm2": 4.52
+ },
+ {
+  "file": "part_003.png",
+  "type": "scratch",
+  "length_mm": 10.2
+ },
+ {
+  "file": "part_004.png",
+  "type": "pit",
+  "area_mm2": 2.01
+ },
+ {
+  "file": "part_005.png",
+  "type": "scratch",
+  "length_mm": 10.5
+ },
+ {
+  "file": "part_006.png",
+  "type": "scratch",
+  "length_mm": 8.6
+ },
+ {
+  "file": "part_007.png",
+  "type": "pit",
+  "area_mm2": 10.18
+ },
+ {
+  "file": "part_008.png",
+  "type": "scratch",
+  "length_mm": 10.1
+ },
+ {
+  "file": "part_009.png",
+  "type": "pit",
+  "area_mm2": 2.54
+ },
+ {
+  "file": "part_010.png",
+  "type": "scratch",
+  "length_mm": 6.0
+ },
+ {
+  "file": "part_011.png",
+  "type": "pit",
+  "area_mm2": 1.13
+ },
+ {
+  "file": "part_012.png",
+  "type": "scratch",
+  "length_mm": 10.6
+ },
+ {
+  "file": "part_013.png",
+  "type": "pit",
+  "area_mm2": 9.08
+ },
+ {
+  "file": "part_014.png",
+  "type": "pit",
+  "area_mm2": 2.54
+ },
+ {
+  "file": "part_015.png",
+  "type": "scratch",
+  "length_mm": 10.1
+ },
+ {
+  "file": "part_016.png",
+  "type": "pit",
+  "area_mm2": 10.18
+ },
+ {
+  "file": "part_017.png",
+  "type": "pit",
+  "area_mm2": 8.04
+ },
+ {
+  "file": "part_018.png",
+  "type": "pit",
+  "area_mm2": 5.31
+ },
+ {
+  "file": "part_019.png",
+  "type": "pit",
+  "area_mm2": 4.52
+ },
+ {
+  "file": "part_020.png",
+  "type": "scratch",
+  "length_mm": 6.5
+ },
+ {
+  "file": "part_021.png",
+  "type": "pit",
+  "area_mm2": 7.07
+ },
+ {
+  "file": "part_022.png",
+  "type": "scratch",
+  "length_mm": 11.8
+ },
+ {
+  "file": "part_023.png",
+  "type": "pit",
+  "area_mm2": 10.18
+ },
+ {
+  "file": "part_024.png",
+  "type": "scratch",
+  "length_mm": 5.6
+ },
+ {
+  "file": "part_025.png",
+  "type": "pit",
+  "area_mm2": 6.16
+ },
+ {
+  "file": "part_026.png",
+  "type": "scratch",
+  "length_mm": 10.7
+ },
+ {
+  "file": "part_027.png",
+  "type": "pit",
+  "area_mm2": 3.8
+ },
+ {
+  "file": "part_028.png",
+  "type": "pit",
+  "area_mm2": 4.52
+ },
+ {
+  "file": "part_029.png",
+  "type": "scratch",
+  "length_mm": 6.9
+ },
+ {
+  "file": "part_030.png",
+  "type": "scratch",
+  "length_mm": 10.9
+ },
+ {
+  "file": "part_031.png",
+  "type": "scratch",
+  "length_mm": 4.0
+ },
+ {
+  "file": "part_032.png",
+  "type": "scratch",
+  "length_mm": 6.6
+ },
+ {
+  "file": "part_033.png",
+  "type": "scratch",
+  "length_mm": 5.9
+ },
+ {
+  "file": "part_034.png",
+  "type": "pit",
+  "area_mm2": 4.52
+ },
+ {
+  "file": "part_035.png",
+  "type": "pit",
+  "area_mm2": 8.04
+ },
+ {
+  "file": "part_036.png",
+  "type": "scratch",
+  "length_mm": 11.0
+ },
+ {
+  "file": "part_037.png",
+  "type": "scratch",
+  "length_mm": 11.1
+ },
+ {
+  "file": "part_038.png",
+  "type": "pit",
+  "area_mm2": 10.18
+ },
+ {
+  "file": "part_039.png",
+  "type": "pit",
+  "area_mm2": 9.08
+ }
+]

@@ -1,0 +1,81 @@
+{
+  "n_images": 12,
+  "cv_total_boxes": 12,
+  "cv_hits": 12,
+  "cv_recall": 1.0,
+  "pretrained_detections": 0,
+  "rows": [
+    {
+      "k": 0,
+      "cv_boxes": 1,
+      "hit": true,
+      "yolo": "n/a"
+    },
+    {
+      "k": 1,
+      "cv_boxes": 1,
+      "hit": true,
+      "yolo": "n/a"
+    },
+    {
+      "k": 2,
+      "cv_boxes": 1,
+      "hit": true,
+      "yolo": "n/a"
+    },
+    {
+      "k": 3,
+      "cv_boxes": 1,
+      "hit": true,
+      "yolo": "n/a"
+    },
+    {
+      "k": 4,
+      "cv_boxes": 1,
+      "hit": true,
+      "yolo": "n/a"
+    },
+    {
+      "k": 5,
+      "cv_boxes": 1,
+      "hit": true,
+      "yolo": "n/a"
+    },
+    {
+      "k": 6,
+      "cv_boxes": 1,
+      "hit": true,
+      "yolo": "n/a"
+    },
+    {
+      "k": 7,
+      "cv_boxes": 1,
+      "hit": true,
+      "yolo": "n/a"
+    },
+    {
+      "k": 8,
+      "cv_boxes": 1,
+      "hit": true,
+      "yolo": "n/a"
+    },
+    {
+      "k": 9,
+      "cv_boxes": 1,
+      "hit": true,
+      "yolo": "n/a"
+    },
+    {
+      "k": 10,
+      "cv_boxes": 1,
+      "hit": true,
+      "yolo": "n/a"
+    },
+    {
+      "k": 11,
+      "cv_boxes": 1,
+      "hit": true,
+      "yolo": "n/a"
+    }
+  ]
+}

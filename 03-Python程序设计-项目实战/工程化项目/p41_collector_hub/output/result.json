@@ -1,0 +1,23 @@
+{
+  "sources": {
+    "PLC1": 12,
+    "PLC2": 12
+  },
+  "per_source": {
+    "PLC1": {
+      "n": 12,
+      "sum": 303.6,
+      "mean": 25.3
+    },
+    "PLC2": {
+      "n": 12,
+      "sum": 3048.0,
+      "mean": 254.0
+    }
+  },
+  "reconcile": {
+    "ok": true,
+    "diff": 0.0
+  },
+  "n_total": 24
+}
