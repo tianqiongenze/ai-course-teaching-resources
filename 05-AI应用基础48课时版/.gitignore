@@ -14,4 +14,4 @@ Thumbs.db
 
 # 临时
 *.bak
-*.tmp
+*.tmp_backup_jnb_teacher/
