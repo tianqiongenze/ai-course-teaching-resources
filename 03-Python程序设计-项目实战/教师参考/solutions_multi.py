@@ -3,7 +3,7 @@
 运行: /opt/anaconda3/bin/python solutions_multi.py   → 全部 PASS 才算数
 教学用法: 课堂上先展示解A(直白)再展示解B/C(工程化/新语法)，
          让学生说"什么场景选哪个"——这就是六步法'决策'环节的素材。
-P6服务两解(方案A http.server / 方案B Litestar+Granian)见 学生代码框架/p66_ml_service.py；
+P6服务两解(方案A http.server / 方案B Litestar+Granian)见 学生代码框架/W08_ml_service.py；
 P7多模存储两解(Redis / diskcache)见 教师参考/p77_smart_ops/stores/kv.py。
 """
 import math
@@ -76,7 +76,7 @@ def ex5_b(path):         # 解B：contextlib.suppress（吞掉指定异常的声
 _RAW = [("PUMP-03", " 4.2 ", ""), ("FAN-02", "3.1", "99"), ("PUMP-03", "4.5", "8")]
 
 
-def p21_a():             # 解A：pandas 链式（大数据/后续要聚合分析）
+def W03_a():             # 解A：pandas 链式（大数据/后续要聚合分析）
     import pandas as pd
     df = (pd.DataFrame(_RAW, columns=["dev", "vib", "temp"])
           .replace("", None).bfill().ffill())
@@ -85,7 +85,7 @@ def p21_a():             # 解A：pandas 链式（大数据/后续要聚合分�
     return df.groupby("dev")["vib"].mean().round(2).to_dict()
 
 
-def p21_b():             # 解B：纯Python字典归并（无pandas环境/嵌入式网关）
+def W03_b():             # 解B：纯Python字典归并（无pandas环境/嵌入式网关）
     last = {}
     out = {}
     for dev, vib, temp in _RAW:
@@ -102,13 +102,13 @@ def p21_b():             # 解B：纯Python字典归并（无pandas环境/嵌入
 _X = [1.0, 2.0, 3.0, 4.0, 5.0]
 
 
-def p22_a():             # 解A：NumPy向量化（P2.2主线：100ms内30维）
+def W04_a():             # 解A：NumPy向量化（P2.2主线：100ms内30维）
     import numpy as np
     x = np.array(_X)
     return [float(np.mean(x)), float(np.std(x)), float(np.ptp(x))]
 
 
-def p22_b():             # 解B：statistics标准库（小样本/零依赖演示）
+def W04_b():             # 解B：statistics标准库（小样本/零依赖演示）
     import statistics as st
     return [round(st.mean(_X), 6), round(st.pstdev(_X), 6),
             round(max(_X) - min(_X), 6)]
@@ -161,19 +161,19 @@ def p5_c():              # 解C：pandas.read_sql（要接着做可视化/透视
 
 
 # ================= P1.2 模板：两解 =================
-def p12_a():             # 解A：单文件 main+顶部常量（小项目/快速交付）
+def W02_a():             # 解A：单文件 main+顶部常量（小项目/快速交付）
     spec = {"entry": "main()", "config": "顶部常量", "log": "print"}
     return spec
 
 
-def p12_b():             # 解B：config/logger/main 三件套包结构（可测试/可替换）
+def W02_b():             # 解B：config/logger/main 三件套包结构（可测试/可替换）
     spec = {"entry": "app.main:main", "config": "config.yaml+dataclass",
             "log": "logging RotatingHandler"}
     return spec
 
 
 # ================= P3 日报：两解 =================
-def p33_a():             # 解A：Streamlit实时仪表盘数据层（st.cache_data+px.line）
+def W05_a():             # 解A：Streamlit实时仪表盘数据层（st.cache_data+px.line）
     import pandas as pd
     rng = random.Random(2026)
     n = 500
@@ -184,18 +184,18 @@ def p33_a():             # 解A：Streamlit实时仪表盘数据层（st.cache_d
     return df.groupby(df.ts.dt.date).output.sum().tail(3).to_dict()
 
 
-def p33_b():             # 解B：静态HTML日报（离线导出+cron定时，同数据层）
-    return p33_a()       # 数据口径一致；差异在呈现层（浏览器实时 vs 邮件/文件推送）
+def W05_b():             # 解B：静态HTML日报（离线导出+cron定时，同数据层）
+    return W05_a()       # 数据口径一致；差异在呈现层（浏览器实时 vs 邮件/文件推送）
 
 
 # ================= P4.1 采集：两解（逻辑同构烟测, 不连PLC） =================
-def p41_a():             # 解A：三线程+Queue（教材主线, 阻塞IO直观）
+def W06_a():             # 解A：三线程+Queue（教材主线, 阻塞IO直观）
     regs = [563, 45, 12, 1480, 1]
     names = ["temp", "press", "vib", "rpm", "status"]
     return {n: (v / 10 if n != "status" else v) for n, v in zip(names, regs)}
 
 
-def p41_b():             # 解B：asyncio异步协程（高并发IO密集, C10K扩展路径）
+def W06_b():             # 解B：asyncio异步协程（高并发IO密集, C10K扩展路径）
     import asyncio
     regs = [563, 45, 12, 1480, 1]
     names = ["temp", "press", "vib", "rpm", "status"]
@@ -207,7 +207,7 @@ def p41_b():             # 解B：asyncio异步协程（高并发IO密集, C10K�
 
 
 # ================= P6 部署：两解 =================
-def p66_a():             # 解A：模型落盘→API在线推理（p66_ml_service.py即此路线）
+def W08_a():             # 解A：模型落盘→API在线推理（W08_ml_service.py即此路线）
     import joblib
     import numpy as np
     from sklearn.ensemble import RandomForestClassifier
@@ -218,12 +218,12 @@ def p66_a():             # 解A：模型落盘→API在线推理（p66_ml_servic
     X[y == 1, 2:8] += rng.uniform(.8, 1.6)
     Xtr, Xte, ytr, yte = train_test_split(X, y, stratify=y, random_state=42)
     m = RandomForestClassifier(random_state=42).fit(Xtr, ytr)
-    joblib.dump(m, "/tmp/_p66_model.joblib", compress=3)
-    m2 = joblib.load("/tmp/_p66_model.joblib")
+    joblib.dump(m, "/tmp/_W08_model.joblib", compress=3)
+    m2 = joblib.load("/tmp/_W08_model.joblib")
     return m2.predict(Xte[:5]).tolist()
 
 
-def p66_b():             # 解B：离线批推理（无服务, 定时预测写回——网关侧常用）
+def W08_b():             # 解B：离线批推理（无服务, 定时预测写回——网关侧常用）
     import numpy as np
     from sklearn.ensemble import RandomForestClassifier
     from sklearn.model_selection import train_test_split
@@ -244,21 +244,21 @@ if __name__ == "__main__":
     check("P1.1-2 负根两解一致", lambda: (ex2_a(1, 0, 1), ex2_b(1, 0, 1)), (None, None))
     check("P1.1-5 读取 解A(try)", lambda: ex5_a("/tmp/__no__.txt"), "")
     check("P1.1-5 读取 解B(suppress)", lambda: ex5_b("/tmp/__no__.txt"), "")
-    check("P2.1 清洗 解A(pandas)", p21_a, {"FAN-02": 3.1, "PUMP-03": 4.35})
-    check("P2.1 清洗 解B(纯Py)", p21_b, {"PUMP-03": 4.35, "FAN-02": 3.1})
-    check("P2.2 特征 解A(NumPy)", p22_a, [3.0, 1.4142135623730951, 4.0])
-    check("P2.2 特征 解B(stats)", p22_b, [3.0, 1.414214, 4.0])
+    check("P2.1 清洗 解A(pandas)", W03_a, {"FAN-02": 3.1, "PUMP-03": 4.35})
+    check("P2.1 清洗 解B(纯Py)", W03_b, {"PUMP-03": 4.35, "FAN-02": 3.1})
+    check("P2.2 特征 解A(NumPy)", W04_a, [3.0, 1.4142135623730951, 4.0])
+    check("P2.2 特征 解B(stats)", W04_b, [3.0, 1.414214, 4.0])
     check("P5 查询 解A(SQL)", p5_a, {"A2": 4.5, "B1": 3.1})
     check("P5 查询 解B(ORM)", p5_b, {"A2": 4.5, "B1": 3.1})
     check("P5 查询 解C(pandas)", p5_c, {"A2": 4.5, "B1": 3.1})
-    check("P1.2 模板 解A(单文件)", p12_a, {"entry": "main()", "config": "顶部常量", "log": "print"})
-    check("P1.2 模板 解B(三件套)", lambda: sorted(p12_b().values()),
+    check("P1.2 模板 解A(单文件)", W02_a, {"entry": "main()", "config": "顶部常量", "log": "print"})
+    check("P1.2 模板 解B(三件套)", lambda: sorted(W02_b().values()),
           ["app.main:main", "config.yaml+dataclass", "logging RotatingHandler"])
-    check("P3 日报 解A(Streamlit数据层)", lambda: len(p33_a()), 3)
-    check("P3 日报 解A=B(数据口径一致)", lambda: p33_a() == p33_b(), True)
-    check("P4.1 采集 解A(线程)", p41_a, {"temp": 56.3, "press": 4.5, "vib": 1.2, "rpm": 148.0, "status": 1})
-    check("P4.1 采集 A=B同构", lambda: p41_a() == p41_b(), True)
-    check("P6 部署 解A(API在线)", lambda: len(p66_a()), 5)
-    check("P6 部署 A=B预测一致", lambda: p66_a() == p66_b(), True)
+    check("P3 日报 解A(Streamlit数据层)", lambda: len(W05_a()), 3)
+    check("P3 日报 解A=B(数据口径一致)", lambda: W05_a() == W05_b(), True)
+    check("P4.1 采集 解A(线程)", W06_a, {"temp": 56.3, "press": 4.5, "vib": 1.2, "rpm": 148.0, "status": 1})
+    check("P4.1 采集 A=B同构", lambda: W06_a() == W06_b(), True)
+    check("P6 部署 解A(API在线)", lambda: len(W08_a()), 5)
+    check("P6 部署 A=B预测一致", lambda: W08_a() == W08_b(), True)
     bad = [n for n, ok in RESULTS if not ok]
     print(f"\n{len(RESULTS)}项解法互验：{'ALL PASS ✅' if not bad else 'FAIL ❌ ' + str(bad)}")

@@ -4,7 +4,7 @@ import random
 import pandas as pd
 
 
-def make_raw(path: str = "p21_raw.csv", n: int = 1200, seed: int = 2026) -> str:
+def make_raw(path: str = "W03_raw.csv", n: int = 1200, seed: int = 2026) -> str:
     """生成演示用原始数据（种子固定可复现）；真实场景替换为 read_csv 即可"""
     rng = random.Random(seed)
     rows = []

@@ -14,14 +14,14 @@
 
 | # | 工单 | 周次 | 目录 | 核心功能 |
 |---|---|---|---|---|
-| 1 | 03-P1.1 | W01 第1次课 | `p11_exercises/` | Python 五题闯关 |
-| 2 | 03-P1.2 | W01 第2次课 | `p12_proj_template/` | 标准工程模板生成 |
-| 3 | 03-P2.1 | W03 第5次课 | `p21_pandas_clean/` | Pandas 数据清洗管道 |
-| 4 | 03-P2.2 | W04 第7次课 | `p22_feature_factory/` | 特征工厂 |
-| 5 | 03-P3 | W05 第9次课 | `p33_kpi_cockpit/` | KPI 驾驶舱 |
-| 6 | 03-P4 | W06 第11次课 | `p41_collector_hub/` | 多源数据采集中枢 |
-| 7 | 03-P5 | W07 第13次课 | `p55_warehouse_orm/` | 数据仓库 ORM |
-| 8 | 03-P6 | W08 第15次课 | `p66_ml_service/` | 模型训练与服务 |
+| 1 | 03-P1.1 | W01 第1次课 | `W01_exercises/` | Python 五题闯关 |
+| 2 | 03-P1.2 | W01 第2次课 | `W02_proj_template/` | 标准工程模板生成 |
+| 3 | 03-P2.1 | W03 第5次课 | `W03_pandas_clean/` | Pandas 数据清洗管道 |
+| 4 | 03-P2.2 | W04 第7次课 | `W04_feature_factory/` | 特征工厂 |
+| 5 | 03-P3 | W05 第9次课 | `W05_kpi_cockpit/` | KPI 驾驶舱 |
+| 6 | 03-P4 | W06 第11次课 | `W06_collector_hub/` | 多源数据采集中枢 |
+| 7 | 03-P5 | W07 第13次课 | `W07_warehouse_orm/` | 数据仓库 ORM |
+| 8 | 03-P6 | W08 第15次课 | `W08_ml_service/` | 模型训练与服务 |
 
 ## 三、每个项目的结构（23 个文件）
 

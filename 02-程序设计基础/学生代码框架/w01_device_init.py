@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """W01 设备参数初始化系统 —— 你的第一个程序!
-运行: python w01_device_init.py
+运行: python W01_device_init.py
 """
 import sys
 

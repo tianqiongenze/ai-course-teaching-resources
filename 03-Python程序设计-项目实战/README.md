@@ -15,7 +15,7 @@
 ## 工程化项目（74号轮新增 · 第三种代码形态 · 8个工单全覆盖）
 
 > **《工程化项目/》**：把 71m/71n 轮的"示范项目 + 资料包"升级为**8 个工单各一个可运行的完整工程**，
-> 位于 `工程化项目/<slug>/`（p11_exercises … p66_ml_service），使 **8/8 工单**都有企业级代码实体（此前仅 1/8）。
+> 位于 `工程化项目/<slug>/`（W01_exercises … W08_ml_service），使 **8/8 工单**都有企业级代码实体（此前仅 1/8）。
 > 清单见 `工程化项目/README.md`。
 >
 > **每个项目 23 个文件**：`run.py` + `config/rules.yaml`（规则外置）+
@@ -65,14 +65,14 @@
 
 | 周 | 工单 | starter | 交付物 | 决策点 |
 |----|------|---------|--------|--------|
-| 1 | P1.1 语法迁移五题 | p11_exercises.py | 5题+Git仓库 | 容器选型 |
-| 2 | P1.2 工程模板 | p12_template.py | 标准工程模板推送 | 目录结构/工具链 |
-| 3 | P2.1 数据管道 | p21_pipeline.py | 清洁数据+质量报告 | 缺失值策略/异常值判定 |
-| 4 | P2.2 特征提取 | p22_features.py | 30维特征矩阵 | 特征字典补齐策略 |
-| 5 | P3 仪表盘+日报 | p33_dashboard.py | Streamlit仪表盘+PDF日报 | 框架选型(Dash/Streamlit) |
-| 6 | P4 多源采集 | p41_collector.py | 三线程采集系统 | 并发模型(单线程/多线程/asyncio) |
-| 7 | P5 数据库 | p55_warehouse.py | SQLite数据仓库+ORM | SQL vs ORM |
-| 8 | P6 机器学习 | p66_ml_service.py | 诊断模型+推理服务 | 模型选型/部署形态 |
+| 1 | P1.1 语法迁移五题 | W01_exercises.py | 5题+Git仓库 | 容器选型 |
+| 2 | P1.2 工程模板 | W02_template.py | 标准工程模板推送 | 目录结构/工具链 |
+| 3 | P2.1 数据管道 | W03_pipeline.py | 清洁数据+质量报告 | 缺失值策略/异常值判定 |
+| 4 | P2.2 特征提取 | W04_features.py | 30维特征矩阵 | 特征字典补齐策略 |
+| 5 | P3 仪表盘+日报 | W05_dashboard.py | Streamlit仪表盘+PDF日报 | 框架选型(Dash/Streamlit) |
+| 6 | P4 多源采集 | W06_collector.py | 三线程采集系统 | 并发模型(单线程/多线程/asyncio) |
+| 7 | P5 数据库 | W07_warehouse.py | SQLite数据仓库+ORM | SQL vs ORM |
+| 8 | P6 机器学习 | W08_ml_service.py | 诊断模型+推理服务 | 模型选型/部署形态 |
 
 ## 决策三件套用法（每工单必做）
 

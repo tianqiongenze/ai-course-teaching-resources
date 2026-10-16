@@ -6,14 +6,14 @@
 
 ## 一、30 秒跑起来
 ```bash
-cd w01_device_init
+cd W01_device_init
 python run.py                 # 输出到 output/ 并打印摘要
 python -m pytest -q           # 全量测试（应全绿）
 ```
 
 ## 二、目录结构
 ```
-w01_device_init/
+W01_device_init/
 ├── run.py                  # 唯一入口（argparse CLI）
 ├── pyproject.toml          # 包元数据 + pytest 配置
 ├── requirements.txt        # 依赖清单

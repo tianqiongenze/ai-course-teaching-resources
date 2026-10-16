@@ -6,14 +6,14 @@
 
 ## 一、30 秒跑起来
 ```bash
-cd p33_kpi_cockpit
+cd W05_kpi_cockpit
 python run.py                 # 输出到 output/ 并打印摘要
 python -m pytest -q           # 全量测试（应全绿）
 ```
 
 ## 二、目录结构
 ```
-p33_kpi_cockpit/
+W05_kpi_cockpit/
 ├── run.py                  # 唯一入口（argparse CLI）
 ├── pyproject.toml          # 包元数据 + pytest 配置
 ├── requirements.txt        # 依赖清单

@@ -8,7 +8,7 @@ mini Modbus TCP 模拟器（纯Python标准库, 教学用）—— W11《工业�
 寄存器表(每台PLC):
   40001 温度℃(20-90波动)   40002 压力MPa(0.1-0.9×10)   40003 振动mm/s(1-8×10)
   40004 转速rpm/10         40005 状态字(0正常/1告警)
-pymodbus客户端示例见 学生代码框架/w11_collector.py
+pymodbus客户端示例见 学生代码框架/W11_collector.py
 """
 import socket
 import struct

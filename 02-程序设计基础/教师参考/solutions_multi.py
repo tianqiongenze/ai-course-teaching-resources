@@ -267,7 +267,7 @@ def w10():
 
 
 # ===== W11 采集双解：同步轮询上报(解A) vs 后台线程+MQTT回调(解B)——并发性对比 =====
-def w11_smoke():
+def W11_smoke():
     """不连模拟器的逻辑烟测: 数据打包与payload结构一致即算双解同构"""
     names = ["temp_c", "press_mpa", "vib_mm_s", "rpm", "status"]
     regs = [563, 45, 12, 1480, 1]
@@ -307,7 +307,7 @@ if __name__ == "__main__":
     check("W08 清洗双解(逐行/向量化)2留3弃一致", w08)
     check("W09 词频双解(Counter/TF-IDF)各Top5", w09)
     check("W10 报告双解(reportlab/PIL)字体与绘制就绪", w10)
-    check("W11 采集双解(同步/线程)payload同构(烟测)", w11_smoke)
+    check("W11 采集双解(同步/线程)payload同构(烟测)", W11_smoke)
     check("W12 组合双解(直调/配置化)步骤一致", w12)
     bad = [n for n, ok in RESULTS if not ok]
     print(f"\n{len(RESULTS)}项双解互验：{'ALL PASS ✅' if not bad else 'FAIL ❌ ' + str(bad)}")

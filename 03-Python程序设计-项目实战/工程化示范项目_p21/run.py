@@ -15,7 +15,7 @@ def main(peek: bool = False):
                                 encoding="utf-8"))
     data_dir = os.path.join(root, "data")
     os.makedirs(data_dir, exist_ok=True)
-    raw_path = make_raw(os.path.join(data_dir, "p21_raw.csv"))
+    raw_path = make_raw(os.path.join(data_dir, "W03_raw.csv"))
     df = load(raw_path)
     raw_rows = len(df)
 

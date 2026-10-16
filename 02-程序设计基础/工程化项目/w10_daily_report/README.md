@@ -6,14 +6,14 @@
 
 ## 一、30 秒跑起来
 ```bash
-cd w10_daily_report
+cd W10_daily_report
 python run.py                 # 输出到 output/ 并打印摘要
 python -m pytest -q           # 全量测试（应全绿）
 ```
 
 ## 二、目录结构
 ```
-w10_daily_report/
+W10_daily_report/
 ├── run.py                  # 唯一入口（argparse CLI）
 ├── pyproject.toml          # 包元数据 + pytest 配置
 ├── requirements.txt        # 依赖清单

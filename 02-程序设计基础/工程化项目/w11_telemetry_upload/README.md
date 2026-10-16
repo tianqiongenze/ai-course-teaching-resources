@@ -6,14 +6,14 @@
 
 ## 一、30 秒跑起来
 ```bash
-cd w11_telemetry_upload
+cd W11_telemetry_upload
 python run.py                 # 输出到 output/ 并打印摘要
 python -m pytest -q           # 全量测试（应全绿）
 ```
 
 ## 二、目录结构
 ```
-w11_telemetry_upload/
+W11_telemetry_upload/
 ├── run.py                  # 唯一入口（argparse CLI）
 ├── pyproject.toml          # 包元数据 + pytest 配置
 ├── requirements.txt        # 依赖清单

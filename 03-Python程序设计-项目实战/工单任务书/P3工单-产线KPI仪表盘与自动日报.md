@@ -6,7 +6,7 @@
 ## 课前导学单
 1. 微课《Streamlit速成+Jinja2模板》（6分钟）；
 2. 预习自测：Streamlit每次交互后脚本如何重跑？缓存用哪个装饰器？
-3. 跑通starter最小仪表盘（`streamlit run p33_dashboard.py`）。
+3. 跑通starter最小仪表盘（`streamlit run W05_dashboard.py`）。
 
 ### 预习教材与上次课检查（62号轮·课前必读）
 

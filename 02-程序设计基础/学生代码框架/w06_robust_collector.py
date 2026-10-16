@@ -6,7 +6,7 @@ import logging
 import os
 
 # ---------- 样例数据生成(勿改) ----------
-RAW = "w06_raw_data.txt"
+RAW = "W06_raw_data.txt"
 if not os.path.exists(RAW):
     with open(RAW, "w", encoding="utf-8") as f:
         f.write("temp,press\n56.2,0.45\n58.1,0.44\nerr,0.46\n57.5,\n61.0,0.47\n")

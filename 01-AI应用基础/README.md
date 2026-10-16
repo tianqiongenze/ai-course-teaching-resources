@@ -100,14 +100,14 @@
 
 | 周次 | 任务 | 发放工单 | 学生starter | 数据依赖（generate_data.py） | 备注 |
 |------|------|---------|------------|------------------------------|------|
-| 第4周 | M1.1 分类算法基础 | M1.1工单-泵类设备故障诊断系统.md | m11_starter.py | `python generate_data.py m1` | 仅用NumPy，不依赖Pandas |
-| 第5周 | M1.2 特征工程优化 | M1.2工单-特征工程优化.md | m12_starter.py | 同上（复用M1数据） | 决策矩阵：预处理方案对比 |
-| 第6周 | M2.1 CNN缺陷检测 | M2.1工单-焊接缺陷检测.md | m21_starter.py | `python generate_data.py m2img` | CPU训练tiny-CNN约2分钟 |
-| 第7周 | M2.2 LSTM寿命预测 | M2.2工单-轴承寿命预测.md | m22_starter.py | `python generate_data.py m2rul` | 含中期诊断问卷 |
-| 第8周 | M3.1 缺陷尺寸测量 | M3.1工单-缺陷尺寸测量.md | m31_starter.py | `python generate_data.py m3` | 像素当量=0.1mm/px已标定 |
-| 第9周 | M3.2 YOLO实时检测 | M3.2工单-产线实时检测.md | m32_starter.py | `python generate_data.py m3yolo` | CPU推理；微调教师演示（见指南） |
-| 第10周 | M4.1 文本分类 | M4.1工单-故障报告分类.md | m41_starter.py | `python generate_data.py m4` | jieba+TF-IDF |
-| 第11周 | M4.2 大模型应用 | M4.2工单-智能决策助手.md | m42_starter.py | `python generate_data.py m4kb` | 先启动mock_llm_server.py |
+| 第4周 | M1.1 分类算法基础 | M1.1工单-泵类设备故障诊断系统.md | W04_starter.py | `python generate_data.py m1` | 仅用NumPy，不依赖Pandas |
+| 第5周 | M1.2 特征工程优化 | M1.2工单-特征工程优化.md | W05_starter.py | 同上（复用M1数据） | 决策矩阵：预处理方案对比 |
+| 第6周 | M2.1 CNN缺陷检测 | M2.1工单-焊接缺陷检测.md | W06_starter.py | `python generate_data.py m2img` | CPU训练tiny-CNN约2分钟 |
+| 第7周 | M2.2 LSTM寿命预测 | M2.2工单-轴承寿命预测.md | W07_starter.py | `python generate_data.py m2rul` | 含中期诊断问卷 |
+| 第8周 | M3.1 缺陷尺寸测量 | M3.1工单-缺陷尺寸测量.md | W08_starter.py | `python generate_data.py m3` | 像素当量=0.1mm/px已标定 |
+| 第9周 | M3.2 YOLO实时检测 | M3.2工单-产线实时检测.md | W09_starter.py | `python generate_data.py m3yolo` | CPU推理；微调教师演示（见指南） |
+| 第10周 | M4.1 文本分类 | M4.1工单-故障报告分类.md | W10_starter.py | `python generate_data.py m4` | jieba+TF-IDF |
+| 第11周 | M4.2 大模型应用 | M4.2工单-智能决策助手.md | W11_starter.py | `python generate_data.py m4kb` | 先启动mock_llm_server.py |
 
 ## 三、使用流程（六步法落地）
 

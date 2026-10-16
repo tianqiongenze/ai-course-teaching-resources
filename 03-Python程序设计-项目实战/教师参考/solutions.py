@@ -54,14 +54,14 @@ def p11():
 
 
 def p12():
-    """模板交付参考: 见 学生代码框架/p12_template.py (即参考实现)"""
-    print("P1.2 参考实现即 p12_template.py; pylint评分示例: 9.1/10")
+    """模板交付参考: 见 学生代码框架/W02_template.py (即参考实现)"""
+    print("P1.2 参考实现即 W02_template.py; pylint评分示例: 9.1/10")
 
 
 def p21():
     import pandas as pd
 
-    df = pd.read_csv("p21_raw.csv")
+    df = pd.read_csv("W03_raw.csv")
     log = [f"加载 {len(df)} 行"]
     log.append(f"temp缺失 {df.temp.isna().sum()}")
 
