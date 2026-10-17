@@ -102,15 +102,36 @@ def fix_docx(f):
     return d, n
 
 
+def _walk(sh, counter):
+    """递归遍历形状（含表格、组合形状）。"""
+    # 组合形状
+    if sh.shape_type is not None and str(sh.shape_type).startswith("GROUP"):
+        try:
+            for sub in sh.shapes:
+                _walk(sub, counter)
+        except Exception:
+            pass
+        return counter
+    # 表格
+    if getattr(sh, "has_table", False) and sh.has_table:
+        for row in sh.table.rows:
+            for cell in row.cells:
+                for par in cell.text_frame.paragraphs:
+                    counter[0] += fix_para_runs(par)
+        return counter
+    # 文本框
+    if sh.has_text_frame:
+        for par in sh.text_frame.paragraphs:
+            counter[0] += fix_para_runs(par)
+    return counter
+
+
 def fix_pptx(f):
     prs = Presentation(f)
     n = 0
     for s in prs.slides:
         for sh in s.shapes:
-            if not sh.has_text_frame:
-                continue
-            for par in sh.text_frame.paragraphs:
-                n += fix_para_runs(par)
+            n += _walk(sh, [0])[0]
     return prs, n
 
 
@@ -118,7 +139,7 @@ def main():
     apply = "--apply" in sys.argv
     jobs = [
         ("源包03", SRC, ["LS3.3*.docx", "*授课计划表*.docx", "*课程标准*.docx",
-                        "分层工单/*.docx", "V2授课PPT/*.pptx",
+                        "分层工单/*.docx", "V2授课PPT/*.pptx", "V1授课PPT/*.pptx",
                         "Python工程化实践指南*.docx", "期末工业级项目册*.docx"]),
         ("目标2025级", TGT, ["*教学设计/*.docx", "*授课计划/*.docx", "*课程标准/*.docx",
                           "*任务单/*.docx", "*教学PPT/*.pptx"]),
