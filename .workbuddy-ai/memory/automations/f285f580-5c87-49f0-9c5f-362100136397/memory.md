@@ -1,24 +1,24 @@
 # 自动化执行记录 · Gitee 双库同步
 
-## 2026-10-16（首次记录）
-**结果：本地提交成功，推送失败（缺凭据）。**
+## 2026-10-17
+**结果：双库全部同步成功，凭据问题已解决。**
 
 ### 主库 ai-course-teaching-resources
-- add+commit 成功：`f3bfb2a [auto-sync] 更新工作记忆日志 (2026-10-16)`（提交了 .workbuddy-ai/memory/2026-10-15.md）。
-- 与上轮遗留 `bc3d4c2` 累计 **2 个未推送提交**。
-- push 失败，本地变更完整保留。
+- 工作区干净、无未推送提交（`origin/main..HEAD` 为空）。上轮遗留的未推送提交已被推送（用户曾手动授权）。
+- `git push origin main` 返回 `Everything up-to-date`。
+- 结论：无操作项。
 
-### 05 库 ai-foundations-48h
-- 工作区干净、无待提交变更；`b39e064` 已推送，无未推送项。
+### 05库 ai-foundations-48h
+- 工作区干净，但发现 **3 个未推送提交**（`750f813`/`2228888`/`d170193`）。
+- **卸载失效代理**：05库 残留 `http.proxy=http://127.0.0.1:60785`（已失效 HTTP 000），已 `git config --unset http.proxy/https.proxy`，转直连。
+- **推送成功**：`b39e064..750f813 main -> main`（`GIT_TERMINAL_PROMPT=0 GIT_ASKPASS=/bin/true` 防挂起）。
+- 验证：两库未推送数均为 0，`main...origin/main` 一致。
 
-### 根因（重要，下轮优先处理）
-- **不是网络不通**：`curl https://gitee.com` 返回 200，仓库端点 TCP 可达。
-- **是缺少推送凭据**：`curl …/git-receive-pack` 返回 **401**；`~/.git-credentials` 不存在；
-  `git push` / `git credential fill` 挂起（GCM 在非交互环境弹出认证交互永久等待）。
-- 代理 http://127.0.0.1:60785 已失效（连接被拒），已 unset http.proxy 与 https.proxy。
+### 凭据状态（关键变化）
+- **问题已解决**：上轮缺失凭据导致 push 挂起/401；本次 GCM 已有缓存凭据，push 顺畅完成（不再 401）。
+- 保持无代理（未恢复 60785）；凭据由 GCM 缓存管理，无需手工处理。
 
 ### 下轮动作
-1. 先确认是否已配置 Gitee 凭据（`git credential fill` / 手动在终端 push 授权一次）。
-2. 若有凭据：直接 `git push origin main`（两库）；主库应先推送。
-3. 若仍无凭据：保留本地提交、勿丢变更，继续沿用本轮结论，并提醒用户到本机终端完成一次授权。
-4. 注意：不要恢复失效代理 60785。
+1. 两库 `git status --short` => 有变更则 add -A + commit（message 建议格式：`[auto-sync] <日期> <简述>`），再 push。
+2. `git log origin/main..HEAD` 检查未推送数；>0 则 `GIT_TERMINAL_PROMPT=0 GIT_ASKPASS=/bin/true git push origin main`。
+3. 若出现 401/挂起（凭据过期）：保留本地提交勿丢，提醒用户在终端手动 push 授权一次。
