@@ -1,81 +1,436 @@
 {
-  "n_images": 12,
-  "cv_total_boxes": 12,
-  "cv_hits": 12,
-  "cv_recall": 1.0,
-  "pretrained_detections": 0,
-  "rows": [
+  "caliber": "真实课程数据集 data/yolo_dataset（60 张 / 126 真值框）",
+  "ultra_status": "MISS（本机无 ultralytics → 兜底口径，见输入口径段）",
+  "onnx_status": "可用（yolov8n.onnx CPU 真推理，conf 用对工单原值）",
+  "photo_status": "MISS（本机无实物照片 → 人工答辩项）",
+  "fps_params": {
+    "frames": 20,
+    "warmup": 3,
+    "reps": 5,
+    "workers": 4,
+    "imgsz_ref": 320
+  },
+  "threshold_ladder": [
     {
-      "k": 0,
-      "cv_boxes": 1,
-      "hit": true,
-      "yolo": "n/a"
+      "conf": 0.25,
+      "dev": 4.0,
+      "det": 115,
+      "tp": 78,
+      "fp": 43
     },
     {
-      "k": 1,
-      "cv_boxes": 1,
-      "hit": true,
-      "yolo": "n/a"
+      "conf": 0.4,
+      "dev": 12.0,
+      "det": 89,
+      "tp": 43,
+      "fp": 48
     },
     {
-      "k": 2,
-      "cv_boxes": 1,
-      "hit": true,
-      "yolo": "n/a"
+      "conf": 0.6,
+      "dev": 30.0,
+      "det": 89,
+      "tp": 43,
+      "fp": 48
     },
     {
-      "k": 3,
-      "cv_boxes": 1,
-      "hit": true,
-      "yolo": "n/a"
-    },
-    {
-      "k": 4,
-      "cv_boxes": 1,
-      "hit": true,
-      "yolo": "n/a"
-    },
-    {
-      "k": 5,
-      "cv_boxes": 1,
-      "hit": true,
-      "yolo": "n/a"
-    },
-    {
-      "k": 6,
-      "cv_boxes": 1,
-      "hit": true,
-      "yolo": "n/a"
-    },
-    {
-      "k": 7,
-      "cv_boxes": 1,
-      "hit": true,
-      "yolo": "n/a"
-    },
-    {
-      "k": 8,
-      "cv_boxes": 1,
-      "hit": true,
-      "yolo": "n/a"
-    },
-    {
-      "k": 9,
-      "cv_boxes": 1,
-      "hit": true,
-      "yolo": "n/a"
-    },
-    {
-      "k": 10,
-      "cv_boxes": 1,
-      "hit": true,
-      "yolo": "n/a"
-    },
-    {
-      "k": 11,
-      "cv_boxes": 1,
-      "hit": true,
-      "yolo": "n/a"
+      "conf": 0.8,
+      "dev": 50.0,
+      "det": 49,
+      "tp": 0,
+      "fp": 49
     }
-  ]
+  ],
+  "onnx_ladder": [
+    {
+      "conf": 0.25,
+      "imgs": 12,
+      "det": 0
+    },
+    {
+      "conf": 0.4,
+      "imgs": 12,
+      "det": 0
+    },
+    {
+      "conf": 0.6,
+      "imgs": 12,
+      "det": 0
+    },
+    {
+      "conf": 0.8,
+      "imgs": 12,
+      "det": 0
+    }
+  ],
+  "onnx_fps": 19.33,
+  "sizes": [
+    {
+      "imgsz": 160,
+      "det": 88,
+      "tp": 42,
+      "fp": 48,
+      "fps": 1007.18,
+      "fps_reps": [
+        945.81,
+        1043.36,
+        1007.18,
+        987.78,
+        1182.82
+      ]
+    },
+    {
+      "imgsz": 320,
+      "det": 89,
+      "tp": 43,
+      "fp": 48,
+      "fps": 223.11,
+      "fps_reps": [
+        270.05,
+        114.52,
+        152.17,
+        223.11,
+        255.53
+      ]
+    },
+    {
+      "imgsz": 640,
+      "det": 89,
+      "tp": 43,
+      "fp": 48,
+      "fps": 73.02,
+      "fps_reps": [
+        67.62,
+        58.59,
+        73.02,
+        74.09,
+        73.66
+      ]
+    }
+  ],
+  "chosen": 320,
+  "basis_ok": true,
+  "speedup_pct": 205.5,
+  "stable_ok": true,
+  "stability_vectors": [
+    [
+      3,
+      1,
+      1,
+      2,
+      2,
+      0,
+      0,
+      0,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      1,
+      2,
+      3,
+      1,
+      3,
+      3,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      0,
+      0,
+      2,
+      2,
+      1,
+      2,
+      2,
+      1,
+      2,
+      1,
+      2,
+      1,
+      1,
+      2,
+      3,
+      3,
+      2,
+      0,
+      0,
+      2,
+      2,
+      1,
+      0,
+      1,
+      3,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      1
+    ],
+    [
+      3,
+      1,
+      1,
+      2,
+      2,
+      0,
+      0,
+      0,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      1,
+      2,
+      3,
+      1,
+      3,
+      3,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      0,
+      0,
+      2,
+      2,
+      1,
+      2,
+      2,
+      1,
+      2,
+      1,
+      2,
+      1,
+      1,
+      2,
+      3,
+      3,
+      2,
+      0,
+      0,
+      2,
+      2,
+      1,
+      0,
+      1,
+      3,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      1
+    ],
+    [
+      3,
+      1,
+      1,
+      2,
+      2,
+      0,
+      0,
+      0,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      1,
+      2,
+      3,
+      1,
+      3,
+      3,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      0,
+      0,
+      2,
+      2,
+      1,
+      2,
+      2,
+      1,
+      2,
+      1,
+      2,
+      1,
+      1,
+      2,
+      3,
+      3,
+      2,
+      0,
+      0,
+      2,
+      2,
+      1,
+      0,
+      1,
+      3,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      1
+    ]
+  ],
+  "opts": {
+    "输入裁剪(ROI)": {
+      "fps": 571.74,
+      "gain_pct": 156.3,
+      "tp": 37
+    },
+    "多线程(4线程池)": {
+      "fps": 557.37,
+      "gain_pct": 149.8,
+      "tp": 43
+    }
+  },
+  "opt_name": "输入裁剪(ROI)",
+  "roi_det": 80,
+  "roi_fp": 45,
+  "annotated_pngs": [
+    {
+      "path": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m32_yolo_dual/output/visualized/vis_000.png",
+      "boxes": 3,
+      "labels": 3,
+      "legend": true,
+      "bytes": 99529
+    },
+    {
+      "path": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m32_yolo_dual/output/visualized/vis_001.png",
+      "boxes": 1,
+      "labels": 1,
+      "legend": true,
+      "bytes": 97510
+    }
+  ],
+  "measured": {
+    "infer_calls": 660,
+    "imgs_total": 60,
+    "conf_levels": 4,
+    "vis_valid": 2,
+    "fps_levels": 3,
+    "fps_values": {
+      "160": 1007.18,
+      "320": 223.11,
+      "640": 73.02
+    },
+    "chosen": 320,
+    "basis_ok": true,
+    "speedup_pct": 205.5,
+    "stable_ok": true,
+    "opt_name": "输入裁剪(ROI)",
+    "opt_gain_pct": 156.3,
+    "opt_impl": true,
+    "onnx_status": "可用（yolov8n.onnx CPU 真推理，conf 用对工单原值）",
+    "real_photo_status": "MISS（本机无实物照片 → 人工答辩项）"
+  },
+  "tiers": {
+    "tiers": [
+      {
+        "tier": "及格(D)",
+        "key": "D",
+        "need": "CPU推理+可视化（实物照缺失→人工项）；阈值实验记录完整",
+        "gate": "阈值实验≥4档+可视化落盘",
+        "functional": true,
+        "pass": true
+      },
+      {
+        "tier": "良好(C)",
+        "key": "C",
+        "need": "三档imgsz的FPS对比完整；选定配置可由实测表复算",
+        "gate": "三档imgsz实测+选定有依据",
+        "functional": true,
+        "pass": true
+      },
+      {
+        "tier": "优秀(B)",
+        "key": "B",
+        "need": "自选配置提速≥50%（两次真实计时相除）且复跑检出恒定",
+        "gate": "较640提速≥50%且检出稳定",
+        "functional": true,
+        "pass": true
+      },
+      {
+        "tier": "优(A)",
+        "key": "A",
+        "need": "达B且：输入裁剪/多线程等优化落地并量化提升",
+        "gate": "优化实测提速≥5%",
+        "functional": true,
+        "pass": true
+      }
+    ],
+    "claimed": "优(A)",
+    "measured": {
+      "infer_calls": 660,
+      "imgs_total": 60,
+      "conf_levels": 4,
+      "vis_valid": 2,
+      "fps_levels": 3,
+      "fps_values": {
+        "160": 1007.18,
+        "320": 223.11,
+        "640": 73.02
+      },
+      "chosen": 320,
+      "speedup_pct": 205.5,
+      "stable_ok": true,
+      "opt_name": "输入裁剪(ROI)",
+      "opt_gain_pct": 156.3,
+      "opt_impl": true,
+      "onnx_status": "可用（yolov8n.onnx CPU 真推理，conf 用对工单原值）",
+      "real_photo_status": "MISS（本机无实物照片 → 人工答辩项）"
+    },
+    "gates": {
+      "d_conf_levels": 4,
+      "d_min_vis_png": 2,
+      "c_imgsz_levels": 3,
+      "b_speedup_pct": 50.0,
+      "b_stable_runs": 3,
+      "a_opt_gain_pct": 5.0,
+      "png_min_bytes": 1000,
+      "fps_min": 0.34,
+      "iou_match": 0.3
+    },
+    "manual": [
+      "实物照检测：学生手机拍键盘/鼠标/水杯跑通推理（本机无实物照片，实测记 MISS，教师答辩时检查提交物）",
+      "预训练权重对合成工业缺陷'零检出'现象的讨论（领域不匹配→微调动机）",
+      "'精度-速度'权衡分析的条理性（决策矩阵填写+口述依据）",
+      "企业元签认：功能可用/岗位规范/数据可信"
+    ]
+  },
+  "style_engine": "pycodestyle 2.14.0（业界标准）",
+  "style_engine_kind": "pycodestyle",
+  "style_checked_files": 14,
+  "style_checked_lines": 1589,
+  "style_violations": 0,
+  "style_rate": 100.0,
+  "style_threshold": 90.0,
+  "style_meets": true
 }

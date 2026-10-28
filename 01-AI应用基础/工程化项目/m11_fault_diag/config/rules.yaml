@@ -1,8 +1,42 @@
+# M1.1 泵类设备故障诊断 —— 规则外置（改配置不改代码）
+# 门槛值与工单《M1.1 验收标准》四档一致；模型参数与决策矩阵权重均可调
 warn: 80.0
 danger: 95.0
-n_samples: 300
-test_size: 0.25
-random_state: 42
 unit: "c"
 seed: 7
 topk: 3
+
+# ---- 数据（真实课程数据集，缺失时自动降级为合成兜底并在报告中标注） ----
+data_file: "pump_fault.csv"
+labels:
+  - 正常
+  - 轴承磨损
+  - 叶轮堵塞
+
+# ---- 划分（工单要求 test_size=0.25 分层抽样） ----
+test_size: 0.25
+n_samples: 300            # 兜底合成样本数
+
+# ---- 三分类器参数 ----
+lr_max_iter: 2000
+dt_max_depth: 6
+rf_n_estimators: 300
+rf_min_samples_leaf: 2
+
+# ---- 决策矩阵：打分权重与可解释性登记档位（答辩需口述理由） ----
+w_acc: 3.0
+w_speed: 1.0
+w_interp: 2.0
+interp_lr: 5
+interp_dt: 4
+interp_rf: 2
+
+# ---- 工单验收档位（准确率门槛） ----
+acc_d: 0.75
+acc_c: 0.80
+acc_b: 0.85
+acc_a: 0.85
+
+# ---- 规范率门槛（报告段落用；实测值来自 src/fault_diag/stylecheck.py） ----
+# 工单 M1.1 明文：及格(D) 代码规范率≥70%；通用量表·代码规范 C70/B80/A90
+style_min: 90.0

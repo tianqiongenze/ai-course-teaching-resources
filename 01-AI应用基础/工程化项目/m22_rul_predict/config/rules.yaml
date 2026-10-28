@@ -1,8 +1,53 @@
+# M2.2 轴承剩余寿命预测 —— 规则外置（改配置不改代码）
+# 四档门槛数值逐条取自《M2.2工单-轴承寿命预测系统.md》"四、验收标准"，
+# 由 config.py 现有加载机制读出（cfg.raw["tiers"]），进 tiers.verdict 判定；
+# 能力门（基线增益/多模型/拐点/窗口敏感性）由 pipeline 实测，判不到就标 MISS。
 warn: 80.0
 danger: 95.0
-n_cycles: 3000
-n_train: 24
-test_size: 0.25
 unit: "c"
 seed: 7
 topk: 3
+
+# ---- 工单 M2.2 四档 MSE 门槛（原文：D<0.15 / C≤0.12 / B<0.10 / A 达 B）----
+# 比较符号照抄工单原文（D/B 严格小于、C 小于等于），写在 tiers.py 里；
+# 工单原文未逐档规定"代码规范率"门槛，故档位判定不含规范率门（勿在此自创）。
+tiers:
+  mse_d: 0.15
+  mse_c: 0.12
+  mse_b: 0.10
+
+# ---- 数据与切分（真实课程数据 data/bearing_rul.npz 缺失时用 core.synth_devices 兜底）----
+n_test_devices: 8        # 设备级留出：同一台设备的全部窗口只出现在一侧（防泄漏）
+fallback_devices: 30     # 兜底合成设备数（真实 npz 在盘时不使用）
+fallback_windows: 180    # 兜底合成每台设备的窗口数
+
+# ---- LSTM（工单"模型结构"：1 层 LSTM 隐层 32 + 全连接，epochs ≤ 60）----
+lstm_epochs: 60
+lstm_hidden: 32
+lstm_lr: 0.003
+lstm_batch: 128
+
+# ---- B 档对照的 sklearn 模型参数（同切分、同指标口径，只换模型）----
+ridge_alpha: 1.0
+rf_estimators: 80
+rf_min_samples_leaf: 3
+
+# ---- 窗口长度敏感性实验清单（A 档；逐档真训真测，超出特征列数的档自动丢弃）----
+windows: [5, 10, 20]
+min_windows: 2           # 真跑出 MSE 的窗口档数下限，2 档才谈得上比较
+
+# ---- 拐点检测算法参数（兜底口径，非工单数字；改了会改变实测拐点位置）----
+knee_span: 15
+knee_ratio: 0.5
+knee_hold: 5
+
+# ---- 图表能力判定口径：png 真实落盘且字节大于该值才算"已绘制"----
+min_png_bytes: 1000
+
+# ---- 规范率实测仅作答辩证据（style_min 只控制证据段显示阈值，非档位门）----
+style_min: 90.0
+
+# ---- 旧轻量基线参数（零 torch 兜底路径保留可跑）----
+n_cycles: 3000
+n_train: 24
+test_size: 0.25

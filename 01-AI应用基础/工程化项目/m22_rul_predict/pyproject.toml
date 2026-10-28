@@ -7,10 +7,17 @@ name = "m22_rul_predict"
 version = "1.0.0"
 description = "轴承剩余寿命预测（01-AI应用基础 W07 第4次课）"
 requires-python = ">=3.10"
-dependencies = ["numpy", "scikit-learn"]
+dependencies = ["numpy", "scikit-learn", "matplotlib"]
+# matplotlib 不是"可选装饰"：D 档『完成预测与可视化』的机检口径就是 png 落盘字节，
+# 缺它图不会生成 → 判定如实判缺（环境也是选型维度，见 core._plot_backend）。
 
 [project.optional-dependencies]
-dev = ["pytest>=8.0", "PyYAML>=6.0"]
+dev = ["pytest>=8.0", "PyYAML>=6.0", "pycodestyle>=2.12"]
+# 规范体检引擎：装了用业界标准，没装走 src/rul_predict/stylecheck.py 的内置兜底
+style = ["pycodestyle>=2.12", "flake8>=7.0"]
+# 工单 M2.2 指定主模型 LSTM 走 torch；缺失时 pipeline 自动改交实测最优 sklearn
+# 模型，C 档"对照基线说明 LSTM 增益"因无实测增益而判缺并印 MISS（不伪造增益）。
+lstm = ["torch>=2.0"]
 
 [project.scripts]
 m22_rul_predict = "rul_predict.cli:main"
@@ -25,3 +32,20 @@ where = ["src"]
 testpaths = ["tests"]
 addopts = "-q --tb=short"
 pythonpath = ["src"]
+
+# ── 编码规范体检配置（规范率的实测口径；工单 M2.2 未规定规范率数字，
+#    实测值仅作答辩证据，报告显示线取 config/rules.yaml 的 style_min）──────
+# src/rul_predict/stylecheck.py 读本节；等价命令：
+#   python -m pycodestyle --max-line-length=100 run.py src tests
+[tool.pycodestyle]
+max-line-length = 100
+ignore = ["E121", "E123", "E126", "E226", "E24", "E704", "W503", "W504"]
+
+# flake8 本体不读 pyproject（需 flake8-pyproject 插件）；此处保持同口径，
+# 装了插件即可直接 `python -m flake8 run.py src tests`。
+[tool.flake8]
+max-line-length = 100
+ignore = ["E121", "E123", "E126", "E226", "E24", "E704", "W503", "W504"]
+
+[tool.stylecheck]
+scope = ["run.py", "src", "tests"]

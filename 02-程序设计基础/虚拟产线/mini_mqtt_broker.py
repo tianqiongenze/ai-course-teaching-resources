@@ -43,11 +43,16 @@ class MiniBroker:
 
     @staticmethod
     def topic_match(flt, topic):
-        if flt == topic:
-            return True
-        if flt.endswith("#"):
-            return topic.startswith(flt[:-1])
-        return False
+        """主题过滤器匹配（MQTT 3.1.1 语义）：
+        '+' 匹配**一层**（device/+/status ↔ device/DEV-A1/status），
+        '#' 匹配其后所有层（device/# ↔ device/A/status/extra）。"""
+        if "#" in flt:
+            head = flt.rpartition("#")[0].rstrip("/")
+            if not head:                        # 根过滤器 "#" 匹配一切
+                return True
+            return topic == head or topic.startswith(head + "/")
+        f, t = flt.split("/"), topic.split("/")
+        return len(f) == len(t) and all(a == "+" or a == b for a, b in zip(f, t))
 
     def route(self, topic, payload, sender):
         with self.lock:
@@ -55,9 +60,8 @@ class MiniBroker:
                        if self.topic_match(f, topic) for c in cs if c is not sender]
         for c in targets:
             try:
-                body = topic.encode() + payload
-                pkt = bytes([0x30]) + self.enc_remaining(len(body)) \
-                    + struct_h(len(topic)) + body
+                body = struct_h(len(topic)) + topic.encode() + payload
+                pkt = bytes([0x30]) + self.enc_remaining(len(body)) + body
                 c.sendall(pkt)
             except OSError:
                 pass

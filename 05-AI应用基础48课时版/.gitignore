@@ -1,17 +1,5 @@
-# Python 缓存
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-
-# 数据权重/大文件（若需提交请显式 git add -f）
-data/weights/
-data/*.onnx
-
-# 系统与编辑器
+.venv/
+venv/
 .DS_Store
-Thumbs.db
-.idea/
-
-# 临时
-*.bak
-*.tmp_backup_jnb_teacher/

@@ -1,36 +1,338 @@
 {
-  "n_points": 900,
-  "metrics": {
-    "r2": 0.9825,
-    "rmse": 0.03821,
-    "mae": 0.03137
+  "delivered": "LSTM",
+  "mse": 0.00522552,
+  "rmse": 0.07229,
+  "mse_baseline": 0.00627786,
+  "gain": 0.00105234,
+  "n_models": 3,
+  "model_names": [
+    "Ridge",
+    "RandomForest",
+    "LSTM"
+  ],
+  "pred_ok": true,
+  "viz_ok": true,
+  "gain_ok": true,
+  "multi_model": true,
+  "knee_ok": true,
+  "sens_ok": true,
+  "knee_idx": 55,
+  "n_windows": 3,
+  "curve_png_bytes": 64281,
+  "sens_png_bytes": 44086,
+  "style_rate": 100.0,
+  "miss_note": null,
+  "source": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/data/bearing_rul.npz",
+  "synthetic": false,
+  "gates": {
+    "d": 0.15,
+    "c": 0.12,
+    "b": 0.1
   },
-  "note": "预测误差约占退化区间 3.8% → 约 1 个维护周期；可提前 1-2 个周期安排换件。",
-  "sample": [
+  "shape": [
+    5400,
+    20
+  ],
+  "n_dev": 30,
+  "windows_per_device": 180,
+  "n_train": 3960,
+  "n_test": 1440,
+  "test_devices": [
+    1,
+    2,
+    5,
+    9,
+    11,
+    17,
+    18,
+    24
+  ],
+  "delivered_metrics": {
+    "r2": 0.938,
+    "rmse": 0.07229,
+    "mae": 0.05798,
+    "mse": 0.00522552
+  },
+  "model_rows": [
     {
-      "x": 4.068,
-      "rul": 0.9992,
-      "pred": 0.9637
+      "name": "Ridge",
+      "r2": 0.9255,
+      "rmse": 0.07923,
+      "mae": 0.06579,
+      "mse": 0.00627786
     },
     {
-      "x": 4.006,
-      "rul": 0.9981,
-      "pred": 0.9943
+      "name": "RandomForest",
+      "r2": 0.9406,
+      "rmse": 0.07074,
+      "mae": 0.05635,
+      "mse": 0.00500357
     },
     {
-      "x": 4.033,
-      "rul": 0.997,
-      "pred": 0.9811
-    },
-    {
-      "x": 4.059,
-      "rul": 0.9959,
-      "pred": 0.968
-    },
-    {
-      "x": 4.067,
-      "rul": 0.9948,
-      "pred": 0.9642
+      "name": "LSTM",
+      "r2": 0.938,
+      "rmse": 0.07229,
+      "mae": 0.05798,
+      "mse": 0.00522552
     }
-  ]
+  ],
+  "lstm": {
+    "r2": 0.938,
+    "rmse": 0.07229,
+    "mae": 0.05798,
+    "mse": 0.00522552,
+    "hidden": 32,
+    "epochs": 60,
+    "lr": 0.003,
+    "batch": 128,
+    "n_train": 3960,
+    "n_test": 1440
+  },
+  "lstm_losses": [
+    0.09551599,
+    0.00809294,
+    0.00534123,
+    0.00524672,
+    0.00510509,
+    0.0050181,
+    0.00501146,
+    0.00494385,
+    0.00494996,
+    0.00494696,
+    0.00504337,
+    0.0050478,
+    0.00495196,
+    0.0048979,
+    0.00508904,
+    0.00513593,
+    0.00513436,
+    0.00494392,
+    0.00493257,
+    0.00502179,
+    0.0049224,
+    0.00491111,
+    0.00500294,
+    0.00507863,
+    0.005004,
+    0.00493898,
+    0.00517933,
+    0.0048952,
+    0.0049219,
+    0.00482478,
+    0.00487328,
+    0.00485399,
+    0.00490228,
+    0.00496058,
+    0.00504857,
+    0.00487005,
+    0.00490725,
+    0.00512922,
+    0.0049703,
+    0.00499206,
+    0.00484195,
+    0.00490374,
+    0.00488884,
+    0.00504798,
+    0.00498724,
+    0.00498546,
+    0.00490739,
+    0.00482206,
+    0.00483378,
+    0.00503446,
+    0.00488519,
+    0.00492468,
+    0.00483368,
+    0.00478826,
+    0.00479705,
+    0.00477032,
+    0.00493529,
+    0.00496451,
+    0.004793,
+    0.00474587
+  ],
+  "baseline": {
+    "r2": 0.9255,
+    "rmse": 0.07923,
+    "mae": 0.06579,
+    "mse": 0.00627786
+  },
+  "knee_analysis": [
+    {
+      "method": "斜率法(一阶差分≥50%实测最大升程)",
+      "threshold": 0.01024,
+      "span": 15,
+      "hold": 5,
+      "knee_cycle": 55,
+      "offset_cycles": 12,
+      "truth_cycle": 43
+    },
+    {
+      "method": "水平法(平滑RMS≥健康基线+10%总抬升)",
+      "threshold": 1.426431,
+      "span": 15,
+      "hold": 5,
+      "knee_cycle": 64,
+      "offset_cycles": 21,
+      "truth_cycle": 43
+    }
+  ],
+  "fleet_knees": [
+    79,
+    55,
+    47,
+    32,
+    17,
+    21,
+    75,
+    65,
+    44,
+    35,
+    20,
+    9,
+    83,
+    62,
+    53,
+    41,
+    24,
+    10,
+    90,
+    67,
+    57,
+    48,
+    28,
+    21,
+    9,
+    70,
+    59,
+    43,
+    31,
+    25
+  ],
+  "fleet_knee_median": 43,
+  "curve_device": 1,
+  "window_sensitivity": [
+    {
+      "window": 5,
+      "r2": 0.9046,
+      "rmse": 0.08964,
+      "mae": 0.07383,
+      "mse": 0.00803616
+    },
+    {
+      "window": 10,
+      "r2": 0.9129,
+      "rmse": 0.08568,
+      "mae": 0.07085,
+      "mse": 0.00734042
+    },
+    {
+      "window": 20,
+      "r2": 0.9255,
+      "rmse": 0.07923,
+      "mae": 0.06579,
+      "mse": 0.00627786
+    }
+  ],
+  "windows": [
+    5,
+    10,
+    20
+  ],
+  "min_windows": 2,
+  "artifacts": {
+    "prediction_curve": {
+      "path": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m22_rul_predict/output/prediction_curve.png",
+      "exists": true,
+      "bytes": 64281
+    },
+    "window_sensitivity_png": {
+      "path": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m22_rul_predict/output/window_sensitivity.png",
+      "exists": true,
+      "bytes": 44086
+    },
+    "window_sensitivity_csv": {
+      "path": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m22_rul_predict/output/window_sensitivity.csv",
+      "exists": true,
+      "bytes": 137
+    }
+  },
+  "business_note": "预测误差约占退化区间 7.2% → 约 1 个维护周期；可提前 1-2 个周期安排换件。",
+  "tiers": {
+    "tiers": [
+      {
+        "tier": "及格(D)",
+        "key": "D",
+        "gate": 0.15,
+        "op": "<",
+        "need": "MSE<0.15+完成预测与可视化",
+        "functional": true,
+        "num_ok": true,
+        "pass": true
+      },
+      {
+        "tier": "良好(C)",
+        "key": "C",
+        "gate": 0.12,
+        "op": "<=",
+        "need": "MSE≤0.12+对照基线说明 LSTM 增益",
+        "functional": true,
+        "num_ok": true,
+        "pass": true
+      },
+      {
+        "tier": "优秀(B)",
+        "key": "B",
+        "gate": 0.1,
+        "op": "<",
+        "need": "MSE<0.10+对比≥2 种模型并解读",
+        "functional": true,
+        "num_ok": true,
+        "pass": true
+      },
+      {
+        "tier": "优(A)",
+        "key": "A",
+        "gate": 0.1,
+        "op": "<",
+        "need": "达 B 且预测曲线有拐点分析+对窗口长度做敏感性实验",
+        "functional": true,
+        "num_ok": true,
+        "pass": true
+      }
+    ],
+    "claimed": "优(A)",
+    "manual": [
+      "『对照基线说明 LSTM 增益』『对比≥2 种模型并解读』的口头部分——代码已实测各模型 MSE/RMSE/MAE 并自动生成数字对照表与增益解读行，增益原因的现场口述须答辩确认",
+      "『拐点分析』的业务含义口述（拐点位置/斜率突变数值已由代码实测并标注在预测曲线图上）与『RMSE→维护提前量』80 字业务解读的现场问答",
+      "预测曲线图是否清晰可读（真值/预测两条线、拐点竖线与图例能否一眼读懂）教师目检——机检只认落盘字节数（工单未给字节下限，那个数字只是判『非空白图』的兜底口径，不是工单数字），清晰度判不了就只能目检",
+      "企业元验收：值班师傅签认（功能可用/岗位规范/数据可信，占成绩 30%）"
+    ],
+    "measured": {
+      "delivered": "LSTM",
+      "mse": 0.00522552,
+      "rmse": 0.07229,
+      "mse_baseline": 0.00627786,
+      "gain": 0.00105234,
+      "n_models": 3,
+      "model_names": [
+        "Ridge",
+        "RandomForest",
+        "LSTM"
+      ],
+      "pred_ok": true,
+      "viz_ok": true,
+      "gain_ok": true,
+      "multi_model": true,
+      "knee_ok": true,
+      "sens_ok": true,
+      "knee_idx": 55,
+      "n_windows": 3,
+      "curve_png_bytes": 64281,
+      "sens_png_bytes": 44086,
+      "style_rate": 100.0,
+      "miss_note": null
+    }
+  },
+  "style_violations": 0,
+  "style_engine": "pycodestyle 2.14.0（业界标准）"
 }

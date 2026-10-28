@@ -6,29 +6,39 @@
 
 ## 一、30 秒跑起来
 ```bash
-cd W04_fault_diag
-python run.py                 # 输出到 output/ 并打印摘要
+cd m11_fault_diag
+python run.py                 # 读取 data/pump_fault.csv，输出到 output/ 并打印摘要
 python -m pytest -q           # 全量测试（应全绿）
 ```
 
 ## 二、目录结构
 ```
-W04_fault_diag/
+m11_fault_diag/
 ├── run.py                  # 唯一入口（argparse CLI）
 ├── pyproject.toml          # 包元数据 + pytest 配置
 ├── requirements.txt        # 依赖清单
-├── config/rules.yaml       # 规则外置：改配置不改代码
+├── config/rules.yaml       # 规则外置：改配置不改代码（含工单四档门槛）
 ├── src/fault_diag/
 │   ├── config.py           # YAML 加载 + Settings（含 yaml_lite 兜底）
-│   ├── core.py             # 纯函数领域逻辑（零 IO，可单测）
-│   ├── io_utils.py         # CSV/JSON/原子写
+│   ├── core.py             # 真实CSV加载/NumPy分层划分/三模型/手写指标/决策矩阵
+│   ├── io_utils.py         # CSV/JSON/原子写/等宽表/课程数据定位
 │   ├── report.py           # 报告渲染
-│   └── pipeline.py         # load → process → evaluate → report
+│   └── pipeline.py         # load → split → train×3 → metrics → 决策矩阵 → report
 ├── tests/
-│   ├── test_core.py        # 正常/边界/异常三档
-│   └── test_config.py      # 配置加载与校验
+│   ├── test_core.py        # 正常/边界/异常三档 + 工单档位断言
+│   ├── test_config.py      # 配置加载与校验
+│   └── test_pipeline.py    # 端到端集成（产物、口径、三模型、矩阵）
 └── docs/                   # 01~08 全套过程文档（见下）
 ```
+
+## 二.五、与工单 M1.1 的对应
+| 工单要求 | 本项目落点 |
+|---|---|
+| ① NumPy 加载 + 分层划分（test_size=0.25） | `core.load_labeled_csv()` + `core.stratified_split()` |
+| ② LR/DT/RF 三分类器都训 | `pipeline.build_models()` 三件套 |
+| ③ 准确率/精确率/召回率/F1（宏平均） | `core.metrics_from_confusion()`，并与 sklearn 互验 |
+| ④ 决策矩阵 → 选定交付模型 | `core.decision_matrix()`，实测准确率+实测训练耗时+登记可解释性 |
+| D≥0.75 / C≥0.80 / B≥0.85 / A | `config/rules.yaml` 的 acc_d/c/b/a + `tier_of()`，`tests/test_pipeline.py` 断言 |
 
 ## 三、过程文档（GB/T 8567 文档编制）
 | 文档 | 对应标准/方法 |

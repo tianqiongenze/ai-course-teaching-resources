@@ -1,61 +1,234 @@
 {
+  "source": "真实数据 /Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/data/pump_fault.csv",
+  "data_file": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/data/pump_fault.csv",
   "labels": [
     "正常",
     "轴承磨损",
     "叶轮堵塞"
   ],
-  "n_train": 225,
-  "n_test": 75,
+  "n_train": 336,
+  "n_test": 114,
+  "balance": {
+    "正常": {
+      "train": 112,
+      "test": 38
+    },
+    "轴承磨损": {
+      "train": 112,
+      "test": 38
+    },
+    "叶轮堵塞": {
+      "train": 112,
+      "test": 38
+    }
+  },
   "models": {
     "逻辑回归": {
-      "acc": 0.7067,
-      "missed": {
-        "正常": 12,
-        "轴承磨损": 6,
-        "叶轮堵塞": 4
-      },
-      "confusion": {
+      "acc": 0.9825,
+      "precision_macro": 0.9833,
+      "recall_macro": 0.9825,
+      "f1_macro": 0.9826,
+      "per_class": {
         "正常": {
-          "正常": 13,
-          "轴承磨损": 7,
-          "叶轮堵塞": 5
+          "precision": 1.0,
+          "recall": 0.9737,
+          "f1": 0.9867,
+          "support": 38
         },
         "轴承磨损": {
-          "正常": 5,
-          "轴承磨损": 19,
-          "叶轮堵塞": 1
+          "precision": 0.95,
+          "recall": 1.0,
+          "f1": 0.9744,
+          "support": 38
         },
         "叶轮堵塞": {
-          "正常": 2,
-          "轴承磨损": 2,
-          "叶轮堵塞": 21
+          "precision": 1.0,
+          "recall": 0.9737,
+          "f1": 0.9867,
+          "support": 38
         }
-      }
-    },
-    "决策树": {
-      "acc": 0.7067,
-      "missed": {
-        "正常": 10,
-        "轴承磨损": 4,
-        "叶轮堵塞": 8
       },
       "confusion": {
         "正常": {
-          "正常": 15,
-          "轴承磨损": 7,
-          "叶轮堵塞": 3
+          "正常": 37,
+          "轴承磨损": 1,
+          "叶轮堵塞": 0
         },
         "轴承磨损": {
-          "正常": 4,
-          "轴承磨损": 21,
+          "正常": 0,
+          "轴承磨损": 38,
           "叶轮堵塞": 0
         },
         "叶轮堵塞": {
-          "正常": 6,
-          "轴承磨损": 2,
-          "叶轮堵塞": 17
+          "正常": 0,
+          "轴承磨损": 1,
+          "叶轮堵塞": 37
         }
-      }
+      },
+      "missed": {
+        "正常": 1,
+        "轴承磨损": 0,
+        "叶轮堵塞": 1
+      },
+      "fit_seconds": 0.0412,
+      "predict_seconds": 0.0004
+    },
+    "决策树": {
+      "acc": 0.9825,
+      "precision_macro": 0.9833,
+      "recall_macro": 0.9825,
+      "f1_macro": 0.9826,
+      "per_class": {
+        "正常": {
+          "precision": 1.0,
+          "recall": 0.9737,
+          "f1": 0.9867,
+          "support": 38
+        },
+        "轴承磨损": {
+          "precision": 0.95,
+          "recall": 1.0,
+          "f1": 0.9744,
+          "support": 38
+        },
+        "叶轮堵塞": {
+          "precision": 1.0,
+          "recall": 0.9737,
+          "f1": 0.9867,
+          "support": 38
+        }
+      },
+      "confusion": {
+        "正常": {
+          "正常": 37,
+          "轴承磨损": 1,
+          "叶轮堵塞": 0
+        },
+        "轴承磨损": {
+          "正常": 0,
+          "轴承磨损": 38,
+          "叶轮堵塞": 0
+        },
+        "叶轮堵塞": {
+          "正常": 0,
+          "轴承磨损": 1,
+          "叶轮堵塞": 37
+        }
+      },
+      "missed": {
+        "正常": 1,
+        "轴承磨损": 0,
+        "叶轮堵塞": 1
+      },
+      "fit_seconds": 0.0015,
+      "predict_seconds": 0.0001
+    },
+    "随机森林": {
+      "acc": 0.9912,
+      "precision_macro": 0.9915,
+      "recall_macro": 0.9912,
+      "f1_macro": 0.9912,
+      "per_class": {
+        "正常": {
+          "precision": 1.0,
+          "recall": 0.9737,
+          "f1": 0.9867,
+          "support": 38
+        },
+        "轴承磨损": {
+          "precision": 0.9744,
+          "recall": 1.0,
+          "f1": 0.987,
+          "support": 38
+        },
+        "叶轮堵塞": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 38
+        }
+      },
+      "confusion": {
+        "正常": {
+          "正常": 37,
+          "轴承磨损": 1,
+          "叶轮堵塞": 0
+        },
+        "轴承磨损": {
+          "正常": 0,
+          "轴承磨损": 38,
+          "叶轮堵塞": 0
+        },
+        "叶轮堵塞": {
+          "正常": 0,
+          "轴承磨损": 0,
+          "叶轮堵塞": 38
+        }
+      },
+      "missed": {
+        "正常": 1,
+        "轴承磨损": 0,
+        "叶轮堵塞": 0
+      },
+      "fit_seconds": 0.3074,
+      "predict_seconds": 0.0086
     }
-  }
+  },
+  "decision_matrix": [
+    {
+      "model": "逻辑回归",
+      "acc": 0.9825,
+      "f1_macro": 0.9826,
+      "fit_seconds": 0.0412,
+      "精度预期": 5,
+      "训练速度": 5,
+      "可解释性": 5,
+      "综合": 30.0,
+      "决策": "交付"
+    },
+    {
+      "model": "决策树",
+      "acc": 0.9825,
+      "f1_macro": 0.9826,
+      "fit_seconds": 0.0015,
+      "精度预期": 5,
+      "训练速度": 5,
+      "可解释性": 4,
+      "综合": 28.0,
+      "决策": "备选"
+    },
+    {
+      "model": "随机森林",
+      "acc": 0.9912,
+      "f1_macro": 0.9912,
+      "fit_seconds": 0.3074,
+      "精度预期": 5,
+      "训练速度": 5,
+      "可解释性": 2,
+      "综合": 24.0,
+      "决策": "不交付"
+    }
+  ],
+  "delivered": "逻辑回归",
+  "gates": {
+    "d": 0.75,
+    "c": 0.8,
+    "b": 0.85,
+    "a": 0.85
+  },
+  "tier": "A",
+  "metrics": {
+    "acc": 0.9825,
+    "precision_macro": 0.9833,
+    "recall_macro": 0.9825,
+    "f1_macro": 0.9826
+  },
+  "style_engine": "pycodestyle 2.14.0（业界标准）",
+  "style_engine_kind": "pycodestyle",
+  "style_checked_files": 14,
+  "style_checked_lines": 1279,
+  "style_violations": 0,
+  "style_rate": 100.0,
+  "style_threshold": 90.0,
+  "style_meets": true
 }

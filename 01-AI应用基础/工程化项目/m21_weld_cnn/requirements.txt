@@ -7,3 +7,7 @@
 #   3. 离线环境：pip install --no-index --find-links=./offline_wheels -r requirements.txt
 numpy==2.4.4
 scikit-learn==1.9.0
+# 以下为 src/weld_cnn 实际 import 的第三方库（缺库时代码有内置兜底，但档位口径会变）
+PyYAML==6.0.3          # config.py：规则外置解析（缺失时走内置 yaml_lite）
+pycodestyle==2.14.0    # stylecheck.py：规范率实测引擎（缺失时报告须写明"内置兜底"）
+# 说明: 工单 M2.1 的 CNN 走 torch，本仓库交付零 torch 轻量基线，torch 未列入必需依赖

@@ -1,43 +1,304 @@
 {
-  "n_queries": 3,
-  "grounded": 3,
-  "hallucination_rate": 0.0,
-  "rows": [
+  "kb_source": "课程数据 /Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/data/knowledge_base.json（3 类 13 条）",
+  "kb_size": 13,
+  "min_score": 0.15,
+  "topk": 2,
+  "env_probes": {
+    "requests": "2.34.2",
+    "chromadb": "1.5.9",
+    "faiss": "MISS",
+    "matplotlib": "3.11.0"
+  },
+  "llm_path": "真实 LLM 不可达（实测异常 ConnectionError，尝试 2 次）→ 已降级确定性模板回答器",
+  "qa_rows": [
     {
-      "query": "泵振动超标要看哪个标准",
+      "question": "泵振动速度超过4.5mm/s要怎么办",
+      "expect": "振动",
       "grounded": true,
-      "citations": [
-        {
-          "id": "R1",
-          "category": "规范",
-          "text": "泵类设备振动速度有效值超过4.5mm/s应列入重点监测",
-          "score": 0.0909
-        }
-      ]
+      "citations": "R1",
+      "top_score": 0.3636,
+      "correct": true,
+      "reply": "依据知识库：\n  [R1] (设备运维规范) 泵类设备振动速度有效值超过4.5mm/s应列入重点关注，超过7.1mm/s必须停机检查。\n  → 建议：按上述条款执行并回填工单。"
     },
     {
-      "query": "电机电流高但转速正常",
+      "question": "泵振动7.5mm/s怎么办",
+      "expect": "振动",
       "grounded": true,
-      "citations": [
-        {
-          "id": "R4",
-          "category": "排查",
-          "text": "电机电流偏高而转速正常：排查轴承磨损",
-          "score": 0.6
-        }
-      ]
+      "citations": "R1",
+      "top_score": 0.1667,
+      "correct": true,
+      "reply": "依据知识库：\n  [R1] (设备运维规范) 泵类设备振动速度有效值超过4.5mm/s应列入重点关注，超过7.1mm/s必须停机检查。\n  → 建议：按上述条款执行并回填工单。"
     },
     {
-      "query": "车间5S检查表谁来签字",
+      "question": "轴承温度报警阈值是多少",
+      "expect": "轴承温度",
       "grounded": true,
-      "citations": [
-        {
-          "id": "R2",
-          "category": "规范",
-          "text": "轴承温度报警阈值设定为75℃，达到85℃应立即停机检查",
-          "score": 0.125
-        }
-      ]
+      "citations": "R2",
+      "top_score": 0.6364,
+      "correct": true,
+      "reply": "依据知识库：\n  [R2] (设备运维规范) 轴承温度报警阈值设定为75℃，达到85℃应立即停机并检查润滑与冷却回路。\n  → 建议：按上述条款执行并回填工单。"
+    },
+    {
+      "question": "变频器过流报警先查什么",
+      "expect": "变频器",
+      "grounded": true,
+      "citations": "R3",
+      "top_score": 0.5455,
+      "correct": true,
+      "reply": "依据知识库：\n  [R3] (设备运维规范) 变频器过流报警时，应先检查负载卡滞与加减速时间设置，再检查电流检测板。\n  → 建议：按上述条款执行并回填工单。"
+    },
+    {
+      "question": "液压油污染度NAS超过9级怎么处理",
+      "expect": "NAS",
+      "grounded": true,
+      "citations": "R4",
+      "top_score": 0.5833,
+      "correct": true,
+      "reply": "依据知识库：\n  [R4] (设备运维规范) 液压油污染度NAS等级超过9级必须更换滤芯并排查污染源。\n  → 建议：按上述条款执行并回填工单。"
+    },
+    {
+      "question": "PLC从站通信中断怎么排查",
+      "expect": "PLC从站",
+      "grounded": true,
+      "citations": "R5",
+      "top_score": 0.6,
+      "correct": true,
+      "reply": "依据知识库：\n  [R5] (设备运维规范) PLC从站通信中断时，按'检查物理链路→查终端电阻→查从站电源→重启主站'顺序排查。\n  → 建议：按上述条款执行并回填工单。"
+    },
+    {
+      "question": "泵体异响且压力波动优先排查什么",
+      "expect": "叶轮",
+      "grounded": true,
+      "citations": "R6",
+      "top_score": 0.7333,
+      "correct": true,
+      "reply": "依据知识库：\n  [R6] (故障排查指南) 泵体异响且压力波动：优先排查叶轮堵塞与汽蚀，检查进口滤网和液位。\n  → 建议：按上述条款执行并回填工单。"
+    },
+    {
+      "question": "电机电流偏高转速正常查哪里",
+      "expect": "三相不平衡",
+      "grounded": true,
+      "citations": "R7",
+      "top_score": 0.6154,
+      "correct": true,
+      "reply": "依据知识库：\n  [R7] (故障排查指南) 电机电流偏高而转速正常：排查机械过载、轴承磨损与三相不平衡。\n  → 建议：按上述条款执行并回填工单。"
+    },
+    {
+      "question": "冷却水温持续偏高检查什么",
+      "expect": "冷却塔",
+      "grounded": true,
+      "citations": "R8,R2",
+      "top_score": 0.6667,
+      "correct": true,
+      "reply": "依据知识库：\n  [R8] (故障排查指南) 冷却水温持续偏高：检查冷却塔填料、风机转向与喷头堵塞情况。\n  [R2] (设备运维规范) 轴承温度报警阈值设定为75℃，达到85℃应立即停机并检查润滑与冷却回路。\n  → 建议：按上述条款执行"
+    },
+    {
+      "question": "气动阀动作迟缓怎么办",
+      "expect": "气源压力",
+      "grounded": true,
+      "citations": "R9",
+      "top_score": 0.6,
+      "correct": true,
+      "reply": "依据知识库：\n  [R9] (故障排查指南) 气动阀动作迟缓：检查气源压力（应≥0.4MPa）、滤杯积水与定位器反馈杆。\n  → 建议：按上述条款执行并回填工单。"
+    },
+    {
+      "question": "传感器读数漂移怎么处理",
+      "expect": "三点校准",
+      "grounded": true,
+      "citations": "R10",
+      "top_score": 0.5455,
+      "correct": true,
+      "reply": "依据知识库：\n  [R10] (故障排查指南) 传感器读数漂移：先做三点校准，若仍漂移检查屏蔽接地与变送器供电。\n  → 建议：按上述条款执行并回填工单。"
+    },
+    {
+      "question": "注塑成型熔体温度范围是多少",
+      "expect": "熔体温度",
+      "grounded": true,
+      "citations": "R11",
+      "top_score": 0.6923,
+      "correct": true,
+      "reply": "依据知识库：\n  [R11] (工艺参数标准) 注塑成型熔体温度范围190-230℃，模温60-90℃，保压时间为冷却时间的1/3。\n  → 建议：按上述条款执行并回填工单。"
+    },
+    {
+      "question": "中央冷水机组供水回水温度怎么设定",
+      "expect": "供水温度",
+      "grounded": true,
+      "citations": "R12",
+      "top_score": 0.6875,
+      "correct": true,
+      "reply": "依据知识库：\n  [R12] (工艺参数标准) 中央冷水机组供水温度设定7℃回水12℃，温差超过5℃提示换热不良。\n  → 建议：按上述条款执行并回填工单。"
+    },
+    {
+      "question": "空压机排气压力设定是多少",
+      "expect": "空压机",
+      "grounded": true,
+      "citations": "R13",
+      "top_score": 0.6667,
+      "correct": true,
+      "reply": "依据知识库：\n  [R13] (工艺参数标准) 空压机排气压力设定0.7-0.8MPa，比功率超过6.0kW/(m³/min)提示效率劣化。\n  → 建议：按上述条款执行并回填工单。"
+    },
+    {
+      "question": "车间5S检查表谁来签字",
+      "expect": "(库外)",
+      "grounded": false,
+      "citations": "",
+      "top_score": 0,
+      "correct": true,
+      "reply": "查无依据：请补充设备编号与测点数据后再检索（宁说无据，不硬编）。"
+    },
+    {
+      "question": "食堂几点开饭",
+      "expect": "(库外)",
+      "grounded": false,
+      "citations": "",
+      "top_score": 0,
+      "correct": true,
+      "reply": "查无依据：请补充设备编号与测点数据后再检索（宁说无据，不硬编）。"
     }
-  ]
+  ],
+  "n_in_bank": 14,
+  "n_correct": 14,
+  "n_refuse_ok": 2,
+  "pure_llm_correct": 0,
+  "gain": 14,
+  "prompt_scores": {
+    "naive": 0.0,
+    "role": 0.5,
+    "example": 1.0
+  },
+  "prompt_best": "example",
+  "prompt_gap": 1.0,
+  "chain_steps": [
+    "检索",
+    "CONTEXT注入",
+    "生成回答",
+    "引用编号"
+  ],
+  "chain_ok": true,
+  "agent": {
+    "tools_called": [
+      "QueryTool",
+      "CalcTool"
+    ],
+    "decision": "需要检索+计算",
+    "calc": {
+      "value": 7.5,
+      "limit": 7.1,
+      "margin": 0.4,
+      "ratio": 1.0563,
+      "verdict": "必须停机"
+    },
+    "citations": [
+      {
+        "id": "R1",
+        "category": "设备运维规范",
+        "text": "泵类设备振动速度有效值超过4.5mm/s应列入重点关注，超过7.1mm/s必须停机检查。",
+        "score": 0.2667
+      }
+    ],
+    "aggregate": "结论：必须停机（7.5 对限值 7.1，超出 0.40，1.06 倍）。依据：[R1] 泵类设备振动速度有效值超过4.5mm/s应列入重点关注，超过7.1mm/s必须停机检查。"
+  },
+  "agent_ok": true,
+  "dialog": {
+    "turns": 2,
+    "focus": "气动阀动作迟缓",
+    "raw_grounded": false,
+    "raw_score": 0.0,
+    "resolved": "气动阀动作迟缓上游压力应不低于多少",
+    "resolved_grounded": true,
+    "resolved_correct": true
+  },
+  "multi_turn_ok": true,
+  "fault": {
+    "ok": false,
+    "attempts": 2,
+    "exc": "ConnectionError",
+    "text": ""
+  },
+  "fault_ok": true,
+  "artifacts": {
+    "qa_record_csv": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m42_ops_rag/output/qa_record.csv",
+    "prompt_compare_csv": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m42_ops_rag/output/prompt_compare.csv",
+    "compare_png": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m42_ops_rag/output/prompt_compare.png",
+    "result_json": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m42_ops_rag/output/result.json"
+  },
+  "style_rate": 100.0,
+  "style_violations": 0,
+  "style_engine": "pycodestyle 2.14.0（业界标准）",
+  "tiers": {
+    "tiers": [
+      {
+        "tier": "及格(D)",
+        "gate": 60.0,
+        "need": "题库实测正确回答数达标（真实检索命中，非自称）",
+        "functional": true,
+        "style_ok": true,
+        "pass": true
+      },
+      {
+        "tier": "良好(C)",
+        "gate": 70.0,
+        "need": "正确回答数达标 + Prompt 三版真实运行、实测分差有结论",
+        "functional": true,
+        "style_ok": true,
+        "pass": true
+      },
+      {
+        "tier": "优秀(B)",
+        "gate": 80.0,
+        "need": "正确回答数达标 + RAG 链路完整 + 对比纯 LLM 实测有提升",
+        "functional": true,
+        "style_ok": true,
+        "pass": true
+      },
+      {
+        "tier": "优(A)",
+        "gate": 90.0,
+        "need": "达 B 且：Agent 两步推理实测成功；多轮对话实测；容错注入实测通过",
+        "functional": true,
+        "style_ok": true,
+        "pass": true
+      }
+    ],
+    "claimed": "优(A)",
+    "gates": {
+      "style": [
+        60.0,
+        70.0,
+        80.0,
+        90.0
+      ],
+      "D": {
+        "correct_min": 5.0
+      },
+      "C": {
+        "correct_min": 7.0,
+        "prompt_versions_min": 3.0
+      },
+      "B": {
+        "correct_min": 10.0,
+        "gain_min": 1.0
+      },
+      "A": {
+        "tools_min": 2.0,
+        "retry_min": 1.0
+      }
+    },
+    "manual": [
+      "响应清晰可用：回答口径经值班师傅现场抽检确认",
+      "Prompt 对比结论能口述（为何结构化+引用编号更可用）",
+      "Agent「判断→调用工具→汇总」两步推理思路能口述"
+    ],
+    "measured": {
+      "n_correct": 14,
+      "n_refuse_ok": 2,
+      "versions_run": 3,
+      "prompt_gap": 1.0,
+      "chain_ok": true,
+      "gain": 14,
+      "agent_ok": true,
+      "multi_turn_ok": true,
+      "fault_ok": true
+    }
+  }
 }

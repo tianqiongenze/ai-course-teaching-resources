@@ -27,7 +27,8 @@ def test_fit_with_explicit_model():
     from sklearn.ensemble import RandomForestRegressor
     x, rul, m = core.make_traj(600, 7)
     idx = np.where(m)[0]
-    _, _, mt = core.fit(x[idx, None], rul[idx], RandomForestRegressor(n_estimators=10, random_state=0))
+    forest = RandomForestRegressor(n_estimators=10, random_state=0)
+    _, _, mt = core.fit(x[idx, None], rul[idx], forest)
     assert "mae" in mt
 
 

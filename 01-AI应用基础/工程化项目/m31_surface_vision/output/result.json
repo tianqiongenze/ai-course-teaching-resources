@@ -1,33 +1,1212 @@
 {
-  "gt": [
-    96,
-    120,
-    16,
-    16
-  ],
-  "n_defects": 2,
-  "defects": [
+  "caliber": "真实零件 40 件（data/surface_parts + 教师真值）",
+  "strategy": "otsu",
+  "rows": [
     {
-      "box": [
-        0,
-        0,
-        240,
-        240
-      ],
-      "area_px": 36864,
-      "area_mm2": 92.16,
-      "type": "dent"
+      "file": "part_000.png",
+      "type": "pit",
+      "gt": 2.54,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 2.29,
+          "err": 9.84
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 2.49,
+          "err": 1.97
+        }
+      }
     },
     {
-      "box": [
-        96,
-        120,
-        16,
-        16
-      ],
-      "area_px": 256,
-      "area_mm2": 0.64,
-      "type": "dent"
+      "file": "part_001.png",
+      "type": "scratch",
+      "gt": 10.9,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 3,
+          "meas": 5.22,
+          "err": 52.11
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 11.04,
+          "err": 1.28
+        }
+      }
+    },
+    {
+      "file": "part_002.png",
+      "type": "scratch",
+      "gt": 6.7,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 0,
+          "meas": 0.0,
+          "err": 100.0
+        },
+        "otsu": {
+          "T": 139.0,
+          "n": 1,
+          "meas": 6.87,
+          "err": 2.54
+        }
+      }
+    },
+    {
+      "file": "part_003.png",
+      "type": "pit",
+      "gt": 9.08,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 8.61,
+          "err": 5.18
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 8.97,
+          "err": 1.21
+        }
+      }
+    },
+    {
+      "file": "part_004.png",
+      "type": "pit",
+      "gt": 2.54,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 2.29,
+          "err": 9.84
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 2.49,
+          "err": 1.97
+        }
+      }
+    },
+    {
+      "file": "part_005.png",
+      "type": "scratch",
+      "gt": 4.0,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 0,
+          "meas": 0.0,
+          "err": 100.0
+        },
+        "otsu": {
+          "T": 139.0,
+          "n": 1,
+          "meas": 4.24,
+          "err": 6.0
+        }
+      }
+    },
+    {
+      "file": "part_006.png",
+      "type": "scratch",
+      "gt": 7.5,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 0,
+          "meas": 0.0,
+          "err": 100.0
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 7.74,
+          "err": 3.2
+        }
+      }
+    },
+    {
+      "file": "part_007.png",
+      "type": "pit",
+      "gt": 1.54,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 1.29,
+          "err": 16.23
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 1.45,
+          "err": 5.84
+        }
+      }
+    },
+    {
+      "file": "part_008.png",
+      "type": "scratch",
+      "gt": 8.4,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 3,
+          "meas": 3.83,
+          "err": 54.4
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 8.57,
+          "err": 2.02
+        }
+      }
+    },
+    {
+      "file": "part_009.png",
+      "type": "pit",
+      "gt": 1.54,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 1.29,
+          "err": 16.23
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 1.45,
+          "err": 5.84
+        }
+      }
+    },
+    {
+      "file": "part_010.png",
+      "type": "pit",
+      "gt": 6.16,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 5.77,
+          "err": 6.33
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 6.09,
+          "err": 1.14
+        }
+      }
+    },
+    {
+      "file": "part_011.png",
+      "type": "scratch",
+      "gt": 8.6,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 8.56,
+          "err": 0.47
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 8.78,
+          "err": 2.09
+        }
+      }
+    },
+    {
+      "file": "part_012.png",
+      "type": "pit",
+      "gt": 10.18,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 9.65,
+          "err": 5.21
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 10.05,
+          "err": 1.28
+        }
+      }
+    },
+    {
+      "file": "part_013.png",
+      "type": "scratch",
+      "gt": 6.9,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 0,
+          "meas": 0.0,
+          "err": 100.0
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 7.16,
+          "err": 3.77
+        }
+      }
+    },
+    {
+      "file": "part_014.png",
+      "type": "scratch",
+      "gt": 8.6,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 0,
+          "meas": 0.0,
+          "err": 100.0
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 8.87,
+          "err": 3.14
+        }
+      }
+    },
+    {
+      "file": "part_015.png",
+      "type": "scratch",
+      "gt": 4.9,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 4.9,
+          "err": 0.0
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 5.12,
+          "err": 4.49
+        }
+      }
+    },
+    {
+      "file": "part_016.png",
+      "type": "scratch",
+      "gt": 6.0,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 5.85,
+          "err": 2.5
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 6.16,
+          "err": 2.67
+        }
+      }
+    },
+    {
+      "file": "part_017.png",
+      "type": "scratch",
+      "gt": 11.1,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 0,
+          "meas": 0.0,
+          "err": 100.0
+        },
+        "otsu": {
+          "T": 139.0,
+          "n": 1,
+          "meas": 9.81,
+          "err": 11.62
+        }
+      }
+    },
+    {
+      "file": "part_018.png",
+      "type": "scratch",
+      "gt": 4.7,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 0,
+          "meas": 0.0,
+          "err": 100.0
+        },
+        "otsu": {
+          "T": 139.0,
+          "n": 1,
+          "meas": 4.89,
+          "err": 4.04
+        }
+      }
+    },
+    {
+      "file": "part_019.png",
+      "type": "scratch",
+      "gt": 7.4,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 7.28,
+          "err": 1.62
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 7.59,
+          "err": 2.57
+        }
+      }
+    },
+    {
+      "file": "part_020.png",
+      "type": "pit",
+      "gt": 2.54,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 2.29,
+          "err": 9.84
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 2.49,
+          "err": 1.97
+        }
+      }
+    },
+    {
+      "file": "part_021.png",
+      "type": "pit",
+      "gt": 2.01,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 1.77,
+          "err": 11.94
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 1.93,
+          "err": 3.98
+        }
+      }
+    },
+    {
+      "file": "part_022.png",
+      "type": "scratch",
+      "gt": 11.1,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 10.99,
+          "err": 0.99
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 11.3,
+          "err": 1.8
+        }
+      }
+    },
+    {
+      "file": "part_023.png",
+      "type": "pit",
+      "gt": 4.52,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 4.09,
+          "err": 9.51
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 4.37,
+          "err": 3.32
+        }
+      }
+    },
+    {
+      "file": "part_024.png",
+      "type": "scratch",
+      "gt": 10.3,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 2,
+          "meas": 4.93,
+          "err": 52.14
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 10.47,
+          "err": 1.65
+        }
+      }
+    },
+    {
+      "file": "part_025.png",
+      "type": "scratch",
+      "gt": 12.0,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 0,
+          "meas": 0.0,
+          "err": 100.0
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 12.22,
+          "err": 1.83
+        }
+      }
+    },
+    {
+      "file": "part_026.png",
+      "type": "pit",
+      "gt": 4.52,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 4.09,
+          "err": 9.51
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 4.37,
+          "err": 3.32
+        }
+      }
+    },
+    {
+      "file": "part_027.png",
+      "type": "scratch",
+      "gt": 7.2,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 7.03,
+          "err": 2.36
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 7.34,
+          "err": 1.94
+        }
+      }
+    },
+    {
+      "file": "part_028.png",
+      "type": "pit",
+      "gt": 8.04,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 7.57,
+          "err": 5.85
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 7.93,
+          "err": 1.37
+        }
+      }
+    },
+    {
+      "file": "part_029.png",
+      "type": "pit",
+      "gt": 1.54,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 1.29,
+          "err": 16.23
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 1.45,
+          "err": 5.84
+        }
+      }
+    },
+    {
+      "file": "part_030.png",
+      "type": "scratch",
+      "gt": 4.0,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 3.85,
+          "err": 3.75
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 4.16,
+          "err": 4.0
+        }
+      }
+    },
+    {
+      "file": "part_031.png",
+      "type": "pit",
+      "gt": 10.18,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 9.65,
+          "err": 5.21
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 10.05,
+          "err": 1.28
+        }
+      }
+    },
+    {
+      "file": "part_032.png",
+      "type": "scratch",
+      "gt": 12.0,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 0,
+          "meas": 0.0,
+          "err": 100.0
+        },
+        "otsu": {
+          "T": 139.0,
+          "n": 1,
+          "meas": 8.06,
+          "err": 32.83
+        }
+      }
+    },
+    {
+      "file": "part_033.png",
+      "type": "pit",
+      "gt": 2.01,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 1.77,
+          "err": 11.94
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 1.93,
+          "err": 3.98
+        }
+      }
+    },
+    {
+      "file": "part_034.png",
+      "type": "scratch",
+      "gt": 10.7,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 10.67,
+          "err": 0.28
+        },
+        "otsu": {
+          "T": 121.0,
+          "n": 1,
+          "meas": 10.89,
+          "err": 1.78
+        }
+      }
+    },
+    {
+      "file": "part_035.png",
+      "type": "pit",
+      "gt": 1.54,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 1.29,
+          "err": 16.23
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 1.45,
+          "err": 5.84
+        }
+      }
+    },
+    {
+      "file": "part_036.png",
+      "type": "pit",
+      "gt": 1.13,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 0.97,
+          "err": 14.16
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 1.09,
+          "err": 3.54
+        }
+      }
+    },
+    {
+      "file": "part_037.png",
+      "type": "scratch",
+      "gt": 5.0,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 0,
+          "meas": 0.0,
+          "err": 100.0
+        },
+        "otsu": {
+          "T": 139.0,
+          "n": 1,
+          "meas": 5.24,
+          "err": 4.8
+        }
+      }
+    },
+    {
+      "file": "part_038.png",
+      "type": "pit",
+      "gt": 2.01,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 1.77,
+          "err": 11.94
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 1.93,
+          "err": 3.98
+        }
+      }
+    },
+    {
+      "file": "part_039.png",
+      "type": "pit",
+      "gt": 3.14,
+      "per": {
+        "global": {
+          "T": 100.0,
+          "n": 1,
+          "meas": 2.93,
+          "err": 6.69
+        },
+        "otsu": {
+          "T": 130.0,
+          "n": 1,
+          "meas": 3.13,
+          "err": 0.32
+        }
+      }
     }
-  ]
+  ],
+  "strategies": {
+    "global": {
+      "detected": 30,
+      "err_mean": 34.21,
+      "err_max": 100.0,
+      "noise": 16
+    },
+    "otsu": {
+      "detected": 40,
+      "err_mean": 3.95,
+      "err_max": 32.83,
+      "noise": 0
+    }
+  },
+  "annotated_pngs": [
+    {
+      "path": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m31_surface_vision/output/annotated/annot_part_000.png",
+      "boxes": 1,
+      "labels": 1,
+      "legend": true,
+      "bytes": 9229
+    },
+    {
+      "path": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m31_surface_vision/output/annotated/annot_part_001.png",
+      "boxes": 1,
+      "labels": 1,
+      "legend": true,
+      "bytes": 9806
+    },
+    {
+      "path": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m31_surface_vision/output/annotated/annot_part_002.png",
+      "boxes": 1,
+      "labels": 1,
+      "legend": true,
+      "bytes": 10069
+    },
+    {
+      "path": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m31_surface_vision/output/annotated/annot_part_003.png",
+      "boxes": 1,
+      "labels": 1,
+      "legend": true,
+      "bytes": 9867
+    },
+    {
+      "path": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m31_surface_vision/output/annotated/annot_part_004.png",
+      "boxes": 1,
+      "labels": 1,
+      "legend": true,
+      "bytes": 9525
+    }
+  ],
+  "multi": {
+    "total": 3,
+    "detected": 3,
+    "fp": 0,
+    "noise": 3,
+    "gts": [
+      {
+        "file": "part_000.png",
+        "type": "pit",
+        "value": 2.54,
+        "box": [
+          10,
+          10,
+          19,
+          19
+        ]
+      },
+      {
+        "file": "part_001.png",
+        "type": "scratch",
+        "value": 10.9,
+        "box": [
+          10,
+          45,
+          107,
+          32
+        ]
+      },
+      {
+        "file": "part_003.png",
+        "type": "pit",
+        "value": 9.08,
+        "box": [
+          10,
+          93,
+          35,
+          35
+        ]
+      }
+    ],
+    "det_boxes": [
+      [
+        11,
+        94,
+        33,
+        33
+      ],
+      [
+        10,
+        45,
+        107,
+        32
+      ],
+      [
+        11,
+        11,
+        17,
+        17
+      ]
+    ],
+    "cause_lines": [
+      "成因分析（实测）：板上另撒 4×4 假缺陷点（灰度与真缺陷同为 60、开运算后仍存在），按面积门槛(20px)实测剔除 3 个——面积维是本链路实测到的唯一误检来源；IoU<0.30 的匹配外检出实测 0 个（=误检数）"
+    ]
+  },
+  "n_defects": 40,
+  "measured": {
+    "err_mean": 3.95,
+    "err_max": 32.83,
+    "parts_total": 40,
+    "parts_detected": 40,
+    "png_valid": 6,
+    "png_total": 6,
+    "cmp_ok": true,
+    "multi_total": 3,
+    "multi_detected": 3,
+    "fp_count": 0,
+    "noise_filtered": 3,
+    "cause_ok": true
+  },
+  "defects": [
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 2.49,
+      "err": 1.97
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 11.04,
+      "err": 1.28
+    },
+    {
+      "T": 139.0,
+      "n": 1,
+      "meas": 6.87,
+      "err": 2.54
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 8.97,
+      "err": 1.21
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 2.49,
+      "err": 1.97
+    },
+    {
+      "T": 139.0,
+      "n": 1,
+      "meas": 4.24,
+      "err": 6.0
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 7.74,
+      "err": 3.2
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 1.45,
+      "err": 5.84
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 8.57,
+      "err": 2.02
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 1.45,
+      "err": 5.84
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 6.09,
+      "err": 1.14
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 8.78,
+      "err": 2.09
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 10.05,
+      "err": 1.28
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 7.16,
+      "err": 3.77
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 8.87,
+      "err": 3.14
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 5.12,
+      "err": 4.49
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 6.16,
+      "err": 2.67
+    },
+    {
+      "T": 139.0,
+      "n": 1,
+      "meas": 9.81,
+      "err": 11.62
+    },
+    {
+      "T": 139.0,
+      "n": 1,
+      "meas": 4.89,
+      "err": 4.04
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 7.59,
+      "err": 2.57
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 2.49,
+      "err": 1.97
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 1.93,
+      "err": 3.98
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 11.3,
+      "err": 1.8
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 4.37,
+      "err": 3.32
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 10.47,
+      "err": 1.65
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 12.22,
+      "err": 1.83
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 4.37,
+      "err": 3.32
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 7.34,
+      "err": 1.94
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 7.93,
+      "err": 1.37
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 1.45,
+      "err": 5.84
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 4.16,
+      "err": 4.0
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 10.05,
+      "err": 1.28
+    },
+    {
+      "T": 139.0,
+      "n": 1,
+      "meas": 8.06,
+      "err": 32.83
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 1.93,
+      "err": 3.98
+    },
+    {
+      "T": 121.0,
+      "n": 1,
+      "meas": 10.89,
+      "err": 1.78
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 1.45,
+      "err": 5.84
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 1.09,
+      "err": 3.54
+    },
+    {
+      "T": 139.0,
+      "n": 1,
+      "meas": 5.24,
+      "err": 4.8
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 1.93,
+      "err": 3.98
+    },
+    {
+      "T": 130.0,
+      "n": 1,
+      "meas": 3.13,
+      "err": 0.32
+    }
+  ],
+  "tiers": {
+    "tiers": [
+      {
+        "tier": "及格(D)",
+        "key": "D",
+        "need": "正确检出并标注缺陷；测量误差<10%",
+        "gate": "测量误差<10%",
+        "functional": true,
+        "pass": true
+      },
+      {
+        "tier": "良好(C)",
+        "key": "C",
+        "need": "误差达标；两种阈值策略对比记录完整",
+        "gate": "测量误差<8%",
+        "functional": true,
+        "pass": true
+      },
+      {
+        "tier": "优秀(B)",
+        "key": "B",
+        "need": "误差达标；结果图清晰（框+文字+图例，机检要素计数）",
+        "gate": "测量误差<5%",
+        "functional": true,
+        "pass": true
+      },
+      {
+        "tier": "优(A)",
+        "key": "A",
+        "need": "达B且：多缺陷件全部检出；误检率=0 并分析成因",
+        "gate": "多缺陷件全检出且误检=0",
+        "functional": true,
+        "pass": true
+      }
+    ],
+    "claimed": "优(A)",
+    "measured": {
+      "err_mean": 3.95,
+      "err_max": 32.83,
+      "parts_total": 40,
+      "parts_detected": 40,
+      "png_valid": 6,
+      "png_total": 6,
+      "multi_total": 3,
+      "multi_detected": 3,
+      "fp_count": 0,
+      "noise_filtered": 3,
+      "cmp_ok": true,
+      "cause_ok": true
+    },
+    "gates": {
+      "d_err_pct": 10.0,
+      "c_err_pct": 8.0,
+      "b_err_pct": 5.0,
+      "d_min_png": 1,
+      "b_min_png": 3,
+      "iou_match": 0.3,
+      "png_min_bytes": 1000
+    },
+    "manual": [
+      "结果图整体美观度（配色/标注疏密）教师目检",
+      "像素当量换算能口述：面积=px×0.1²mm²、长度=px×0.1mm",
+      "误检成因分析的定性深度（答辩口头展开）",
+      "企业元签认：功能可用/岗位规范/数据可信"
+    ]
+  },
+  "style_engine": "pycodestyle 2.14.0（业界标准）",
+  "style_engine_kind": "pycodestyle",
+  "style_checked_files": 14,
+  "style_checked_lines": 1333,
+  "style_violations": 0,
+  "style_rate": 100.0,
+  "style_threshold": 90.0,
+  "style_meets": true
 }

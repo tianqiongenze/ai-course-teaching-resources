@@ -1,17 +1,496 @@
 {
-  "n": 12,
+  "corpus_source": "课程数据 /Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/data/fault_reports.csv（225 条）",
+  "n_raw": 225,
+  "n_dedup": 209,
   "classes": [
+    "仪表气动",
     "传动系统",
     "冷却系统",
-    "气动系统",
-    "液压系统"
+    "液压系统",
+    "电气系统"
   ],
+  "tokenizer": "jieba（真实路径）",
+  "userdict": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m41_fault_text_clf/config/userdict.txt",
+  "userdict_loaded": true,
+  "ngram_tune": 2,
   "metrics": {
-    "acc": 0.0,
-    "macro_f1": 0.0
+    "LR基线(1,1)": {
+      "acc": 1.0,
+      "macro_f1": 1.0,
+      "train_seconds": 0.1527,
+      "params": "word(1,1)"
+    },
+    "NB基线(1,1)": {
+      "acc": 1.0,
+      "macro_f1": 1.0,
+      "train_seconds": 0.0166,
+      "params": "word(1,1)"
+    },
+    "LR调优(词典+2-gram)": {
+      "acc": 1.0,
+      "macro_f1": 1.0,
+      "train_seconds": 0.0481,
+      "params": "userdict+(1,2)"
+    },
+    "NB调优(词典+2-gram)": {
+      "acc": 1.0,
+      "macro_f1": 1.0,
+      "train_seconds": 0.014,
+      "params": "userdict+(1,2)"
+    }
   },
-  "demo": {
-    "text": "3号注塑机液压油温升高报警",
-    "pred": "液压系统"
+  "per_class_acc": {
+    "LR基线(1,1)": {
+      "仪表气动": 1.0,
+      "传动系统": 1.0,
+      "冷却系统": 1.0,
+      "液压系统": 1.0,
+      "电气系统": 1.0
+    },
+    "NB基线(1,1)": {
+      "仪表气动": 1.0,
+      "传动系统": 1.0,
+      "冷却系统": 1.0,
+      "液压系统": 1.0,
+      "电气系统": 1.0
+    },
+    "LR调优(词典+2-gram)": {
+      "仪表气动": 1.0,
+      "传动系统": 1.0,
+      "冷却系统": 1.0,
+      "液压系统": 1.0,
+      "电气系统": 1.0
+    },
+    "NB调优(词典+2-gram)": {
+      "仪表气动": 1.0,
+      "传动系统": 1.0,
+      "冷却系统": 1.0,
+      "液压系统": 1.0,
+      "电气系统": 1.0
+    }
+  },
+  "tier_acc": 1.0,
+  "tune_delta": 0.0,
+  "keywords": {
+    "仪表气动": [
+      [
+        "干扰",
+        1.0369
+      ],
+      [
+        "卡死",
+        0.8799
+      ],
+      [
+        "压力表",
+        0.8799
+      ],
+      [
+        "压力表 指针",
+        0.8799
+      ],
+      [
+        "指针",
+        0.8799
+      ],
+      [
+        "指针 卡死",
+        0.8799
+      ],
+      [
+        "定位器",
+        0.6478
+      ],
+      [
+        "定位器 故障",
+        0.6478
+      ],
+      [
+        "振荡",
+        0.6478
+      ],
+      [
+        "振荡 定位器",
+        0.6478
+      ]
+    ],
+    "传动系统": [
+      [
+        "发热",
+        0.7038
+      ],
+      [
+        "对中不良",
+        0.7038
+      ],
+      [
+        "对中不良 轴承座",
+        0.7038
+      ],
+      [
+        "联轴器",
+        0.7038
+      ],
+      [
+        "联轴器 对中不良",
+        0.7038
+      ],
+      [
+        "轴承座",
+        0.7038
+      ],
+      [
+        "轴承座 发热",
+        0.7038
+      ],
+      [
+        "磨损",
+        0.6738
+      ],
+      [
+        "磨损 铁屑",
+        0.6738
+      ],
+      [
+        "铁屑",
+        0.6738
+      ]
+    ],
+    "冷却系统": [
+      [
+        "冷却",
+        0.8055
+      ],
+      [
+        "冷却 水流量",
+        0.7701
+      ],
+      [
+        "增大",
+        0.7701
+      ],
+      [
+        "水流量",
+        0.7701
+      ],
+      [
+        "水流量 不足",
+        0.7701
+      ],
+      [
+        "温差",
+        0.7701
+      ],
+      [
+        "温差 增大",
+        0.7701
+      ],
+      [
+        "冷却 机械",
+        0.7591
+      ],
+      [
+        "密封",
+        0.7591
+      ],
+      [
+        "密封 泄漏",
+        0.7591
+      ]
+    ],
+    "液压系统": [
+      [
+        "内泄",
+        0.8114
+      ],
+      [
+        "内泄 压不住",
+        0.8114
+      ],
+      [
+        "压不住",
+        0.8114
+      ],
+      [
+        "油缸",
+        0.8114
+      ],
+      [
+        "油缸 内泄",
+        0.8114
+      ],
+      [
+        "上升",
+        0.6804
+      ],
+      [
+        "上升 缓慢",
+        0.6804
+      ],
+      [
+        "压力 不足",
+        0.6804
+      ],
+      [
+        "油泵",
+        0.6804
+      ],
+      [
+        "油泵 压力",
+        0.6804
+      ]
+    ],
+    "电气系统": [
+      [
+        "变频器",
+        0.7215
+      ],
+      [
+        "变频器 过流",
+        0.7215
+      ],
+      [
+        "报警",
+        0.7215
+      ],
+      [
+        "波动",
+        0.7215
+      ],
+      [
+        "电流",
+        0.7215
+      ],
+      [
+        "电流 波动",
+        0.7215
+      ],
+      [
+        "过流",
+        0.7215
+      ],
+      [
+        "过流 报警",
+        0.7215
+      ],
+      [
+        "接触器",
+        0.683
+      ],
+      [
+        "接触器 触点",
+        0.683
+      ]
+    ]
+  },
+  "confusion": {
+    "off_diag": 0,
+    "method": "预测正确时的第二选择近误计数",
+    "top_pair": {
+      "true": "仪表气动",
+      "other": "电气系统",
+      "count": 5
+    },
+    "matrix": [
+      [
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        9
+      ]
+    ],
+    "labels": [
+      "仪表气动",
+      "传动系统",
+      "冷却系统",
+      "液压系统",
+      "电气系统"
+    ]
+  },
+  "new_pred": [
+    {
+      "text": "数控车床主轴轴承发热，润滑脂干涸",
+      "expect": "传动系统",
+      "pred": "传动系统",
+      "prob": 0.3315,
+      "second": "仪表气动",
+      "second_prob": 0.182,
+      "features": "数控车床 主轴 轴承 发热 润滑脂 干涸",
+      "match": true
+    },
+    {
+      "text": "配电柜接触器触点烧蚀，回路缺相跳闸",
+      "expect": "电气系统",
+      "pred": "电气系统",
+      "prob": 0.6223,
+      "second": "液压系统",
+      "second_prob": 0.1116,
+      "features": "配电柜 接触器 触点 烧蚀 回路 缺相 跳闸",
+      "match": true
+    },
+    {
+      "text": "液压站管路密封圈老化渗油，系统建压缓慢",
+      "expect": "液压系统",
+      "pred": "液压系统",
+      "prob": 0.2704,
+      "second": "电气系统",
+      "second_prob": 0.2668,
+      "features": "液压站 管路 密封圈 老化 渗油 系统 建压 缓慢",
+      "match": true
+    },
+    {
+      "text": "冷却塔填料结垢，冷却水流量不足水温降不下来",
+      "expect": "冷却系统",
+      "pred": "冷却系统",
+      "prob": 0.6332,
+      "second": "液压系统",
+      "second_prob": 0.1003,
+      "features": "冷却塔 填料 结垢 冷却 水流量 不足 水温 降 不 下来",
+      "match": true
+    },
+    {
+      "text": "空压机气压波动大，气动夹爪夹紧力不足",
+      "expect": "仪表气动",
+      "pred": "仪表气动",
+      "prob": 0.236,
+      "second": "电气系统",
+      "second_prob": 0.232,
+      "features": "空压机 气压 波动 大 气动 夹 爪 夹紧 力 不足",
+      "match": true
+    },
+    {
+      "text": "气缸磁性开关不动作，到位信号缺失",
+      "expect": "仪表气动",
+      "pred": "电气系统",
+      "prob": 0.3431,
+      "second": "传动系统",
+      "second_prob": 0.1704,
+      "features": "气缸 磁性 开关 不 动作 到位 信号 缺失",
+      "match": false
+    }
+  ],
+  "n_new": 6,
+  "n_match": 5,
+  "artifacts": {
+    "model_compare_csv": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m41_fault_text_clf/output/model_compare.csv",
+    "keywords_csv": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m41_fault_text_clf/output/keywords_top10.csv",
+    "new_pred_csv": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m41_fault_text_clf/output/new_text_pred.csv",
+    "confusion_png": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m41_fault_text_clf/output/confusion_matrix.png",
+    "result_json": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/工程化项目/m41_fault_text_clf/output/result.json"
+  },
+  "style_rate": 100.0,
+  "style_violations": 0,
+  "style_engine": "pycodestyle 2.14.0（业界标准）",
+  "tiers": {
+    "tiers": [
+      {
+        "tier": "及格(D)",
+        "gate": 60.0,
+        "need": "准确率≥门槛 + 库外新文本实测预测命中",
+        "functional": true,
+        "style_ok": true,
+        "pass": true
+      },
+      {
+        "tier": "良好(C)",
+        "gate": 70.0,
+        "need": "准确率≥门槛 + 朴素贝叶斯/逻辑回归同切分对比完整",
+        "functional": true,
+        "style_ok": true,
+        "pass": true
+      },
+      {
+        "tier": "优秀(B)",
+        "gate": 80.0,
+        "need": "准确率≥门槛 + 每类 Top10 关键词表全类覆盖",
+        "functional": true,
+        "style_ok": true,
+        "pass": true
+      },
+      {
+        "tier": "优(A)",
+        "gate": 90.0,
+        "need": "达 B 且：混淆矩阵实测定位最易混类对；自建词典+ngram 实测调优",
+        "functional": true,
+        "style_ok": true,
+        "pass": true
+      }
+    ],
+    "claimed": "优(A)",
+    "gates": {
+      "style": [
+        60.0,
+        70.0,
+        80.0,
+        90.0
+      ],
+      "D": {
+        "acc_min": 0.75,
+        "new_min": 3.0,
+        "match_min": 2.0
+      },
+      "C": {
+        "acc_min": 0.8,
+        "models_min": 2.0
+      },
+      "B": {
+        "acc_min": 0.85,
+        "topk": 10.0
+      },
+      "A": {
+        "confusion": true,
+        "tuning": true
+      }
+    },
+    "manual": [
+      "关键词贡献解释清晰：能指出决定「电气系统」类的关键词并口述依据",
+      "混淆矩阵「为何易混」归因分析（共用词/工况相似）可口述",
+      "决策矩阵权衡（准确率/训练速度/可解释性）能口述"
+    ],
+    "measured": {
+      "acc": 1.0,
+      "n_new": 6,
+      "new_match": 5,
+      "n_models": 4,
+      "kw_classes": 5,
+      "n_classes": 5,
+      "pair": {
+        "true": "仪表气动",
+        "other": "电气系统",
+        "count": 5
+      },
+      "cm_method": "预测正确时的第二选择近误计数",
+      "tuning_done": true,
+      "tune_delta": 0.0
+    }
   }
 }

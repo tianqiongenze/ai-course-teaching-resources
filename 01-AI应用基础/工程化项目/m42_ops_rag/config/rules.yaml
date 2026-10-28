@@ -1,15 +1,71 @@
 warn: 80.0
 danger: 95.0
 topk: 2
-min_score: 0.05
+# 阈值 0.15 是实测校准值：库外问题"车间5S…"最高重合 0.125 < 0.15 → 正确拒答；
+# 库内问题最低命中 0.167 > 0.15 → 不误杀。
+min_score: 0.15
 unit: "c"
 seed: 7
+style_min: 90.0
 
-queries:
-  - 泵振动超标要看哪个标准
-  - 电机电流高但转速正常
-  - 车间5S检查表谁来签字
+# 题库（14 库内 + 2 库外）。expect=正确回答必须引用到的条款关键词；
+# expect 留空=库外问题，判"正确拒答"（幻觉红线，宁说无据不硬编）。
+questions:
+  - q: 泵振动速度超过4.5mm/s要怎么办
+    expect: 振动
+  - q: 泵振动7.5mm/s怎么办
+    expect: 振动
+  - q: 轴承温度报警阈值是多少
+    expect: 轴承温度
+  - q: 变频器过流报警先查什么
+    expect: 变频器
+  - q: 液压油污染度NAS超过9级怎么处理
+    expect: NAS
+  - q: PLC从站通信中断怎么排查
+    expect: PLC从站
+  - q: 泵体异响且压力波动优先排查什么
+    expect: 叶轮
+  - q: 电机电流偏高转速正常查哪里
+    expect: 三相不平衡
+  - q: 冷却水温持续偏高检查什么
+    expect: 冷却塔
+  - q: 气动阀动作迟缓怎么办
+    expect: 气源压力
+  - q: 传感器读数漂移怎么处理
+    expect: 三点校准
+  - q: 注塑成型熔体温度范围是多少
+    expect: 熔体温度
+  - q: 中央冷水机组供水回水温度怎么设定
+    expect: 供水温度
+  - q: 空压机排气压力设定是多少
+    expect: 空压机
+  - q: 车间5S检查表谁来签字
+    expect: ""
+  - q: 食堂几点开饭
+    expect: ""
 
+# Prompt 工程对比用题（工单"同一问题写3版Prompt"）
+prompt_questions:
+  - 轴承温度报警阈值是多少
+  - 气动阀动作迟缓怎么办
+  - 变频器过流报警先查什么
+
+# Agent 两步推理演示查询（QueryTool 检索 + CalcTool 数值对比）
+agent_query: 泵振动速度7.5mm/s超过限值了吗，超出多少
+# 多轮对话脚本：轮2 用回指代词，焦点由轮1 实测引用文本提取
+dialog:
+  - 气动阀动作迟缓怎么办
+  - 它的上游压力应不低于多少
+dialog_expect: 气源压力
+
+# 真实 LLM 路线（OpenAI 兼容）：本机无服务时 llm_chat 真实失败并计数，
+# 报告注明降级——"容错实测通过"档吃的就是这里的 attempts 与异常类名。
+llm:
+  base_url: http://127.0.0.1:18642/v1/chat/completions
+  timeout: 0.5
+  retries: 1
+
+# 知识库兜底条目（data/knowledge_base.json 找不到时用；课程数据优先）
 knowledge:
   - category: 设备运维规范
     text: 泵类设备振动速度有效值超过4.5mm/s应列入重点关注，超过7.1mm/s必须停机检查。
@@ -19,3 +75,22 @@ knowledge:
     text: 泵体异响且压力波动：优先排查叶轮堵塞与汽蚀，检查进口滤网和液位。
   - category: 故障排查指南
     text: 电机电流偏高而转速正常：排查机械过载、轴承磨损与三相不平衡。
+
+# 工单 M4.2《四、验收标准》数字门槛（判定逻辑在 tiers.py，本段只放数字）
+tiers:
+  style_gates:
+    - 60.0
+    - 70.0
+    - 80.0
+    - 90.0
+  D:
+    correct_min: 5
+  C:
+    correct_min: 7
+    prompt_versions_min: 3
+  B:
+    correct_min: 10
+    gain_min: 1
+  A:
+    tools_min: 2
+    retry_min: 1

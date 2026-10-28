@@ -1,23 +1,233 @@
 {
-  "before": {
-    "rows": 300,
-    "diag": {
-      "missing": 15,
-      "over_limit": 6,
-      "negative": 5,
-      "out_of_range": 5
+  "data_file": "/Users/joelgong/PycharmProjects/ai-course-teaching-resources/01-AI应用基础/data/pump_fault.csv",
+  "n_train": 336,
+  "n_test": 114,
+  "field_view": {
+    "train": {
+      "hole_cells": 267,
+      "n_spike": 10,
+      "miss_rate": 0.15,
+      "spike_rate": 0.03
+    },
+    "test": {
+      "hole_cells": 83,
+      "n_spike": 3,
+      "miss_rate": 0.15,
+      "spike_rate": 0.03
     }
   },
-  "after": {
-    "rows": 275,
-    "diag": {
-      "missing": 0,
-      "over_limit": 0,
-      "negative": 0,
-      "out_of_range": 0
+  "ablation": [
+    {
+      "step": "基线(现场原始：不清洗/不缩放/默认C)",
+      "acc": 0.7456,
+      "f1_macro": 0.7458,
+      "n_iter": 2000,
+      "recall": {
+        "叶轮堵塞": 0.6579,
+        "正常": 0.8158,
+        "轴承磨损": 0.7632
+      }
     },
-    "quality": 1.0
+    {
+      "step": "+清洗(量程缺陷→缺失→训练折中位数填补)",
+      "acc": 0.9035,
+      "f1_macro": 0.9039,
+      "n_iter": 2000,
+      "recall": {
+        "叶轮堵塞": 0.8947,
+        "正常": 0.9211,
+        "轴承磨损": 0.8947
+      }
+    },
+    {
+      "step": "+派生特征(振动/电流比、温度×压力积)",
+      "acc": 0.9123,
+      "f1_macro": 0.9128,
+      "n_iter": 2000,
+      "recall": {
+        "叶轮堵塞": 0.8947,
+        "正常": 0.9211,
+        "轴承磨损": 0.9211
+      }
+    },
+    {
+      "step": "+缩放(StandardScaler)",
+      "acc": 0.9123,
+      "f1_macro": 0.9129,
+      "n_iter": 23,
+      "recall": {
+        "叶轮堵塞": 0.8947,
+        "正常": 0.9211,
+        "轴承磨损": 0.9211
+      }
+    },
+    {
+      "step": "+调参(GridSearchCV，仅训练折内K折)",
+      "acc": 0.9035,
+      "f1_macro": 0.9037,
+      "n_iter": 42,
+      "recall": {
+        "叶轮堵塞": 0.8947,
+        "正常": 0.9211,
+        "轴承磨损": 0.8947
+      }
+    }
+  ],
+  "baseline_acc": 0.7456,
+  "final_acc": 0.9035,
+  "gain_pp": 15.79,
+  "lab_view": {
+    "baseline": {
+      "acc": 0.9649,
+      "f1_macro": 0.965,
+      "n_iter": 1585,
+      "recall": {
+        "叶轮堵塞": 0.9737,
+        "正常": 0.9737,
+        "轴承磨损": 0.9474
+      }
+    },
+    "final": {
+      "acc": 0.9825,
+      "f1_macro": 0.9826,
+      "n_iter": 9,
+      "recall": {
+        "叶轮堵塞": 0.9737,
+        "正常": 0.9737,
+        "轴承磨损": 1.0
+      }
+    },
+    "gain_pp": 1.76
   },
-  "removed": 25,
-  "keep_rate": 0.9167
+  "scaler_matrix": [
+    {
+      "缩放方式": "none",
+      "模型": "逻辑回归(主算法)",
+      "acc": 0.9123,
+      "f1_macro": 0.9127
+    },
+    {
+      "缩放方式": "none",
+      "模型": "随机森林(对照)",
+      "acc": 0.9825,
+      "f1_macro": 0.9823
+    },
+    {
+      "缩放方式": "standard",
+      "模型": "逻辑回归(主算法)",
+      "acc": 0.9123,
+      "f1_macro": 0.9129
+    },
+    {
+      "缩放方式": "standard",
+      "模型": "随机森林(对照)",
+      "acc": 0.9825,
+      "f1_macro": 0.9823
+    },
+    {
+      "缩放方式": "minmax",
+      "模型": "逻辑回归(主算法)",
+      "acc": 0.9123,
+      "f1_macro": 0.9128
+    },
+    {
+      "缩放方式": "minmax",
+      "模型": "随机森林(对照)",
+      "acc": 0.9825,
+      "f1_macro": 0.9823
+    }
+  ],
+  "grid_rows": [
+    {
+      "C": 10.0,
+      "训练折内5折CV均值": 0.9048
+    },
+    {
+      "C": 1.0,
+      "训练折内5折CV均值": 0.9019
+    },
+    {
+      "C": 0.01,
+      "训练折内5折CV均值": 0.8841
+    },
+    {
+      "C": 0.1,
+      "训练折内5折CV均值": 0.878
+    }
+  ],
+  "best_params": {
+    "model__C": 10.0
+  },
+  "cv_stability": {
+    "mean": 0.9048,
+    "std": 0.0175,
+    "folds": [
+      0.8824,
+      0.9254,
+      0.8955,
+      0.9254,
+      0.8955
+    ]
+  },
+  "quality_score": {
+    "before": 0.8708,
+    "after": 1.0
+  },
+  "gates": {
+    "d": 5.0,
+    "c": 7.0,
+    "b": 10.0,
+    "f1_b": 0.8,
+    "n_methods_a": 3
+  },
+  "tier": {
+    "tier": "A",
+    "D": true,
+    "C": true,
+    "B": true,
+    "A": true,
+    "gain_pp": 15.79,
+    "f1_macro": 0.9037,
+    "n_methods": 4
+  },
+  "n_methods": 4,
+  "ablation_steps": 5,
+  "n_scalers": 6,
+  "derived_features": [
+    "vib_over_current",
+    "temp_x_pressure"
+  ],
+  "style_engine": "pycodestyle 2.14.0（业界标准）",
+  "style_engine_kind": "pycodestyle",
+  "style_checked_files": 14,
+  "style_checked_lines": 1599,
+  "style_violations": 0,
+  "style_rate": 100.0,
+  "style_threshold": 90.0,
+  "style_meets": true,
+  "style_gates": {
+    "D": 70.0,
+    "C": 70.0,
+    "B": 80.0,
+    "A": 90.0
+  },
+  "tier_combined": "A",
+  "human_review_items": [
+    {
+      "tier": "D",
+      "item": "能说明改进思路"
+    },
+    {
+      "tier": "B",
+      "item": "交叉验证报告规范"
+    },
+    {
+      "tier": "A",
+      "item": "因果解释是否成立（代码只验证其存在）"
+    },
+    {
+      "tier": "A",
+      "item": "噪声样本处理策略合理"
+    }
+  ]
 }
