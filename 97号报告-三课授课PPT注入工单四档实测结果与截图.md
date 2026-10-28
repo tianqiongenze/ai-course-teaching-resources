@@ -75,10 +75,17 @@
 
 ## 六、仓库同步
 
-| 目标 | 地址 | 内容 |
-|---|---|---|
-| 01 公开仓 | https://github.com/tianqiongenze/ai-application-foundations | 8 个 deck + 证据文本 + 工具脚本 |
-| 02 公开仓 | https://github.com/tianqiongenze/programming-fundamentals | 24 个 deck + 证据文本 + 工具脚本 |
-| 05 公开仓 | https://github.com/tianqiongenze/ai-foundations-48h | 24 个 deck + 证据文本 + 工具脚本 |
-| 私有整库 | https://github.com/tianqiongenze/ai-course-teaching-resources | 全量（含 03 未改动部分） |
-| gitee 整库 | https://gitee.com/enze_tian_qiong/ai-course-teaching-resources | 快进推送，不 force |
+| 目标 | 地址 | 推送后 `main` 头（`git ls-remote` 实测） | 本次变更文件 |
+|---|---|---|---|
+| 01 公开仓 | https://github.com/tianqiongenze/ai-application-foundations | `1c25717` | 80 个：8 deck + 8 项目证据文本 + 5 脚本 |
+| 02 公开仓 | https://github.com/tianqiongenze/programming-fundamentals | `10d00a8` | 136 个：24 deck + 12 项目证据文本 + 5 脚本 |
+| 05 公开仓 | https://github.com/tianqiongenze/ai-foundations-48h | `ae13955` | 95 个：24 deck + 12 项目证据文本 + 5 脚本 |
+| 私有整库 | https://github.com/tianqiongenze/ai-course-teaching-resources | `ca04ecb`（`4da2f97..ca04ecb` 快进） | 161 个（03 课程工作区改动未纳入） |
+| gitee 整库 | https://gitee.com/enze_tian_qiong/ai-course-teaching-resources | `ca04ecb`（`4da2f97..ca04ecb` 快进，不 force） | 同上 |
+
+- 三门课公开仓各自只带**本课 8/12/12 个项目**的证据（`_index.json` 按 `course` 字段过滤后写入），
+  公开仓之间不互相泄漏他课 slug；终端截图仍按 `.gitignore` 排除，仓内保留逐字捕获文本。
+- 全程未使用 `--force` / `--no-verify`；`03-Python程序设计-项目实战` 的工作区改动（非本次产生）
+  未 staged、未提交、未回退。
+- 实测过程：推送期间 `github.com:443` 出现间歇性连接超时（同一时刻 `api.github.com` 可达），
+  改为「先 `git ls-remote` 探活、通了才 push」的重试后三仓全部快进成功；gitee 一次通过。
