@@ -86,6 +86,58 @@
 - 三门课公开仓各自只带**本课 8/12/12 个项目**的证据（`_index.json` 按 `course` 字段过滤后写入），
   公开仓之间不互相泄漏他课 slug；终端截图仍按 `.gitignore` 排除，仓内保留逐字捕获文本。
 - 全程未使用 `--force` / `--no-verify`；`03-Python程序设计-项目实战` 的工作区改动（非本次产生）
-  未 staged、未提交、未回退。
+  在本节初推时未 staged、未提交、未回退——**同日按用户口径改为全量纳入，见第七节**。
 - 实测过程：推送期间 `github.com:443` 出现间歇性连接超时（同一时刻 `api.github.com` 可达），
   改为「先 `git ls-remote` 探活、通了才 push」的重试后三仓全部快进成功；gitee 一次通过。
+
+## 七、追加：03 课全量同步 + 两处一致性修复（同日）
+
+### 7.1 核查时查出的两处真实不一致
+
+| 缺口 | 表现 | 处理 |
+|---|---|---|
+| 整库落后公开仓 | 本次真跑落盘的 `output/report.txt`、`result.json` 等 50 个文件只进了三课公开仓，整库还是 96 号轮旧产物（如 m11 生成时间 `09:49:45` vs `10:42:58`） | `ee34f8d` 补进整库；比对确认只变生成时间与训练耗时，**精度指标逐字不变** |
+| 公开仓混入临时产物 | 三门课公开仓共 **88 个** `工程化项目/*/output/test_run/`（pytest 实跑临时目录，非交付证据）被跟踪；原因是 `.gitignore` 写成 `*/工程化项目/...` 在「课程目录＝仓根」的镜像布局下永不命中 | 三仓各一提交 `git rm --cached` 摘出（磁盘保留）+ 规则改课程内相对路径；整库同步落一份课程级 `.gitignore`（`7dbe492`）使两侧逐字节一致 |
+
+修复后 **整库 ↔ 三课公开仓文件树差异 0**：01 `1237↔1237`｜02 `634↔634`｜05 `594↔594`（公开仓另有本课 `工具/ppt97` 证据 30/42/42 个文件）。
+
+### 7.2 03 课全量入库（377 项）与「试卷类不上交」口径
+
+- `f8c3afd`：03 工作区改动全量入整库 = **236 改 / 134 新增 / 4 改名 / 3 删除**（p11-p77 各项目新落盘的 `src/tests/output/docs`、W09 三版 notebook、教师参考与工具脚本）。
+- 新增 `03-Python程序设计-项目实战/.gitignore`：A/B/C 三类试卷与参考答案、电气制图 CAD 卷、
+  期末考试模拟数据、`工具/期末试卷生成/`、误建的 `--help`/`.workbuddy` **全部 ignore**；
+  逐条 `git check-ignore` 复核命中，本次 03 提交清单 **0 处试卷类路径**。
+- `c11d8c5` 追加 `*.onnx`/`*.pt` 排除（与 03 公开仓既有规则取并集）；
+  `e957797` 把 rsync 用的排除清单以 `工具/03同步排除清单.txt` 存进整库（该目录不进任何课程公开仓）。
+- 4 个**早期轮次已入库**的考核类文件（`必答题库-答辩与期末（四类40题）.md`、
+  `期末工业级项目册-20选1.docx/md/pdf`）本轮未改动、未重写历史，保留在整库；
+  其中 4 个已存在于 03 的 GitHub 公开仓（详见 7.4 待确认项）。
+
+### 7.3 03 两个课程仓同步
+
+| 目标 | 分支 | 推送 | 内容 |
+|---|---|---|---|
+| [03 GitHub 公开仓](https://github.com/tianqiongenze/industrial-IoT-python-programming) | `main` | `ed84a8e..543e4e8` 快进 | 21 个文件更新（15 个 V2 授课 PPT + 3 个项目内 `.gitignore` + 2 个 runtime json） |
+| [03 gitee 课程仓](https://gitee.com/enze_tian_qiong/03-python-practice) | `master` | `c0c7eff..95ded29` 快进 | **首次真正入库**：574 个文件 / 157MB（此前该仓只有一个 LICENSE） |
+
+- 镜像法同前三课：`clone → rsync -a --delete（带排除清单，保住仓根 LICENSE）→ 提交 → HEAD:<分支> 推送`，
+  无 force、无 `--no-verify`；gitee 侧 `develop/feature/hotfix/release` 四个占位分支未动。
+- 树比对（整库 03 目录 ↔ 公开仓 HEAD）：**内容不同 0 处**；
+  仅整库有的 9 项全部是 `*.db / *.kuzu / *.duckdb` 运行库（公开仓按规则本就不收）；
+  仅 GitHub 03 仓还有 1 个本地已不存在的早期残留 `工程化项目/p66_ml_service/runtime/train_timing.json`。
+
+### 7.4 最终五仓状态（`git ls-remote` 实测）
+
+| 仓 | 头 |
+|---|---|
+| [01 ai-application-foundations](https://github.com/tianqiongenze/ai-application-foundations) | `5e75c07` |
+| [02 programming-fundamentals](https://github.com/tianqiongenze/programming-fundamentals) | `486dc1b` |
+| [05 ai-foundations-48h](https://github.com/tianqiongenze/ai-foundations-48h) | `e87a4d7` |
+| [03 industrial-IoT-python-programming](https://github.com/tianqiongenze/industrial-IoT-python-programming) | `543e4e8` |
+| [GitHub 私有整库](https://github.com/tianqiongenze/ai-course-teaching-resources) / [gitee 整库](https://gitee.com/enze_tian_qiong/ai-course-teaching-resources) | `e957797`（含文档回填提交） |
+| [03 gitee 课程仓](https://gitee.com/enze_tian_qiong/03-python-practice) | `95ded29`（`master`） |
+
+**待你确认一件事**：`必答题库-答辩与期末（四类40题）.md` 与 `期末工业级项目册-20选1`（docx/md/pdf）
+这 4 个考核类文件是**早期轮次就已公开**在 03 GitHub 仓里的，本轮没有改动它们。
+如果按「试卷之类不上传」要一并从公开仓撤下，我可以再做一次删除提交（正常快进，不动历史、不 force）；
+文件仍保留在本地与整库。
