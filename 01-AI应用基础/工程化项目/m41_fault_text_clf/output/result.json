@@ -17,25 +17,25 @@
     "LR基线(1,1)": {
       "acc": 1.0,
       "macro_f1": 1.0,
-      "train_seconds": 0.1527,
+      "train_seconds": 0.2222,
       "params": "word(1,1)"
     },
     "NB基线(1,1)": {
       "acc": 1.0,
       "macro_f1": 1.0,
-      "train_seconds": 0.0166,
+      "train_seconds": 0.0096,
       "params": "word(1,1)"
     },
     "LR调优(词典+2-gram)": {
       "acc": 1.0,
       "macro_f1": 1.0,
-      "train_seconds": 0.0481,
+      "train_seconds": 0.0754,
       "params": "userdict+(1,2)"
     },
     "NB调优(词典+2-gram)": {
       "acc": 1.0,
       "macro_f1": 1.0,
-      "train_seconds": 0.014,
+      "train_seconds": 0.0044,
       "params": "userdict+(1,2)"
     }
   },

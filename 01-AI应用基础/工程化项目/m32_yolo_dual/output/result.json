@@ -62,20 +62,20 @@
       "det": 0
     }
   ],
-  "onnx_fps": 19.33,
+  "onnx_fps": 2.48,
   "sizes": [
     {
       "imgsz": 160,
       "det": 88,
       "tp": 42,
       "fp": 48,
-      "fps": 1007.18,
+      "fps": 473.12,
       "fps_reps": [
-        945.81,
-        1043.36,
-        1007.18,
-        987.78,
-        1182.82
+        491.83,
+        423.41,
+        1110.05,
+        473.12,
+        436.85
       ]
     },
     {
@@ -83,13 +83,13 @@
       "det": 89,
       "tp": 43,
       "fp": 48,
-      "fps": 223.11,
+      "fps": 123.15,
       "fps_reps": [
-        270.05,
-        114.52,
-        152.17,
-        223.11,
-        255.53
+        107.18,
+        101.67,
+        168.03,
+        123.15,
+        153.62
       ]
     },
     {
@@ -97,19 +97,19 @@
       "det": 89,
       "tp": 43,
       "fp": 48,
-      "fps": 73.02,
+      "fps": 33.84,
       "fps_reps": [
-        67.62,
-        58.59,
-        73.02,
-        74.09,
-        73.66
+        36.17,
+        35.63,
+        33.84,
+        32.79,
+        31.32
       ]
     }
   ],
   "chosen": 320,
   "basis_ok": true,
-  "speedup_pct": 205.5,
+  "speedup_pct": 263.9,
   "stable_ok": true,
   "stability_vectors": [
     [
@@ -301,17 +301,17 @@
   ],
   "opts": {
     "输入裁剪(ROI)": {
-      "fps": 571.74,
-      "gain_pct": 156.3,
+      "fps": 239.63,
+      "gain_pct": 94.6,
       "tp": 37
     },
     "多线程(4线程池)": {
-      "fps": 557.37,
-      "gain_pct": 149.8,
+      "fps": 327.76,
+      "gain_pct": 166.1,
       "tp": 43
     }
   },
-  "opt_name": "输入裁剪(ROI)",
+  "opt_name": "多线程(4线程池)",
   "roi_det": 80,
   "roi_fp": 45,
   "annotated_pngs": [
@@ -337,16 +337,16 @@
     "vis_valid": 2,
     "fps_levels": 3,
     "fps_values": {
-      "160": 1007.18,
-      "320": 223.11,
-      "640": 73.02
+      "160": 473.12,
+      "320": 123.15,
+      "640": 33.84
     },
     "chosen": 320,
     "basis_ok": true,
-    "speedup_pct": 205.5,
+    "speedup_pct": 263.9,
     "stable_ok": true,
-    "opt_name": "输入裁剪(ROI)",
-    "opt_gain_pct": 156.3,
+    "opt_name": "多线程(4线程池)",
+    "opt_gain_pct": 166.1,
     "opt_impl": true,
     "onnx_status": "可用（yolov8n.onnx CPU 真推理，conf 用对工单原值）",
     "real_photo_status": "MISS（本机无实物照片 → 人工答辩项）"
@@ -394,15 +394,15 @@
       "vis_valid": 2,
       "fps_levels": 3,
       "fps_values": {
-        "160": 1007.18,
-        "320": 223.11,
-        "640": 73.02
+        "160": 473.12,
+        "320": 123.15,
+        "640": 33.84
       },
       "chosen": 320,
-      "speedup_pct": 205.5,
+      "speedup_pct": 263.9,
       "stable_ok": true,
-      "opt_name": "输入裁剪(ROI)",
-      "opt_gain_pct": 156.3,
+      "opt_name": "多线程(4线程池)",
+      "opt_gain_pct": 166.1,
       "opt_impl": true,
       "onnx_status": "可用（yolov8n.onnx CPU 真推理，conf 用对工单原值）",
       "real_photo_status": "MISS（本机无实物照片 → 人工答辩项）"

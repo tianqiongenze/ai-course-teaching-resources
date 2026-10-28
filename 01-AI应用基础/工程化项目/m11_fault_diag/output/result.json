@@ -70,8 +70,8 @@
         "轴承磨损": 0,
         "叶轮堵塞": 1
       },
-      "fit_seconds": 0.0412,
-      "predict_seconds": 0.0004
+      "fit_seconds": 0.143,
+      "predict_seconds": 0.0009
     },
     "决策树": {
       "acc": 0.9825,
@@ -120,8 +120,8 @@
         "轴承磨损": 0,
         "叶轮堵塞": 1
       },
-      "fit_seconds": 0.0015,
-      "predict_seconds": 0.0001
+      "fit_seconds": 0.0024,
+      "predict_seconds": 0.0002
     },
     "随机森林": {
       "acc": 0.9912,
@@ -170,8 +170,8 @@
         "轴承磨损": 0,
         "叶轮堵塞": 0
       },
-      "fit_seconds": 0.3074,
-      "predict_seconds": 0.0086
+      "fit_seconds": 0.9191,
+      "predict_seconds": 0.0592
     }
   },
   "decision_matrix": [
@@ -179,7 +179,7 @@
       "model": "逻辑回归",
       "acc": 0.9825,
       "f1_macro": 0.9826,
-      "fit_seconds": 0.0412,
+      "fit_seconds": 0.143,
       "精度预期": 5,
       "训练速度": 5,
       "可解释性": 5,
@@ -190,7 +190,7 @@
       "model": "决策树",
       "acc": 0.9825,
       "f1_macro": 0.9826,
-      "fit_seconds": 0.0015,
+      "fit_seconds": 0.0024,
       "精度预期": 5,
       "训练速度": 5,
       "可解释性": 4,
@@ -201,7 +201,7 @@
       "model": "随机森林",
       "acc": 0.9912,
       "f1_macro": 0.9912,
-      "fit_seconds": 0.3074,
+      "fit_seconds": 0.9191,
       "精度预期": 5,
       "训练速度": 5,
       "可解释性": 2,
