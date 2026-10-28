@@ -15,7 +15,7 @@ import sys
 import time
 
 BASE = __file__.rsplit("/", 2)[0]
-MODBUS = BASE + "/../02-Python编程基础/虚拟产线/mini_modbus_server.py"
+MODBUS = BASE + "/../02-程序设计基础/虚拟产线/mini_modbus_server.py"
 PLCS = [(5020, 1), (5021, 2), (5022, 3)]
 
 
