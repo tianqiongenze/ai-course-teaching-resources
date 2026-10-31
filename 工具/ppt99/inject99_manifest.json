@@ -1,0 +1,642 @@
+[
+ {
+  "file": "W01-第1次课-与Python的第一次握手.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 35,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "≥6变量、≥3类型、规范率≥70%"
+ },
+ {
+  "file": "W01-第2次课-把设备参数存进程序.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 5,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "≥6变量、≥3类型、规范率≥70%"
+ },
+ {
+  "file": "W02-第3次课-设备什么时候该报警.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 37,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "≥2个if判断+1个告警函数"
+ },
+ {
+  "file": "W02-第4次课-多级告警逻辑设计.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 5,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "≥2个if判断+1个告警函数"
+ },
+ {
+  "file": "W03-第5次课-让程序自己跑起来.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 37,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "循环跑通+2函数"
+ },
+ {
+  "file": "W03-第6次课-把重复劳动交给函数.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 5,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "循环跑通+2函数"
+ },
+ {
+  "file": "W04-第7次课-从图纸到对象：设备建模.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 35,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "1类+2属性+2方法+2实例"
+ },
+ {
+  "file": "W04-第8次课-给设备装上行为.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 5,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "1类+2属性+2方法+2实例"
+ },
+ {
+  "file": "W05-第10次课-一套接口，多种设备.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 5,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "1基类+2子类+覆盖"
+ },
+ {
+  "file": "W05-第9次课-设备的家族谱系.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 35,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "1基类+2子类+覆盖"
+ },
+ {
+  "file": "W06-第11次课-程序生病了怎么办.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 35,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "≥2种异常+基本日志"
+ },
+ {
+  "file": "W06-第12次课-给程序写病历本.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 5,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "≥2种异常+基本日志"
+ },
+ {
+  "file": "W07-第13次课-用容器装下整条产线.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 35,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "≥2种格式+正则"
+ },
+ {
+  "file": "W07-第14次课-从杂乱报文中提取信息.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 5,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "≥2种格式+正则"
+ },
+ {
+  "file": "W08-第15次课-让数据活过下一次关机.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 36,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "≥2格式+基本验证"
+ },
+ {
+  "file": "W08-第16次课-工业数据的通用语言.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "≥2格式+基本验证"
+ },
+ {
+  "file": "W09-第17次课-读懂成千上万条故障描述.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 35,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "分词正确+词云生成"
+ },
+ {
+  "file": "W09-第18次课-把故障数据画成一朵云.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 5,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "分词正确+词云生成"
+ },
+ {
+  "file": "W10-第19次课-给故障图片做标注.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 35,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "标注完成+PDF可生成"
+ },
+ {
+  "file": "W10-第20次课-一键生成质量日报.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 5,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "标注完成+PDF可生成"
+ },
+ {
+  "file": "W11-第21次课-设备如何在网络上说话.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 35,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "Modbus读+MQTT发布成功"
+ },
+ {
+  "file": "W11-第22次课-从虚拟设备采数到云端上报.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "Modbus读+MQTT发布成功"
+ },
+ {
+  "file": "W12-第23次课-项目终验联调与预答辩.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 34,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "可演示版本+checklist过半"
+ },
+ {
+  "file": "W12-第24次课-正式答辩专场.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "功能基本完整+能演示主流程"
+ },
+ {
+  "file": "W01-第1次课-带着C语言底子学Python.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 40,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "≥3题正确+PEP8≥75%"
+ },
+ {
+  "file": "W01-第2次课-列表与字典：C里没有的武器.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 8,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "≥3题正确+PEP8≥75%"
+ },
+ {
+  "file": "W02-第3次课-像企业团队一样写代码.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 36,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "conda环境可用+仓库+结构完整"
+ },
+ {
+  "file": "W02-第4次课-交付你的第一个工程模板.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 8,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "conda环境可用+仓库+结构完整"
+ },
+ {
+  "file": "W03-第5次课-认识工业数据的两大容器.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 38,
+  "pages": 2,
+  "cards": 7,
+  "pitfalls": 3,
+  "std_d": "管道完整+质量≥85%"
+ },
+ {
+  "file": "W03-第6次课-从脏数据到可信数据.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 8,
+  "pages": 3,
+  "cards": 7,
+  "pitfalls": 3,
+  "std_d": "管道完整+质量≥85%"
+ },
+ {
+  "file": "W04-第7次课-向量化：让计算快100倍.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 37,
+  "pages": 2,
+  "cards": 7,
+  "pitfalls": 3,
+  "std_d": "30特征正确+向量化为主"
+ },
+ {
+  "file": "W04-第8次课-从振动信号提取30维特征.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 8,
+  "pages": 3,
+  "cards": 7,
+  "pitfalls": 3,
+  "std_d": "30特征正确+向量化为主"
+ },
+ {
+  "file": "W05-第10次课-每天早上8点的生产日报.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 4,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "四部分完整+PDF正确"
+ },
+ {
+  "file": "W05-第9次课-产线驾驶舱：5个KPI一屏掌.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 36,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "5KPI可用+时间筛选"
+ },
+ {
+  "file": "W06-第11次课-让程序同时听三个PLC说话.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 34,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "三源贯通+采集率>95%"
+ },
+ {
+  "file": "W06-第12次课-搭建多源数据采集中枢.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 5,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "三源贯通+无丢失+系统文档"
+ },
+ {
+  "file": "W07-第13次课-给产线数据安个家.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 38,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "4表合理+ORM入库+2条查询"
+ },
+ {
+  "file": "W07-第14次课-不写SQL也能操作数据库.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 7,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "4表合理+ORM入库+2条查询"
+ },
+ {
+  "file": "W08-第15次课-用特征矩阵训练诊断大脑.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 39,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "F1≥0.80并保存"
+ },
+ {
+  "file": "W08-第16次课-把模型部署到产线边缘.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 7,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "推理服务可调通"
+ },
+ {
+  "file": "W07-第1次课-数据清洗与质量评估（上）.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 37,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "缺失处理率≥95%"
+ },
+ {
+  "file": "W07-第2次课-数据清洗与质量评估（下）.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "缺失处理率≥95%"
+ },
+ {
+  "file": "W10-第3次课-特征设计与优化（上）：基.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 36,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "特征≥10个且字典完整"
+ },
+ {
+  "file": "W10-第4次课-特征设计与优化（下）：优.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "特征≥10个且字典完整"
+ },
+ {
+  "file": "W11-第5次课-传统分类：逻辑回归+决策.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 38,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "F1≥0.70且口径正确"
+ },
+ {
+  "file": "W11-第6次课-传统分类：逻辑回归+决策.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "F1≥0.70且口径正确"
+ },
+ {
+  "file": "W12-第7次课-XGBoost参数调优（.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 38,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "F1≥0.72（2h内）"
+ },
+ {
+  "file": "W12-第8次课-XGBoost参数调优（.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "F1≥0.72（2h内）"
+ },
+ {
+  "file": "W13-第10次课-MLP神经网络（下）：优.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "准确率≥75%"
+ },
+ {
+  "file": "W13-第9次课-MLP神经网络（上）：基.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 38,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "准确率≥75%"
+ },
+ {
+  "file": "W14-第11次课-CNN或LSTM二选一（.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 36,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "指标达标+竞标书完整"
+ },
+ {
+  "file": "W14-第12次课-CNN或LSTM二选一（.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "指标达标+竞标书完整"
+ },
+ {
+  "file": "W15-第13次课-ResNet迁移学习（上.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 36,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "准确率≥75%+对比表"
+ },
+ {
+  "file": "W15-第14次课-ResNet迁移学习（下.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "准确率≥75%+对比表"
+ },
+ {
+  "file": "W16-第15次课-YOLO实时缺陷检测（上.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 37,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "mAP≥0.60+FPS表完整"
+ },
+ {
+  "file": "W16-第16次课-YOLO实时缺陷检测（下.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "mAP≥0.60+FPS表完整"
+ },
+ {
+  "file": "W17-第17次课-LLM故障诊断（上）：基.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 38,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "对比表完整+提升≥20%"
+ },
+ {
+  "file": "W17-第18次课-LLM故障诊断（下）：优.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "对比表完整+提升≥20%"
+ },
+ {
+  "file": "W18-第19次课-RAG知识库问答（上）：.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 37,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "检索≥80%+引用完整"
+ },
+ {
+  "file": "W18-第20次课-RAG知识库问答（下）：.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "检索≥80%+引用完整"
+ },
+ {
+  "file": "W19-第21次课-多智能体检修调度（上）：.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 42,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "正确率≥75%+说明书"
+ },
+ {
+  "file": "W19-第22次课-多智能体检修调度（下）：.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "正确率≥75%+说明书"
+ },
+ {
+  "file": "W20-第23次课-综合项目答辩（上）：基础.pptx",
+  "status": "ok",
+  "slim": false,
+  "insert_before": 37,
+  "pages": 2,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "链路完整+能答基本问题"
+ },
+ {
+  "file": "W20-第24次课-综合项目答辩（下）：优化.pptx",
+  "status": "ok",
+  "slim": true,
+  "insert_before": 6,
+  "pages": 3,
+  "cards": 6,
+  "pitfalls": 3,
+  "std_d": "链路完整+能答基本问题"
+ }
+]
