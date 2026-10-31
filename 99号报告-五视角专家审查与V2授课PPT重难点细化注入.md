@@ -60,3 +60,20 @@
 2. 三课统一《课程目标达成度年度汇总表》（评估专家建议）。
 3. `m32_yolo_dual` 退出码 -6 的 onnxruntime 版本锁定（技术专家建议）。
 4. 远端 main 尚落后本地 5 个提交（含本轮），待推送。
+
+## 五、六仓课程同步（同日补记）
+
+**触发**：用户要求「所有课程同时同步到各自远端仓库（03 的期末试卷相关不提交）」。
+**方式**：沿用 98 号报告镜像法（clone --depth 1 → 清空工作区保 .git/LICENSE → rsync 课程目录 → commit → push → ls-remote 复核），脚本 `工具/sync_courses_99.sh`。
+
+| 仓 | 推送后 HEAD | 说明 |
+|---|---|---|
+| GitHub-01 ai-application-foundations | `8be1e78` | 01 课本轮无改动，镜像比对后无变更 |
+| GitHub-02 programming-fundamentals | `8e626db` | 同步 99 号轮 24 个 V2 deck |
+| GitHub-03 industrial-IoT-python-programming | `a7b9ccc` | 同步 16 个 V2 deck |
+| Gitee-03 03-python-practice（master） | `6fed985` | 21 文件；**并按排除清单删除了历史误入的 4 个期末类文件**（必答题库/期末项目册 pdf·docx·md，均为 D 状态） |
+| GitHub-05 ai-foundations-48h | `4ed4ea3` | 同步 24 个 V2 deck |
+| Gitee-05 ai-foundations-48h | `2b8bd64` | 同步 24 个 V2 deck |
+
+- **试卷类防线复核**：六仓 HEAD 全树扫描 `试卷/期末/参考答案与评分/印刷转曲` 命中 **0**；03 仓按《工具/03同步排除清单.txt》rsync 排除，仓根 LICENSE 均在位。
+- **教训一条**：git 默认 `core.quotepath` 会把中文路径转成八进制转义，令 `grep 试卷` 失效——核验必须加 `-c core.quotepath=false`。
