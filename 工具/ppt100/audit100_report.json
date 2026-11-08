@@ -333,14 +333,14 @@
    },
    {
     "type": "overflow",
-    "page": 53,
+    "page": 52,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
-    "page": 54,
+    "page": 53,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -388,11 +388,6 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 60,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
-   },
-   {
     "type": "overflow",
     "page": 61,
     "box": "2.84x0.08",
@@ -401,14 +396,19 @@
    },
    {
     "type": "overflow",
-    "page": 63,
+    "page": 62,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
+    "type": "garbled",
+    "page": 62,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
     "type": "overflow",
-    "page": 64,
+    "page": 63,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -514,7 +514,7 @@
    {
     "type": "overflow",
     "page": 79,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -524,17 +524,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 82,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 82,
-  "avg_chars": 181,
+  "slides": 84,
+  "avg_chars": 193,
   "dense_pages": 0,
-  "min_font": 9.0,
+  "min_font": 8.5,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 74,
+  "overflows": 76,
   "garbled": 1,
   "dir": "01-AI应用基础"
  },
@@ -554,1621 +568,6 @@
     "box": "6.55x0.87",
     "need": 1.12,
     "text": "第五周 · 第2次课（2课时 · 80分钟）⏎双创中心302实训室  ·  理实"
-   },
-   {
-    "type": "overflow",
-    "page": 1,
-    "box": "1.64x0.09",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 3,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 4,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 6,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 7,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 8,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 9,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 10,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 12,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 14,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 15,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 16,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 17,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 18,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 19,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 20,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 21,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 23,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 24,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 25,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 26,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 27,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 28,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 29,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 30,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 31,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 32,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 33,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 34,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 36,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 37,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 38,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 39,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 40,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 41,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 42,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 43,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 44,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 45,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 46,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 47,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 48,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 49,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 50,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 52,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 53,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 54,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 55,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 56,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 57,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 58,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 59,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "garbled",
-    "page": 59,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
-   },
-   {
-    "type": "overflow",
-    "page": 60,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 62,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 63,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 64,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 65,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 66,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 67,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 68,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 69,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 70,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 71,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 72,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 73,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 74,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 75,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 76,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 77,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 78,
-    "box": "13.33x0.05",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 79,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   }
-  ],
-  "slides": 81,
-  "avg_chars": 175,
-  "dense_pages": 0,
-  "min_font": 9.0,
-  "code_blocks": 2,
-  "code_compiled": 2,
-  "syntax_errors": 0,
-  "cjk_punct": 0,
-  "overflows": 73,
-  "garbled": 1,
-  "dir": "01-AI应用基础"
- },
- {
-  "file": "W06-第3次课-看得懂缺陷的神经网络.pptx",
-  "issues": [
-   {
-    "type": "overflow",
-    "page": 1,
-    "box": "13.33x0.07",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 1,
-    "box": "6.55x0.87",
-    "need": 1.12,
-    "text": "第六周 · 第3次课（2课时 · 80分钟）⏎双创中心302实训室  ·  理实"
-   },
-   {
-    "type": "overflow",
-    "page": 1,
-    "box": "1.64x0.09",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 3,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 4,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 6,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 7,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 8,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 9,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 10,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 12,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 14,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 15,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 16,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 17,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 18,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 19,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 20,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 21,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 23,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 24,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 25,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 26,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 27,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 28,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 29,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 30,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 31,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 32,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 33,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 35,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 36,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 37,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 38,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 39,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 40,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 41,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 42,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 43,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 44,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 45,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 46,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 47,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 48,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 49,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 50,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 51,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 53,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 54,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 55,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 56,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 57,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 58,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 59,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 60,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "garbled",
-    "page": 60,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
-   },
-   {
-    "type": "overflow",
-    "page": 61,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 63,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 64,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 65,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 66,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 67,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 68,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 69,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 70,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 71,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 72,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 73,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 74,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 75,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 76,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 77,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 78,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 79,
-    "box": "13.33x0.05",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 80,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   }
-  ],
-  "slides": 82,
-  "avg_chars": 181,
-  "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 2,
-  "code_compiled": 2,
-  "syntax_errors": 0,
-  "cjk_punct": 0,
-  "overflows": 74,
-  "garbled": 1,
-  "dir": "01-AI应用基础"
- },
- {
-  "file": "W07-第4次课-预知设备的剩余寿命.pptx",
-  "issues": [
-   {
-    "type": "overflow",
-    "page": 1,
-    "box": "13.33x0.07",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 1,
-    "box": "6.55x0.87",
-    "need": 1.12,
-    "text": "第七周 · 第4次课（2课时 · 80分钟）⏎双创中心302实训室  ·  理实"
-   },
-   {
-    "type": "overflow",
-    "page": 1,
-    "box": "1.64x0.09",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 3,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 4,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 6,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 7,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 8,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 9,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 10,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 12,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 14,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 15,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 16,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 17,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 18,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 19,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 20,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 21,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 23,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 24,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 25,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 26,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 27,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 28,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 29,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 30,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 31,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 32,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 33,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 34,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 36,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 37,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 38,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 39,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "dense_page",
-    "page": 39,
-    "chars": 905
-   },
-   {
-    "type": "overflow",
-    "page": 40,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 41,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 42,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 43,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 44,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 45,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 46,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 47,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 48,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 49,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 50,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 51,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 53,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 54,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 55,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 56,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 57,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 58,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 59,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 60,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "garbled",
-    "page": 60,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
-   },
-   {
-    "type": "overflow",
-    "page": 61,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 63,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 64,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 65,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 66,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 67,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 68,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 69,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 70,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 71,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 72,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 73,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 74,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 75,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 76,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 77,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 78,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 79,
-    "box": "13.33x0.05",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 80,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   }
-  ],
-  "slides": 82,
-  "avg_chars": 179,
-  "dense_pages": 1,
-  "min_font": 8.5,
-  "code_blocks": 2,
-  "code_compiled": 2,
-  "syntax_errors": 0,
-  "cjk_punct": 0,
-  "overflows": 74,
-  "garbled": 1,
-  "dir": "01-AI应用基础"
- },
- {
-  "file": "W08-第5次课-给产品做一次视觉体检.pptx",
-  "issues": [
-   {
-    "type": "overflow",
-    "page": 1,
-    "box": "13.33x0.07",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 1,
-    "box": "6.55x0.87",
-    "need": 1.12,
-    "text": "第八周 · 第5次课（2课时 · 80分钟）⏎双创中心302实训室  ·  理实"
    },
    {
     "type": "overflow",
@@ -2688,14 +1087,1687 @@
    }
   ],
   "slides": 83,
-  "avg_chars": 177,
+  "avg_chars": 188,
+  "dense_pages": 0,
+  "min_font": 8.5,
+  "code_blocks": 2,
+  "code_compiled": 2,
+  "syntax_errors": 0,
+  "cjk_punct": 0,
+  "overflows": 75,
+  "garbled": 1,
+  "dir": "01-AI应用基础"
+ },
+ {
+  "file": "W06-第3次课-看得懂缺陷的神经网络.pptx",
+  "issues": [
+   {
+    "type": "overflow",
+    "page": 1,
+    "box": "13.33x0.07",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 1,
+    "box": "6.55x0.87",
+    "need": 1.12,
+    "text": "第六周 · 第3次课（2课时 · 80分钟）⏎双创中心302实训室  ·  理实"
+   },
+   {
+    "type": "overflow",
+    "page": 1,
+    "box": "1.64x0.09",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 3,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 4,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 6,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 7,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 8,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 9,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 10,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 12,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 14,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 15,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 16,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 19,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 20,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 21,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 23,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 24,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 25,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 26,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 27,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 28,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 29,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 30,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 31,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 32,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 33,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 35,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 36,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 37,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 38,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 39,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 40,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 41,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 42,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 43,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 44,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 45,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 46,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 47,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 48,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 49,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 50,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 51,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 52,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 53,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 55,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 56,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 57,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 58,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 59,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 60,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 61,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 62,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 62,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 63,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 65,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 66,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 67,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 82,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   }
+  ],
+  "slides": 84,
+  "avg_chars": 193,
+  "dense_pages": 0,
+  "min_font": 8.5,
+  "code_blocks": 2,
+  "code_compiled": 2,
+  "syntax_errors": 0,
+  "cjk_punct": 0,
+  "overflows": 76,
+  "garbled": 1,
+  "dir": "01-AI应用基础"
+ },
+ {
+  "file": "W07-第4次课-预知设备的剩余寿命.pptx",
+  "issues": [
+   {
+    "type": "overflow",
+    "page": 1,
+    "box": "13.33x0.07",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 1,
+    "box": "6.55x0.87",
+    "need": 1.12,
+    "text": "第七周 · 第4次课（2课时 · 80分钟）⏎双创中心302实训室  ·  理实"
+   },
+   {
+    "type": "overflow",
+    "page": 1,
+    "box": "1.64x0.09",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 3,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 4,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 6,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 7,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 8,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 9,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 10,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 12,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 14,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 15,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 16,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 19,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 20,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 21,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 23,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 24,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 25,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 26,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 27,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 28,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 29,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 30,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 31,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 32,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 33,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 34,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 36,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 37,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 38,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 39,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 40,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 41,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 42,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 43,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 44,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 45,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 46,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 47,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 48,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 49,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 50,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 51,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 52,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 53,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 54,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 56,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 57,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 58,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 59,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 60,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 61,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 62,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 63,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 63,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 64,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 66,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 67,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 82,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 83,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   }
+  ],
+  "slides": 85,
+  "avg_chars": 189,
+  "dense_pages": 0,
+  "min_font": 8.5,
+  "code_blocks": 2,
+  "code_compiled": 2,
+  "syntax_errors": 0,
+  "cjk_punct": 0,
+  "overflows": 77,
+  "garbled": 1,
+  "dir": "01-AI应用基础"
+ },
+ {
+  "file": "W08-第5次课-给产品做一次视觉体检.pptx",
+  "issues": [
+   {
+    "type": "overflow",
+    "page": 1,
+    "box": "13.33x0.07",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 1,
+    "box": "6.55x0.87",
+    "need": 1.12,
+    "text": "第八周 · 第5次课（2课时 · 80分钟）⏎双创中心302实训室  ·  理实"
+   },
+   {
+    "type": "overflow",
+    "page": 1,
+    "box": "1.64x0.09",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 3,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 4,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 6,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 7,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 8,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 9,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 10,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 12,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 14,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 15,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 16,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 19,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 20,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 21,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 23,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 24,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 25,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 26,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 27,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 28,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 29,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 30,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 31,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 32,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 33,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 34,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 36,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 37,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 38,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 39,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 40,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 41,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 42,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 43,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 44,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 45,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 46,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 47,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 48,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 49,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 50,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 51,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 52,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 53,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 54,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 56,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 57,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 58,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 59,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 60,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 61,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 62,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 63,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 63,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 64,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 66,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 67,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 82,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 83,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   }
+  ],
+  "slides": 85,
+  "avg_chars": 188,
   "dense_pages": 0,
   "min_font": 8.5,
   "code_blocks": 1,
   "code_compiled": 1,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 75,
+  "overflows": 77,
   "garbled": 1,
   "dir": "01-AI应用基础"
  },
@@ -3033,14 +3105,14 @@
    },
    {
     "type": "overflow",
-    "page": 53,
+    "page": 52,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
-    "page": 54,
+    "page": 53,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -3088,11 +3160,6 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 60,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
-   },
-   {
     "type": "overflow",
     "page": 61,
     "box": "2.84x0.08",
@@ -3101,14 +3168,19 @@
    },
    {
     "type": "overflow",
-    "page": 63,
+    "page": 62,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
+    "type": "garbled",
+    "page": 62,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
     "type": "overflow",
-    "page": 64,
+    "page": 63,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -3214,7 +3286,7 @@
    {
     "type": "overflow",
     "page": 79,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -3224,17 +3296,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 82,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 82,
-  "avg_chars": 184,
+  "slides": 84,
+  "avg_chars": 196,
   "dense_pages": 0,
   "min_font": 8.5,
   "code_blocks": 2,
   "code_compiled": 2,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 74,
+  "overflows": 76,
   "garbled": 1,
   "dir": "01-AI应用基础"
  },
@@ -3537,14 +3623,14 @@
    },
    {
     "type": "overflow",
-    "page": 48,
+    "page": 47,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
-    "page": 49,
+    "page": 48,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -3592,11 +3678,6 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 55,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
-   },
-   {
     "type": "overflow",
     "page": 56,
     "box": "2.84x0.08",
@@ -3605,14 +3686,19 @@
    },
    {
     "type": "overflow",
-    "page": 58,
+    "page": 57,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
+    "type": "garbled",
+    "page": 57,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
     "type": "overflow",
-    "page": 59,
+    "page": 58,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -3718,7 +3804,7 @@
    {
     "type": "overflow",
     "page": 74,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -3728,17 +3814,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 77,
-  "avg_chars": 179,
+  "slides": 79,
+  "avg_chars": 187,
   "dense_pages": 0,
   "min_font": 8.5,
   "code_blocks": 1,
   "code_compiled": 1,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 69,
+  "overflows": 71,
   "garbled": 1,
   "dir": "01-AI应用基础"
  },
@@ -4045,14 +4145,14 @@
    },
    {
     "type": "overflow",
-    "page": 47,
+    "page": 46,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
-    "page": 48,
+    "page": 47,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -4100,11 +4200,6 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 54,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
-   },
-   {
     "type": "overflow",
     "page": 55,
     "box": "2.84x0.08",
@@ -4113,14 +4208,19 @@
    },
    {
     "type": "overflow",
-    "page": 57,
+    "page": 56,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
+    "type": "garbled",
+    "page": 56,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
     "type": "overflow",
-    "page": 58,
+    "page": 57,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -4226,20 +4326,34 @@
    {
     "type": "overflow",
     "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
     "box": "13.33x0.05",
     "need": 0.23,
     "text": ""
    }
   ],
-  "slides": 75,
-  "avg_chars": 182,
+  "slides": 77,
+  "avg_chars": 191,
   "dense_pages": 0,
   "min_font": 8.5,
   "code_blocks": 2,
   "code_compiled": 2,
   "syntax_errors": 0,
   "cjk_punct": 1,
-  "overflows": 67,
+  "overflows": 69,
   "garbled": 1,
   "dir": "01-AI应用基础"
  },
@@ -4753,7 +4867,7 @@
    {
     "type": "overflow",
     "page": 9,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -4763,17 +4877,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 11,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 12,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 12,
-  "avg_chars": 260,
+  "slides": 14,
+  "avg_chars": 274,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 11,
+  "overflows": 13,
   "garbled": 0,
   "dir": "02-程序设计基础"
  },
@@ -5305,7 +5433,7 @@
    {
     "type": "overflow",
     "page": 9,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -5315,17 +5443,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 11,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 12,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 12,
-  "avg_chars": 238,
+  "slides": 14,
+  "avg_chars": 253,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 11,
+  "overflows": 13,
   "garbled": 0,
   "dir": "02-程序设计基础"
  },
@@ -5860,7 +6002,7 @@
    {
     "type": "overflow",
     "page": 10,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -5870,17 +6012,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 12,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 13,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 13,
-  "avg_chars": 238,
+  "slides": 15,
+  "avg_chars": 252,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 12,
+  "overflows": 14,
   "garbled": 0,
   "dir": "02-程序设计基础"
  },
@@ -6401,7 +6557,7 @@
    {
     "type": "overflow",
     "page": 10,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -6411,17 +6567,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 12,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 13,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 13,
-  "avg_chars": 235,
+  "slides": 15,
+  "avg_chars": 250,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 12,
+  "overflows": 14,
   "garbled": 0,
   "dir": "02-程序设计基础"
  },
@@ -6501,7 +6671,7 @@
    {
     "type": "overflow",
     "page": 10,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -6511,17 +6681,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 12,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 13,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 13,
-  "avg_chars": 240,
+  "slides": 15,
+  "avg_chars": 254,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 12,
+  "overflows": 14,
   "garbled": 0,
   "dir": "02-程序设计基础"
  },
@@ -7469,7 +7653,7 @@
    {
     "type": "overflow",
     "page": 10,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -7479,17 +7663,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 12,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 13,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 13,
-  "avg_chars": 246,
+  "slides": 15,
+  "avg_chars": 262,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 12,
+  "overflows": 14,
   "garbled": 0,
   "dir": "02-程序设计基础"
  },
@@ -8010,7 +8208,7 @@
    {
     "type": "overflow",
     "page": 10,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -8020,17 +8218,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 12,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 13,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 13,
-  "avg_chars": 233,
+  "slides": 15,
+  "avg_chars": 249,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 12,
+  "overflows": 14,
   "garbled": 0,
   "dir": "02-程序设计基础"
  },
@@ -8565,7 +8777,7 @@
    {
     "type": "overflow",
     "page": 11,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -8575,17 +8787,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 13,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 14,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 14,
-  "avg_chars": 235,
+  "slides": 16,
+  "avg_chars": 251,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 13,
+  "overflows": 15,
   "garbled": 0,
   "dir": "02-程序设计基础"
  },
@@ -9106,7 +9332,7 @@
    {
     "type": "overflow",
     "page": 10,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -9116,17 +9342,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 12,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 13,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 13,
-  "avg_chars": 240,
+  "slides": 15,
+  "avg_chars": 255,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 12,
+  "overflows": 14,
   "garbled": 0,
   "dir": "02-程序设计基础"
  },
@@ -9647,7 +9887,7 @@
    {
     "type": "overflow",
     "page": 10,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -9657,17 +9897,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 12,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 13,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 13,
-  "avg_chars": 238,
+  "slides": 15,
+  "avg_chars": 256,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 12,
+  "overflows": 14,
   "garbled": 0,
   "dir": "02-程序设计基础"
  },
@@ -10195,7 +10449,7 @@
    {
     "type": "overflow",
     "page": 11,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -10205,17 +10459,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 13,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 14,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 14,
-  "avg_chars": 231,
+  "slides": 16,
+  "avg_chars": 247,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 13,
+  "overflows": 15,
   "garbled": 0,
   "dir": "02-程序设计基础"
  },
@@ -10729,20 +10997,34 @@
    {
     "type": "overflow",
     "page": 11,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 12,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 13,
     "box": "13.33x0.05",
     "need": 0.23,
     "text": ""
    }
   ],
-  "slides": 13,
-  "avg_chars": 220,
+  "slides": 15,
+  "avg_chars": 230,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 12,
+  "overflows": 14,
   "garbled": 0,
   "dir": "02-程序设计基础"
  },
@@ -11298,21 +11580,21 @@
    {
     "type": "overflow",
     "page": 11,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 12,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 13,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -11322,17 +11604,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 15,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 16,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 16,
-  "avg_chars": 281,
+  "slides": 18,
+  "avg_chars": 292,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 14,
+  "overflows": 16,
   "garbled": 0,
   "dir": "03-Python程序设计-项目实战"
  },
@@ -11648,11 +11944,6 @@
     "text": ""
    },
    {
-    "type": "dense_page",
-    "page": 50,
-    "chars": 1061
-   },
-   {
     "type": "overflow",
     "page": 51,
     "box": "13.33x0.07",
@@ -11669,7 +11960,7 @@
    {
     "type": "overflow",
     "page": 53,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
@@ -11716,16 +12007,16 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 59,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
-   },
-   {
     "type": "overflow",
-    "page": 61,
+    "page": 60,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 60,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
    },
    {
     "type": "overflow",
@@ -11765,27 +12056,34 @@
    {
     "type": "overflow",
     "page": 67,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 68,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    }
   ],
-  "slides": 70,
-  "avg_chars": 195,
-  "dense_pages": 1,
+  "slides": 71,
+  "avg_chars": 194,
+  "dense_pages": 0,
   "min_font": 8.5,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 61,
+  "overflows": 62,
   "garbled": 1,
   "dir": "03-Python程序设计-项目实战"
  },
@@ -11828,11 +12126,6 @@
     "text": ""
    },
    {
-    "type": "dense_page",
-    "page": 5,
-    "chars": 1060
-   },
-   {
     "type": "overflow",
     "page": 6,
     "box": "13.33x0.07",
@@ -11870,21 +12163,21 @@
    {
     "type": "overflow",
     "page": 11,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 12,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 13,
-    "box": "13.33x0.05",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
@@ -11894,17 +12187,38 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 15,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 16,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 16,
-  "avg_chars": 298,
-  "dense_pages": 1,
-  "min_font": 7.5,
+  "slides": 19,
+  "avg_chars": 299,
+  "dense_pages": 0,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 14,
+  "overflows": 17,
   "garbled": 0,
   "dir": "03-Python程序设计-项目实战"
  },
@@ -12460,21 +12774,21 @@
    {
     "type": "overflow",
     "page": 11,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 12,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 13,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -12484,17 +12798,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 15,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 16,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 16,
-  "avg_chars": 286,
+  "slides": 18,
+  "avg_chars": 296,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 15,
+  "overflows": 17,
   "garbled": 0,
   "dir": "03-Python程序设计-项目实战"
  },
@@ -13036,21 +13364,21 @@
    {
     "type": "overflow",
     "page": 11,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 12,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 13,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -13060,17 +13388,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 15,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 16,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 16,
-  "avg_chars": 280,
+  "slides": 18,
+  "avg_chars": 289,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 15,
+  "overflows": 17,
   "garbled": 0,
   "dir": "03-Python程序设计-项目实战"
  },
@@ -13122,7 +13464,7 @@
    {
     "type": "overflow",
     "page": 7,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
@@ -13136,14 +13478,9 @@
    {
     "type": "overflow",
     "page": 9,
-    "box": "13.33x0.07",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
-   },
-   {
-    "type": "dense_page",
-    "page": 9,
-    "chars": 1477
    },
    {
     "type": "overflow",
@@ -13162,34 +13499,60 @@
    {
     "type": "overflow",
     "page": 12,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
+    "type": "dense_page",
+    "page": 12,
+    "chars": 949
+   },
+   {
     "type": "overflow",
     "page": 13,
-    "box": "13.33x0.05",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 14,
+    "box": "13.33x0.07",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 15,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 16,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    }
   ],
-  "slides": 16,
-  "avg_chars": 330,
+  "slides": 19,
+  "avg_chars": 322,
   "dense_pages": 1,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 14,
+  "overflows": 17,
   "garbled": 0,
   "dir": "03-Python程序设计-项目实战"
  },
@@ -13512,16 +13875,16 @@
     "text": ""
    },
    {
-    "type": "dense_page",
-    "page": 51,
-    "chars": 1478
-   },
-   {
     "type": "overflow",
     "page": 52,
     "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "dense_page",
+    "page": 52,
+    "chars": 949
    },
    {
     "type": "overflow",
@@ -13533,7 +13896,7 @@
    {
     "type": "overflow",
     "page": 54,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
@@ -13573,16 +13936,16 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 59,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
-   },
-   {
     "type": "overflow",
-    "page": 61,
+    "page": 60,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 60,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
    },
    {
     "type": "overflow",
@@ -13622,27 +13985,34 @@
    {
     "type": "overflow",
     "page": 67,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 68,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    }
   ],
-  "slides": 70,
-  "avg_chars": 201,
+  "slides": 71,
+  "avg_chars": 200,
   "dense_pages": 1,
   "min_font": 8.5,
   "code_blocks": 1,
   "code_compiled": 1,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 61,
+  "overflows": 62,
   "garbled": 1,
   "dir": "03-Python程序设计-项目实战"
  },
@@ -14156,14 +14526,14 @@
    {
     "type": "overflow",
     "page": 12,
-    "box": "13.33x0.07",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 13,
-    "box": "13.33x0.07",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -14184,14 +14554,14 @@
    {
     "type": "overflow",
     "page": 16,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 17,
-    "box": "13.33x0.05",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
@@ -14201,17 +14571,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 19,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 20,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 20,
-  "avg_chars": 305,
+  "slides": 22,
+  "avg_chars": 310,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 1,
   "code_compiled": 1,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 18,
+  "overflows": 20,
   "garbled": 0,
   "dir": "03-Python程序设计-项目实战"
  },
@@ -14559,11 +14943,6 @@
     "text": ""
    },
    {
-    "type": "dense_page",
-    "page": 52,
-    "chars": 1094
-   },
-   {
     "type": "overflow",
     "page": 53,
     "box": "13.33x0.07",
@@ -14580,7 +14959,7 @@
    {
     "type": "overflow",
     "page": 55,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
@@ -14620,16 +14999,16 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 60,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
-   },
-   {
     "type": "overflow",
-    "page": 62,
+    "page": 61,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 61,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
    },
    {
     "type": "overflow",
@@ -14669,27 +15048,34 @@
    {
     "type": "overflow",
     "page": 68,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 69,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 70,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    }
   ],
-  "slides": 71,
-  "avg_chars": 208,
-  "dense_pages": 1,
+  "slides": 72,
+  "avg_chars": 206,
+  "dense_pages": 0,
   "min_font": 8.5,
   "code_blocks": 4,
   "code_compiled": 4,
   "syntax_errors": 0,
   "cjk_punct": 1,
-  "overflows": 63,
+  "overflows": 64,
   "garbled": 1,
   "dir": "03-Python程序设计-项目实战"
  },
@@ -14787,21 +15173,16 @@
    {
     "type": "overflow",
     "page": 11,
-    "box": "13.33x0.07",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 12,
-    "box": "13.33x0.07",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
-   },
-   {
-    "type": "dense_page",
-    "page": 12,
-    "chars": 1094
    },
    {
     "type": "overflow",
@@ -14820,34 +15201,55 @@
    {
     "type": "overflow",
     "page": 15,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 16,
-    "box": "13.33x0.05",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 17,
+    "box": "13.33x0.07",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 19,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 20,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    }
   ],
-  "slides": 19,
-  "avg_chars": 337,
-  "dense_pages": 1,
-  "min_font": 7.5,
+  "slides": 22,
+  "avg_chars": 328,
+  "dense_pages": 0,
+  "min_font": 9.0,
   "code_blocks": 3,
   "code_compiled": 3,
   "syntax_errors": 0,
   "cjk_punct": 1,
-  "overflows": 18,
+  "overflows": 21,
   "garbled": 0,
   "dir": "03-Python程序设计-项目实战"
  },
@@ -15199,11 +15601,6 @@
     "text": ""
    },
    {
-    "type": "dense_page",
-    "page": 53,
-    "chars": 1050
-   },
-   {
     "type": "overflow",
     "page": 54,
     "box": "13.33x0.07",
@@ -15220,7 +15617,7 @@
    {
     "type": "overflow",
     "page": 56,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
@@ -15260,16 +15657,16 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 61,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
-   },
-   {
     "type": "overflow",
-    "page": 63,
+    "page": 62,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 62,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
    },
    {
     "type": "overflow",
@@ -15309,27 +15706,34 @@
    {
     "type": "overflow",
     "page": 69,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 70,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    }
   ],
-  "slides": 72,
-  "avg_chars": 206,
-  "dense_pages": 1,
+  "slides": 73,
+  "avg_chars": 204,
+  "dense_pages": 0,
   "min_font": 8.5,
   "code_blocks": 4,
   "code_compiled": 4,
   "syntax_errors": 0,
   "cjk_punct": 1,
-  "overflows": 63,
+  "overflows": 64,
   "garbled": 1,
   "dir": "03-Python程序设计-项目实战"
  },
@@ -15428,21 +15832,16 @@
    {
     "type": "overflow",
     "page": 11,
-    "box": "13.33x0.07",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 12,
-    "box": "13.33x0.07",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
-   },
-   {
-    "type": "dense_page",
-    "page": 12,
-    "chars": 1050
    },
    {
     "type": "overflow",
@@ -15461,34 +15860,55 @@
    {
     "type": "overflow",
     "page": 15,
-    "box": "2.84x0.08",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 16,
-    "box": "13.33x0.05",
+    "box": "13.33x0.07",
     "need": 0.23,
     "text": ""
    },
    {
     "type": "overflow",
     "page": 17,
+    "box": "13.33x0.07",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 19,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 20,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    }
   ],
-  "slides": 19,
-  "avg_chars": 327,
-  "dense_pages": 1,
-  "min_font": 7.5,
+  "slides": 22,
+  "avg_chars": 322,
+  "dense_pages": 0,
+  "min_font": 9.0,
   "code_blocks": 1,
   "code_compiled": 1,
   "syntax_errors": 0,
   "cjk_punct": 1,
-  "overflows": 17,
+  "overflows": 20,
   "garbled": 0,
   "dir": "03-Python程序设计-项目实战"
  },
@@ -15707,6 +16127,13 @@
    },
    {
     "type": "overflow",
+    "page": 34,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 35,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -15784,13 +16211,6 @@
    },
    {
     "type": "overflow",
-    "page": 46,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 47,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -15827,6 +16247,13 @@
    {
     "type": "overflow",
     "page": 52,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 53,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -15881,9 +16308,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 60,
-    "text": "学生代码框架/w1_xxx_starter.py——TODO注释即步骤提示"
+    "type": "overflow",
+    "page": 61,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -15908,13 +16337,6 @@
    },
    {
     "type": "overflow",
-    "page": 65,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 66,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -15930,7 +16352,7 @@
    {
     "type": "overflow",
     "page": 68,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -15940,17 +16362,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 72,
+    "text": "学生代码框架/w1_xxx_starter.py——TODO注释即步骤提示"
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 71,
-  "avg_chars": 194,
+  "slides": 83,
+  "avg_chars": 248,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 2,
-  "code_compiled": 2,
+  "min_font": 7.5,
+  "code_blocks": 5,
+  "code_compiled": 5,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 63,
+  "overflows": 75,
   "garbled": 1,
   "dir": "05-AI应用基础48课时版"
  },
@@ -16072,7 +16576,7 @@
    {
     "type": "overflow",
     "page": 15,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -16082,17 +16586,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 18,
-  "avg_chars": 292,
+  "slides": 20,
+  "avg_chars": 298,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 18,
+  "overflows": 20,
   "garbled": 0,
   "dir": "05-AI应用基础48课时版"
  },
@@ -16311,6 +16829,13 @@
    },
    {
     "type": "overflow",
+    "page": 33,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 34,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -16388,13 +16913,6 @@
    },
    {
     "type": "overflow",
-    "page": 45,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 46,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -16431,6 +16949,13 @@
    {
     "type": "overflow",
     "page": 51,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 52,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -16485,9 +17010,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 59,
-    "text": "学生代码框架/w2_xxx_starter.py——TODO注释即步骤提示"
+    "type": "overflow",
+    "page": 60,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -16512,13 +17039,6 @@
    },
    {
     "type": "overflow",
-    "page": 64,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 65,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -16534,7 +17054,7 @@
    {
     "type": "overflow",
     "page": 67,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -16544,17 +17064,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 71,
+    "text": "学生代码框架/w2_xxx_starter.py——TODO注释即步骤提示"
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 70,
-  "avg_chars": 189,
+  "slides": 82,
+  "avg_chars": 239,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 2,
-  "code_compiled": 2,
+  "min_font": 7.5,
+  "code_blocks": 4,
+  "code_compiled": 4,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 63,
+  "overflows": 75,
   "garbled": 1,
   "dir": "05-AI应用基础48课时版"
  },
@@ -16676,7 +17278,7 @@
    {
     "type": "overflow",
     "page": 15,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -16686,17 +17288,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 18,
-  "avg_chars": 287,
+  "slides": 20,
+  "avg_chars": 292,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 18,
+  "overflows": 20,
   "garbled": 0,
   "dir": "05-AI应用基础48课时版"
  },
@@ -16929,6 +17545,13 @@
    },
    {
     "type": "overflow",
+    "page": 35,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 36,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -17006,13 +17629,6 @@
    },
    {
     "type": "overflow",
-    "page": 47,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 48,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -17049,6 +17665,13 @@
    {
     "type": "overflow",
     "page": 53,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 54,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -17103,9 +17726,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 61,
-    "text": "学生代码框架/w3_xxx_starter.py——TODO注释即步骤提示"
+    "type": "overflow",
+    "page": 62,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -17130,13 +17755,6 @@
    },
    {
     "type": "overflow",
-    "page": 66,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 67,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -17152,7 +17770,7 @@
    {
     "type": "overflow",
     "page": 69,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -17162,17 +17780,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 73,
+    "text": "学生代码框架/w3_xxx_starter.py——TODO注释即步骤提示"
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 82,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 72,
-  "avg_chars": 191,
+  "slides": 84,
+  "avg_chars": 241,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 1,
-  "code_compiled": 1,
+  "min_font": 7.5,
+  "code_blocks": 5,
+  "code_compiled": 5,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 65,
+  "overflows": 77,
   "garbled": 1,
   "dir": "05-AI应用基础48课时版"
  },
@@ -17294,7 +17994,7 @@
    {
     "type": "overflow",
     "page": 15,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -17304,17 +18004,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 18,
-  "avg_chars": 297,
+  "slides": 20,
+  "avg_chars": 301,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 18,
+  "overflows": 20,
   "garbled": 0,
   "dir": "05-AI应用基础48课时版"
  },
@@ -17547,6 +18261,13 @@
    },
    {
     "type": "overflow",
+    "page": 35,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 36,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -17624,13 +18345,6 @@
    },
    {
     "type": "overflow",
-    "page": 47,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 48,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -17667,6 +18381,13 @@
    {
     "type": "overflow",
     "page": 53,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 54,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -17721,9 +18442,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 61,
-    "text": "学生代码框架/w4_xxx_starter.py——TODO注释即步骤提示"
+    "type": "overflow",
+    "page": 62,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -17748,13 +18471,6 @@
    },
    {
     "type": "overflow",
-    "page": 66,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 67,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -17770,7 +18486,7 @@
    {
     "type": "overflow",
     "page": 69,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -17780,17 +18496,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 73,
+    "text": "学生代码框架/w4_xxx_starter.py——TODO注释即步骤提示"
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 82,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 72,
-  "avg_chars": 191,
+  "slides": 84,
+  "avg_chars": 244,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 2,
-  "code_compiled": 2,
+  "min_font": 7.5,
+  "code_blocks": 7,
+  "code_compiled": 7,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 65,
+  "overflows": 77,
   "garbled": 1,
   "dir": "05-AI应用基础48课时版"
  },
@@ -17912,7 +18710,7 @@
    {
     "type": "overflow",
     "page": 15,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -17922,17 +18720,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 18,
-  "avg_chars": 297,
+  "slides": 20,
+  "avg_chars": 300,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 18,
+  "overflows": 20,
   "garbled": 0,
   "dir": "05-AI应用基础48课时版"
  },
@@ -18061,7 +18873,7 @@
    {
     "type": "overflow",
     "page": 16,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -18071,17 +18883,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 19,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 19,
-  "avg_chars": 282,
+  "slides": 21,
+  "avg_chars": 287,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 19,
+  "overflows": 21,
   "garbled": 0,
   "dir": "05-AI应用基础48课时版"
  },
@@ -18307,6 +19133,13 @@
    },
    {
     "type": "overflow",
+    "page": 35,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 36,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -18384,13 +19217,6 @@
    },
    {
     "type": "overflow",
-    "page": 47,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 48,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -18434,6 +19260,13 @@
    {
     "type": "overflow",
     "page": 54,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 55,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -18488,9 +19321,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 62,
-    "text": "学生代码框架/w5_xxx_starter.py——TODO注释即步骤提示"
+    "type": "overflow",
+    "page": 63,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -18515,13 +19350,6 @@
    },
    {
     "type": "overflow",
-    "page": 67,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 68,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -18537,7 +19365,7 @@
    {
     "type": "overflow",
     "page": 70,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -18547,17 +19375,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 74,
+    "text": "学生代码框架/w5_xxx_starter.py——TODO注释即步骤提示"
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 82,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 83,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 73,
-  "avg_chars": 187,
+  "slides": 85,
+  "avg_chars": 237,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 2,
-  "code_compiled": 2,
+  "min_font": 7.5,
+  "code_blocks": 4,
+  "code_compiled": 4,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 65,
+  "overflows": 77,
   "garbled": 1,
   "dir": "05-AI应用基础48课时版"
  },
@@ -18776,6 +19686,13 @@
    },
    {
     "type": "overflow",
+    "page": 33,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 34,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -18853,13 +19770,6 @@
    },
    {
     "type": "overflow",
-    "page": 45,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 46,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -18896,6 +19806,13 @@
    {
     "type": "overflow",
     "page": 51,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 52,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -18950,9 +19867,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 59,
-    "text": "学生代码框架/w6_xxx_starter.py——TODO注释即步骤提示"
+    "type": "overflow",
+    "page": 60,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -18977,13 +19896,6 @@
    },
    {
     "type": "overflow",
-    "page": 64,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 65,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -18999,7 +19911,7 @@
    {
     "type": "overflow",
     "page": 67,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -19009,17 +19921,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 71,
+    "text": "学生代码框架/w6_xxx_starter.py——TODO注释即步骤提示"
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 70,
-  "avg_chars": 189,
+  "slides": 82,
+  "avg_chars": 237,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 2,
-  "code_compiled": 2,
+  "min_font": 7.5,
+  "code_blocks": 3,
+  "code_compiled": 3,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 63,
+  "overflows": 75,
   "garbled": 1,
   "dir": "05-AI应用基础48课时版"
  },
@@ -19141,7 +20135,7 @@
    {
     "type": "overflow",
     "page": 15,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -19151,17 +20145,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 18,
-  "avg_chars": 287,
+  "slides": 20,
+  "avg_chars": 292,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 18,
+  "overflows": 20,
   "garbled": 0,
   "dir": "05-AI应用基础48课时版"
  },
@@ -19380,6 +20388,13 @@
    },
    {
     "type": "overflow",
+    "page": 33,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 34,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -19457,13 +20472,6 @@
    },
    {
     "type": "overflow",
-    "page": 45,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 46,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -19507,6 +20515,13 @@
    {
     "type": "overflow",
     "page": 52,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 53,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -19561,9 +20576,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 60,
-    "text": "学生代码框架/w7_xxx_starter.py——TODO注释即步骤提示"
+    "type": "overflow",
+    "page": 61,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -19588,13 +20605,6 @@
    },
    {
     "type": "overflow",
-    "page": 65,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 66,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -19610,7 +20620,7 @@
    {
     "type": "overflow",
     "page": 68,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -19620,17 +20630,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 72,
+    "text": "学生代码框架/w7_xxx_starter.py——TODO注释即步骤提示"
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 71,
-  "avg_chars": 189,
+  "slides": 83,
+  "avg_chars": 239,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 2,
-  "code_compiled": 2,
+  "min_font": 7.5,
+  "code_blocks": 4,
+  "code_compiled": 4,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 64,
+  "overflows": 76,
   "garbled": 1,
   "dir": "05-AI应用基础48课时版"
  },
@@ -19759,7 +20851,7 @@
    {
     "type": "overflow",
     "page": 16,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -19769,17 +20861,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 19,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 19,
-  "avg_chars": 283,
+  "slides": 21,
+  "avg_chars": 288,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 19,
+  "overflows": 21,
   "garbled": 0,
   "dir": "05-AI应用基础48课时版"
  },
@@ -20005,6 +21111,13 @@
    },
    {
     "type": "overflow",
+    "page": 34,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 35,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -20082,13 +21195,6 @@
    },
    {
     "type": "overflow",
-    "page": 46,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 47,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -20132,6 +21238,13 @@
    {
     "type": "overflow",
     "page": 53,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 54,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -20186,9 +21299,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 61,
-    "text": "学生代码框架/w8_xxx_starter.py——TODO注释即步骤提示"
+    "type": "overflow",
+    "page": 62,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -20213,13 +21328,6 @@
    },
    {
     "type": "overflow",
-    "page": 66,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 67,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -20235,7 +21343,7 @@
    {
     "type": "overflow",
     "page": 69,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -20245,17 +21353,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 73,
+    "text": "学生代码框架/w8_xxx_starter.py——TODO注释即步骤提示"
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 82,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 72,
-  "avg_chars": 188,
+  "slides": 84,
+  "avg_chars": 234,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 2,
-  "code_compiled": 2,
+  "min_font": 7.5,
+  "code_blocks": 3,
+  "code_compiled": 3,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 65,
+  "overflows": 77,
   "garbled": 1,
   "dir": "05-AI应用基础48课时版"
  },
@@ -20384,7 +21574,7 @@
    {
     "type": "overflow",
     "page": 16,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -20394,17 +21584,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 19,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 19,
-  "avg_chars": 291,
+  "slides": 21,
+  "avg_chars": 295,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 19,
+  "overflows": 21,
   "garbled": 0,
   "dir": "05-AI应用基础48课时版"
  },
@@ -20630,6 +21834,13 @@
    },
    {
     "type": "overflow",
+    "page": 35,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 36,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -20707,13 +21918,6 @@
    },
    {
     "type": "overflow",
-    "page": 47,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 48,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -20750,6 +21954,13 @@
    {
     "type": "overflow",
     "page": 53,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 54,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -20804,9 +22015,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 61,
-    "text": "学生代码框架/w9_xxx_starter.py——TODO注释即步骤提示"
+    "type": "overflow",
+    "page": 62,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -20831,13 +22044,6 @@
    },
    {
     "type": "overflow",
-    "page": 66,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 67,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -20853,7 +22059,7 @@
    {
     "type": "overflow",
     "page": 69,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -20863,17 +22069,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 73,
+    "text": "学生代码框架/w9_xxx_starter.py——TODO注释即步骤提示"
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 82,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 72,
-  "avg_chars": 187,
+  "slides": 84,
+  "avg_chars": 233,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 2,
-  "code_compiled": 2,
+  "min_font": 7.5,
+  "code_blocks": 4,
+  "code_compiled": 4,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 64,
+  "overflows": 76,
   "garbled": 1,
   "dir": "05-AI应用基础48课时版"
  },
@@ -20995,7 +22283,7 @@
    {
     "type": "overflow",
     "page": 15,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -21005,17 +22293,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 18,
-  "avg_chars": 286,
+  "slides": 20,
+  "avg_chars": 291,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 18,
+  "overflows": 20,
   "garbled": 0,
   "dir": "05-AI应用基础48课时版"
  },
@@ -21233,19 +22535,15 @@
     "text": ""
    },
    {
-    "type": "cjk_punct_in_code",
-    "page": 32,
-    "detail": [
-     [
-      2,
-      "prompt = f\"依据以下条目回答，标注[编号]:\\n{ctx}\\n问题: {q}\""
-     ]
-    ],
-    "text": "ctx = \"\\n\".join(f\"[{i}] {d}\" for i, (s, d) in enumerate(hits"
+    "type": "overflow",
+    "page": 33,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
-    "page": 33,
+    "page": 34,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -21321,15 +22619,19 @@
     "text": ""
    },
    {
-    "type": "overflow",
-    "page": 45,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
+    "type": "cjk_punct_in_code",
+    "page": 44,
+    "detail": [
+     [
+      2,
+      "prompt = f\"依据以下条目回答，标注[编号]:\\n{ctx}\\n问题: {q}\""
+     ]
+    ],
+    "text": "ctx = \"\\n\".join(f\"[{i}] {d}\" for i, (s, d) in enumerate(hits"
    },
    {
     "type": "overflow",
-    "page": 46,
+    "page": 45,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -21372,6 +22674,13 @@
    {
     "type": "overflow",
     "page": 52,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 53,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -21426,9 +22735,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 60,
-    "text": "学生代码框架/w10_xxx_starter.py——TODO注释即步骤提示"
+    "type": "overflow",
+    "page": 61,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -21453,13 +22764,6 @@
    },
    {
     "type": "overflow",
-    "page": 65,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 66,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -21475,7 +22779,7 @@
    {
     "type": "overflow",
     "page": 68,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -21485,17 +22789,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 72,
+    "text": "学生代码框架/w10_xxx_starter.py——TODO注释即步骤提示"
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 71,
-  "avg_chars": 183,
+  "slides": 83,
+  "avg_chars": 229,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 2,
-  "code_compiled": 2,
+  "min_font": 7.5,
+  "code_blocks": 5,
+  "code_compiled": 5,
   "syntax_errors": 0,
   "cjk_punct": 1,
-  "overflows": 64,
+  "overflows": 76,
   "garbled": 1,
   "dir": "05-AI应用基础48课时版"
  },
@@ -21617,7 +23003,7 @@
    {
     "type": "overflow",
     "page": 15,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -21627,17 +23013,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 18,
-  "avg_chars": 283,
+  "slides": 20,
+  "avg_chars": 287,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 18,
+  "overflows": 20,
   "garbled": 0,
   "dir": "05-AI应用基础48课时版"
  },
@@ -21898,6 +23298,13 @@
    },
    {
     "type": "overflow",
+    "page": 39,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 40,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -21975,13 +23382,6 @@
    },
    {
     "type": "overflow",
-    "page": 51,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 52,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -22018,6 +23418,13 @@
    {
     "type": "overflow",
     "page": 57,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 58,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -22072,9 +23479,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 65,
-    "text": "学生代码框架/w11_xxx_starter.py——TODO注释即步骤提示"
+    "type": "overflow",
+    "page": 66,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -22099,13 +23508,6 @@
    },
    {
     "type": "overflow",
-    "page": 70,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 71,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -22121,7 +23523,7 @@
    {
     "type": "overflow",
     "page": 73,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -22131,17 +23533,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 77,
+    "text": "学生代码框架/w11_xxx_starter.py——TODO注释即步骤提示"
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 82,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 83,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 84,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 85,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 86,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 76,
-  "avg_chars": 187,
+  "slides": 88,
+  "avg_chars": 231,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 2,
-  "code_compiled": 2,
+  "min_font": 7.5,
+  "code_blocks": 5,
+  "code_compiled": 5,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 69,
+  "overflows": 81,
   "garbled": 1,
   "dir": "05-AI应用基础48课时版"
  },
@@ -22263,7 +23747,7 @@
    {
     "type": "overflow",
     "page": 15,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -22273,17 +23757,31 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 18,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 18,
-  "avg_chars": 294,
+  "slides": 20,
+  "avg_chars": 297,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 18,
+  "overflows": 20,
   "garbled": 0,
   "dir": "05-AI应用基础48课时版"
  },
@@ -22502,6 +24000,13 @@
    },
    {
     "type": "overflow",
+    "page": 34,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 35,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -22579,13 +24084,6 @@
    },
    {
     "type": "overflow",
-    "page": 46,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 47,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -22629,6 +24127,13 @@
    {
     "type": "overflow",
     "page": 53,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 54,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -22683,9 +24188,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 61,
-    "text": "学生代码框架/w12_xxx_starter.py——TODO注释即步骤提示"
+    "type": "overflow",
+    "page": 62,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -22710,13 +24217,6 @@
    },
    {
     "type": "overflow",
-    "page": 66,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 67,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -22732,20 +24232,102 @@
    {
     "type": "overflow",
     "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 73,
+    "text": "学生代码框架/w12_xxx_starter.py——TODO注释即步骤提示"
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 81,
     "box": "13.33x0.05",
     "need": 0.23,
     "text": ""
    }
   ],
-  "slides": 71,
-  "avg_chars": 180,
+  "slides": 83,
+  "avg_chars": 225,
   "dense_pages": 0,
-  "min_font": 8.5,
+  "min_font": 7.5,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 63,
+  "overflows": 75,
   "garbled": 1,
   "dir": "05-AI应用基础48课时版"
  },
@@ -22867,20 +24449,34 @@
    {
     "type": "overflow",
     "page": 15,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 16,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 17,
     "box": "13.33x0.05",
     "need": 0.23,
     "text": ""
    }
   ],
-  "slides": 17,
-  "avg_chars": 284,
+  "slides": 19,
+  "avg_chars": 282,
   "dense_pages": 0,
-  "min_font": 7.5,
+  "min_font": 9.0,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 17,
+  "overflows": 19,
   "garbled": 0,
   "dir": "05-AI应用基础48课时版"
  }

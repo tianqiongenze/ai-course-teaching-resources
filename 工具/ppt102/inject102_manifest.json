@@ -1,0 +1,179 @@
+[
+ {
+  "file": "W07-第1次课-数据清洗与质量评估（上）.pptx",
+  "status": "skip(已注入)"
+ },
+ {
+  "file": "W07-第2次课-数据清洗与质量评估（下）.pptx",
+  "status": "skip(不在内容表)"
+ },
+ {
+  "file": "W10-第3次课-特征设计与优化（上）：基.pptx",
+  "status": "skip(已注入)"
+ },
+ {
+  "file": "W10-第4次课-特征设计与优化（下）：优.pptx",
+  "status": "skip(不在内容表)"
+ },
+ {
+  "file": "W11-第5次课-传统分类：逻辑回归+决策.pptx",
+  "status": "skip(已注入)"
+ },
+ {
+  "file": "W11-第6次课-传统分类：逻辑回归+决策.pptx",
+  "status": "skip(不在内容表)"
+ },
+ {
+  "file": "W12-第7次课-XGBoost参数调优（.pptx",
+  "status": "ok",
+  "cards": [
+   "B01",
+   "B02",
+   "B03",
+   "B04",
+   "B05",
+   "B06"
+  ],
+  "pages": 12
+ },
+ {
+  "file": "W12-第8次课-XGBoost参数调优（.pptx",
+  "status": "skip(不在内容表)"
+ },
+ {
+  "file": "W13-第10次课-MLP神经网络（下）：优.pptx",
+  "status": "skip(不在内容表)"
+ },
+ {
+  "file": "W13-第9次课-MLP神经网络（上）：基.pptx",
+  "status": "ok",
+  "cards": [
+   "B01",
+   "B02",
+   "B03",
+   "B04",
+   "B05",
+   "B06"
+  ],
+  "pages": 12
+ },
+ {
+  "file": "W14-第11次课-CNN或LSTM二选一（.pptx",
+  "status": "ok",
+  "cards": [
+   "B01",
+   "B02",
+   "B03",
+   "B04",
+   "B05",
+   "B06"
+  ],
+  "pages": 12
+ },
+ {
+  "file": "W14-第12次课-CNN或LSTM二选一（.pptx",
+  "status": "skip(不在内容表)"
+ },
+ {
+  "file": "W15-第13次课-ResNet迁移学习（上.pptx",
+  "status": "ok",
+  "cards": [
+   "B01",
+   "B02",
+   "B03",
+   "B04",
+   "B05",
+   "B06"
+  ],
+  "pages": 12
+ },
+ {
+  "file": "W15-第14次课-ResNet迁移学习（下.pptx",
+  "status": "skip(不在内容表)"
+ },
+ {
+  "file": "W16-第15次课-YOLO实时缺陷检测（上.pptx",
+  "status": "ok",
+  "cards": [
+   "B01",
+   "B02",
+   "B03",
+   "B04",
+   "B05",
+   "B06"
+  ],
+  "pages": 12
+ },
+ {
+  "file": "W16-第16次课-YOLO实时缺陷检测（下.pptx",
+  "status": "skip(不在内容表)"
+ },
+ {
+  "file": "W17-第17次课-LLM故障诊断（上）：基.pptx",
+  "status": "ok",
+  "cards": [
+   "B01",
+   "B02",
+   "B03",
+   "B04",
+   "B05",
+   "B06"
+  ],
+  "pages": 12
+ },
+ {
+  "file": "W17-第18次课-LLM故障诊断（下）：优.pptx",
+  "status": "skip(不在内容表)"
+ },
+ {
+  "file": "W18-第19次课-RAG知识库问答（上）：.pptx",
+  "status": "ok",
+  "cards": [
+   "B01",
+   "B02",
+   "B03",
+   "B04",
+   "B05",
+   "B06"
+  ],
+  "pages": 12
+ },
+ {
+  "file": "W18-第20次课-RAG知识库问答（下）：.pptx",
+  "status": "skip(不在内容表)"
+ },
+ {
+  "file": "W19-第21次课-多智能体检修调度（上）：.pptx",
+  "status": "ok",
+  "cards": [
+   "B01",
+   "B02",
+   "B03",
+   "B04",
+   "B05",
+   "B06"
+  ],
+  "pages": 12
+ },
+ {
+  "file": "W19-第22次课-多智能体检修调度（下）：.pptx",
+  "status": "skip(不在内容表)"
+ },
+ {
+  "file": "W20-第23次课-综合项目答辩（上）：基础.pptx",
+  "status": "ok",
+  "cards": [
+   "B01",
+   "B02",
+   "B03",
+   "B04",
+   "B05",
+   "B06"
+  ],
+  "pages": 12
+ },
+ {
+  "file": "W20-第24次课-综合项目答辩（下）：优化.pptx",
+  "status": "skip(不在内容表)"
+ }
+]
