@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(HERE), "ppt97"))
 sys.path.insert(0, os.path.join(os.path.dirname(HERE), "ppt99"))
 
 EXEMPT_DENSE = {("W05-第10次课-每天早上8点的生产日报.pptx", 12),
-                ("W05-第9次课-产线驾驶舱：5个KPI一屏掌.pptx", 52)}
+                ("W05-第9次课-产线驾驶舱：5个KPI一屏掌.pptx", 64)}
 
 
 def main():
