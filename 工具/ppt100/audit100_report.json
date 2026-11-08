@@ -4565,6 +4565,13 @@
    },
    {
     "type": "overflow",
+    "page": 33,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 34,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -4642,13 +4649,6 @@
    },
    {
     "type": "overflow",
-    "page": 45,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 46,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -4664,6 +4664,13 @@
    {
     "type": "overflow",
     "page": 48,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 49,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -4725,9 +4732,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 57,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+    "type": "overflow",
+    "page": 58,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -4739,13 +4748,6 @@
    {
     "type": "overflow",
     "page": 60,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 61,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -4774,7 +4776,7 @@
    {
     "type": "overflow",
     "page": 65,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -4784,17 +4786,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 67,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 69,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 68,
-  "avg_chars": 191,
+  "slides": 80,
+  "avg_chars": 255,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 1,
-  "code_compiled": 1,
+  "min_font": 7.5,
+  "code_blocks": 7,
+  "code_compiled": 7,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 60,
+  "overflows": 72,
   "garbled": 1,
   "dir": "02-程序设计基础"
  },
@@ -5119,19 +5203,15 @@
     "text": ""
    },
    {
-    "type": "cjk_punct_in_code",
-    "page": 33,
-    "detail": [
-     [
-      2,
-      "alarm(3, f\"温度{temp}℃超危险线，停机！\")"
-     ]
-    ],
-    "text": "if temp >= 95:⏎    alarm(3, f\"温度{temp}℃超危险线，停机！\")⏎elif temp "
+    "type": "overflow",
+    "page": 34,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
-    "page": 34,
+    "page": 35,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -5207,15 +5287,19 @@
     "text": ""
    },
    {
-    "type": "overflow",
-    "page": 46,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
+    "type": "cjk_punct_in_code",
+    "page": 45,
+    "detail": [
+     [
+      2,
+      "alarm(3, f\"温度{temp}℃超危险线，停机！\")"
+     ]
+    ],
+    "text": "if temp >= 95:⏎    alarm(3, f\"温度{temp}℃超危险线，停机！\")⏎elif temp "
    },
    {
     "type": "overflow",
-    "page": 47,
+    "page": 46,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -5230,6 +5314,13 @@
    {
     "type": "overflow",
     "page": 49,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 50,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -5291,9 +5382,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 58,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+    "type": "overflow",
+    "page": 59,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -5305,13 +5398,6 @@
    {
     "type": "overflow",
     "page": 61,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 62,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -5340,7 +5426,7 @@
    {
     "type": "overflow",
     "page": 66,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -5350,17 +5436,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 70,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 69,
-  "avg_chars": 184,
+  "slides": 81,
+  "avg_chars": 243,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 1,
-  "code_compiled": 1,
+  "min_font": 7.5,
+  "code_blocks": 7,
+  "code_compiled": 7,
   "syntax_errors": 0,
   "cjk_punct": 1,
-  "overflows": 61,
+  "overflows": 73,
   "garbled": 1,
   "dir": "02-程序设计基础"
  },
@@ -5693,6 +5861,13 @@
    },
    {
     "type": "overflow",
+    "page": 35,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 36,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -5770,13 +5945,6 @@
    },
    {
     "type": "overflow",
-    "page": 47,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 48,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -5792,6 +5960,13 @@
    {
     "type": "overflow",
     "page": 50,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 51,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -5853,9 +6028,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 59,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+    "type": "overflow",
+    "page": 60,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -5867,13 +6044,6 @@
    {
     "type": "overflow",
     "page": 62,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 63,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -5902,7 +6072,7 @@
    {
     "type": "overflow",
     "page": 67,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -5912,17 +6082,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 71,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 80,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 70,
-  "avg_chars": 184,
+  "slides": 82,
+  "avg_chars": 245,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 1,
-  "code_compiled": 1,
+  "min_font": 7.5,
+  "code_blocks": 7,
+  "code_compiled": 7,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 62,
+  "overflows": 74,
   "garbled": 1,
   "dir": "02-程序设计基础"
  },
@@ -6248,6 +6500,13 @@
    },
    {
     "type": "overflow",
+    "page": 33,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 34,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -6325,13 +6584,6 @@
    },
    {
     "type": "overflow",
-    "page": 45,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 46,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -6347,6 +6599,13 @@
    {
     "type": "overflow",
     "page": 48,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 49,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -6408,9 +6667,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 57,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+    "type": "overflow",
+    "page": 58,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -6422,13 +6683,6 @@
    {
     "type": "overflow",
     "page": 60,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 61,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -6457,7 +6711,7 @@
    {
     "type": "overflow",
     "page": 65,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -6467,17 +6721,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 67,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 69,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 68,
-  "avg_chars": 183,
+  "slides": 80,
+  "avg_chars": 245,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 1,
-  "code_compiled": 1,
+  "min_font": 7.5,
+  "code_blocks": 7,
+  "code_compiled": 7,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 60,
+  "overflows": 72,
   "garbled": 1,
   "dir": "02-程序设计基础"
  },
@@ -6917,6 +7253,13 @@
    },
    {
     "type": "overflow",
+    "page": 33,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 34,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -6994,13 +7337,6 @@
    },
    {
     "type": "overflow",
-    "page": 45,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 46,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -7009,6 +7345,13 @@
    {
     "type": "overflow",
     "page": 47,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 48,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -7070,9 +7413,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 56,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+    "type": "overflow",
+    "page": 57,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -7084,13 +7429,6 @@
    {
     "type": "overflow",
     "page": 59,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 60,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -7119,7 +7457,7 @@
    {
     "type": "overflow",
     "page": 64,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -7129,17 +7467,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 66,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 67,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 68,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 67,
-  "avg_chars": 186,
+  "slides": 79,
+  "avg_chars": 248,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 1,
-  "code_compiled": 1,
+  "min_font": 7.5,
+  "code_blocks": 4,
+  "code_compiled": 4,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 59,
+  "overflows": 71,
   "garbled": 1,
   "dir": "02-程序设计基础"
  },
@@ -7351,6 +7771,13 @@
    },
    {
     "type": "overflow",
+    "page": 33,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 34,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -7428,13 +7855,6 @@
    },
    {
     "type": "overflow",
-    "page": 45,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 46,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -7443,6 +7863,13 @@
    {
     "type": "overflow",
     "page": 47,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 48,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -7504,9 +7931,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 56,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+    "type": "overflow",
+    "page": 57,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -7518,13 +7947,6 @@
    {
     "type": "overflow",
     "page": 59,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 60,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -7553,7 +7975,7 @@
    {
     "type": "overflow",
     "page": 64,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -7563,17 +7985,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 66,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 67,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 68,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 67,
-  "avg_chars": 185,
+  "slides": 79,
+  "avg_chars": 249,
   "dense_pages": 0,
-  "min_font": 8.5,
+  "min_font": 7.5,
   "code_blocks": 0,
   "code_compiled": 0,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 59,
+  "overflows": 71,
   "garbled": 1,
   "dir": "02-程序设计基础"
  },
@@ -7892,6 +8396,13 @@
    },
    {
     "type": "overflow",
+    "page": 32,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 33,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -7969,13 +8480,6 @@
    },
    {
     "type": "overflow",
-    "page": 44,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 45,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -7998,6 +8502,13 @@
    {
     "type": "overflow",
     "page": 48,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 49,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -8059,9 +8570,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 57,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+    "type": "overflow",
+    "page": 58,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -8073,13 +8586,6 @@
    {
     "type": "overflow",
     "page": 60,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 61,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -8108,7 +8614,7 @@
    {
     "type": "overflow",
     "page": 65,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -8118,17 +8624,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 67,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 69,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 68,
-  "avg_chars": 179,
+  "slides": 80,
+  "avg_chars": 244,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 1,
-  "code_compiled": 1,
+  "min_font": 7.5,
+  "code_blocks": 7,
+  "code_compiled": 7,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 60,
+  "overflows": 72,
   "garbled": 1,
   "dir": "02-程序设计基础"
  },
@@ -8454,6 +9042,13 @@
    },
    {
     "type": "overflow",
+    "page": 33,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 34,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -8531,13 +9126,6 @@
    },
    {
     "type": "overflow",
-    "page": 45,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 46,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -8560,6 +9148,13 @@
    {
     "type": "overflow",
     "page": 49,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 50,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -8621,9 +9216,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 58,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+    "type": "overflow",
+    "page": 59,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -8635,13 +9232,6 @@
    {
     "type": "overflow",
     "page": 61,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 62,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -8670,7 +9260,7 @@
    {
     "type": "overflow",
     "page": 66,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -8680,17 +9270,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 70,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 79,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 69,
-  "avg_chars": 184,
+  "slides": 81,
+  "avg_chars": 248,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 1,
-  "code_compiled": 1,
+  "min_font": 7.5,
+  "code_blocks": 4,
+  "code_compiled": 4,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 61,
+  "overflows": 73,
   "garbled": 1,
   "dir": "02-程序设计基础"
  },
@@ -9016,6 +9688,13 @@
    },
    {
     "type": "overflow",
+    "page": 32,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 33,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -9093,13 +9772,6 @@
    },
    {
     "type": "overflow",
-    "page": 44,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 45,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -9122,6 +9794,13 @@
    {
     "type": "overflow",
     "page": 48,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 49,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -9183,9 +9862,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 57,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+    "type": "overflow",
+    "page": 58,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -9197,13 +9878,6 @@
    {
     "type": "overflow",
     "page": 60,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 61,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -9232,7 +9906,7 @@
    {
     "type": "overflow",
     "page": 65,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -9242,17 +9916,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 67,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 69,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 68,
-  "avg_chars": 185,
+  "slides": 80,
+  "avg_chars": 247,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 1,
-  "code_compiled": 1,
+  "min_font": 7.5,
+  "code_blocks": 5,
+  "code_compiled": 5,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 60,
+  "overflows": 72,
   "garbled": 1,
   "dir": "02-程序设计基础"
  },
@@ -9571,6 +10327,13 @@
    },
    {
     "type": "overflow",
+    "page": 32,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 33,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -9648,13 +10411,6 @@
    },
    {
     "type": "overflow",
-    "page": 44,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 45,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -9677,6 +10433,13 @@
    {
     "type": "overflow",
     "page": 48,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 49,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -9738,9 +10501,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 57,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+    "type": "overflow",
+    "page": 58,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -9752,13 +10517,6 @@
    {
     "type": "overflow",
     "page": 60,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 61,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -9787,7 +10545,7 @@
    {
     "type": "overflow",
     "page": 65,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -9797,17 +10555,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 67,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 69,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 68,
-  "avg_chars": 183,
+  "slides": 80,
+  "avg_chars": 245,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 0,
-  "code_compiled": 0,
+  "min_font": 7.5,
+  "code_blocks": 2,
+  "code_compiled": 2,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 60,
+  "overflows": 72,
   "garbled": 1,
   "dir": "02-程序设计基础"
  },
@@ -10126,6 +10966,13 @@
    },
    {
     "type": "overflow",
+    "page": 32,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 33,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -10203,13 +11050,6 @@
    },
    {
     "type": "overflow",
-    "page": 44,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 45,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -10232,6 +11072,13 @@
    {
     "type": "overflow",
     "page": 48,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 49,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -10293,9 +11140,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 57,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+    "type": "overflow",
+    "page": 58,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -10307,13 +11156,6 @@
    {
     "type": "overflow",
     "page": 60,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 61,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -10342,7 +11184,7 @@
    {
     "type": "overflow",
     "page": 65,
-    "box": "13.33x0.05",
+    "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
    },
@@ -10352,17 +11194,99 @@
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 67,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 69,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 69,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 77,
+    "box": "13.33x0.05",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 78,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    }
   ],
-  "slides": 68,
-  "avg_chars": 186,
+  "slides": 80,
+  "avg_chars": 245,
   "dense_pages": 0,
-  "min_font": 8.5,
-  "code_blocks": 1,
-  "code_compiled": 1,
+  "min_font": 7.5,
+  "code_blocks": 4,
+  "code_compiled": 4,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 60,
+  "overflows": 72,
   "garbled": 1,
   "dir": "02-程序设计基础"
  },
@@ -10688,6 +11612,13 @@
    },
    {
     "type": "overflow",
+    "page": 32,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
     "page": 33,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -10765,13 +11696,6 @@
    },
    {
     "type": "overflow",
-    "page": 44,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
     "page": 45,
     "box": "2.84x0.08",
     "need": 0.23,
@@ -10787,6 +11711,13 @@
    {
     "type": "overflow",
     "page": 47,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 48,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -10848,9 +11779,11 @@
     "text": ""
    },
    {
-    "type": "garbled",
-    "page": 56,
-    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+    "type": "overflow",
+    "page": 57,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
    },
    {
     "type": "overflow",
@@ -10862,13 +11795,6 @@
    {
     "type": "overflow",
     "page": 59,
-    "box": "2.84x0.08",
-    "need": 0.23,
-    "text": ""
-   },
-   {
-    "type": "overflow",
-    "page": 60,
     "box": "2.84x0.08",
     "need": 0.23,
     "text": ""
@@ -10897,20 +11823,102 @@
    {
     "type": "overflow",
     "page": 64,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 65,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 66,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 67,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 68,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "garbled",
+    "page": 68,
+    "text": "学生代码框架/——TODO注释即步骤提示，未填也能跑"
+   },
+   {
+    "type": "overflow",
+    "page": 70,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 71,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 72,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 73,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 74,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 75,
+    "box": "2.84x0.08",
+    "need": 0.23,
+    "text": ""
+   },
+   {
+    "type": "overflow",
+    "page": 76,
     "box": "13.33x0.05",
     "need": 0.23,
     "text": ""
    }
   ],
-  "slides": 66,
-  "avg_chars": 182,
+  "slides": 78,
+  "avg_chars": 235,
   "dense_pages": 0,
-  "min_font": 8.5,
+  "min_font": 7.5,
   "code_blocks": 1,
   "code_compiled": 1,
   "syntax_errors": 0,
   "cjk_punct": 0,
-  "overflows": 58,
+  "overflows": 70,
   "garbled": 1,
   "dir": "02-程序设计基础"
  },
