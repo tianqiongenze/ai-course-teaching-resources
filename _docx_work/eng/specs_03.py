@@ -920,6 +920,7 @@ def sleep_with(backoff_base, attempt):
   pipeline_py='''# -*- coding: utf-8 -*-
 """多源轮询 → 还原 → 切批 → 对账 → 落盘。"""
 import os
+import zlib
 
 from . import core, io_utils, report
 
@@ -933,7 +934,8 @@ def run(cfg, out_dir):
     # transport：无 pymodbus 用确定性本地模拟（课堂可跑）
 
     def transport(src):
-        seed = abs(hash(str(src.get("id")))) % 1000
+        # 内置 hash() 受 PYTHONHASHSEED 随机化, 跨进程会漂移; 用 crc32 保证"同一源恒同一基线"
+        seed = zlib.crc32(str(src.get("id")).encode("utf-8")) % 1000
         return 250 + (seed % 7)
 
     all_batches, flat, per_source = [], [], {}

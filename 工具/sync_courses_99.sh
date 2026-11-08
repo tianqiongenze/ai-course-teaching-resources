@@ -23,6 +23,7 @@ TASKS=(
 
 rm -rf "$WORK"; mkdir -p "$WORK"
 RESULT_LOG="$WORK/result.txt"; : > "$RESULT_LOG"
+HOST_FILTER="${1:-}"   # 可选：只同步包含该关键字的仓（如 github.com / gitee.com）
 
 git_clone() {  # $1=url $2=dir → 0 ok
   for i in 1 2 3 4 5; do
@@ -43,6 +44,7 @@ git_push() {  # $1=dir → 0 ok
 
 for task in "${TASKS[@]}"; do
   url="${task%%|*}"; course="${task#*|}"
+  if [ -n "$HOST_FILTER" ] && [[ "$url" != *"$HOST_FILTER"* ]]; then continue; fi
   name=$(basename "$url" .git)
   host=$(echo "$url" | cut -d/ -f3)
   dir="$WORK/${host}__${name}"
