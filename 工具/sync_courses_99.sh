@@ -9,7 +9,7 @@ set -u
 ROOT="/Users/joelgong/PycharmProjects/ai-course-teaching-resources"
 WORK="/tmp/sync_courses_99"
 EXCL="$ROOT/工具/03同步排除清单.txt"
-MSG="sync(99): V2授课PPT注入重难点细化包（重难点地图/难点击破/避坑清单，99号轮）"
+MSG="${SYNC_MSG:-sync(102): V2授课PPT知识详解零基础伴随页注入（每卡大白话+跟做两页，102号轮）}"
 
 # 仓地址 → 课程目录
 TASKS=(
